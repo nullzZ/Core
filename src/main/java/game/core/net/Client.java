@@ -28,7 +28,7 @@ public class Client {
 	public String host;
 	public int port;
 
-	private Channel channel;
+	private Channel channel; 
 
 	public Client(String host, int port) {
 		channel = getChannel(host, port);
