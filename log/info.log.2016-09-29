@@ -1,0 +1,485 @@
+2016-09-29 11:29:18 [INFO ] game.core.net.action.ActionManager (ActionManager.java:55) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:40:55 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:41:00 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:41:18 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] REGISTERED
+2016-09-29 14:41:18 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] ACTIVE
+2016-09-29 14:41:31 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] RECEIVED: 17B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0f 00 00 00 0f 00 00 00 01 0a 05 63 65 73 68 |............cesh|
+|00000010| 69                                              |i               |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:41:51 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] FLUSH
+2016-09-29 14:42:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] FLUSH
+2016-09-29 14:42:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 14:42:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 - R:/127.0.0.1:58836] CLOSE
+2016-09-29 14:42:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 ! R:/127.0.0.1:58836] INACTIVE
+2016-09-29 14:42:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd0bc4be9, L:/127.0.0.1:9999 ! R:/127.0.0.1:58836] UNREGISTERED
+2016-09-29 14:43:38 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:43:40 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:43:51 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] REGISTERED
+2016-09-29 14:43:51 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] ACTIVE
+2016-09-29 14:43:56 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] RECEIVED: 17B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0f 00 00 00 0f 00 00 00 01 0a 05 63 65 73 68 |............cesh|
+|00000010| 69                                              |i               |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:44:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] FLUSH
+2016-09-29 14:44:32 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] FLUSH
+2016-09-29 14:44:32 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 14:44:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 - R:/127.0.0.1:58963] CLOSE
+2016-09-29 14:44:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 ! R:/127.0.0.1:58963] INACTIVE
+2016-09-29 14:44:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4f985a4b, L:/127.0.0.1:9999 ! R:/127.0.0.1:58963] UNREGISTERED
+2016-09-29 14:44:37 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa20ff6d6, L:/127.0.0.1:9999 ! R:/127.0.0.1:59014] INACTIVE
+2016-09-29 14:44:37 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa20ff6d6, L:/127.0.0.1:9999 ! R:/127.0.0.1:59014] UNREGISTERED
+2016-09-29 14:44:59 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x3a21df38, L:/127.0.0.1:9999 ! R:/127.0.0.1:59040] INACTIVE
+2016-09-29 14:44:59 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x3a21df38, L:/127.0.0.1:9999 ! R:/127.0.0.1:59040] UNREGISTERED
+2016-09-29 14:46:08 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:46:08 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:46:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x64bdb6e6, L:/127.0.0.1:9999 - R:/127.0.0.1:59135] REGISTERED
+2016-09-29 14:46:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x64bdb6e6, L:/127.0.0.1:9999 - R:/127.0.0.1:59135] ACTIVE
+2016-09-29 14:46:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x64bdb6e6, L:/127.0.0.1:9999 - R:/127.0.0.1:59135] RECEIVED: 17B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0f 00 00 00 0f 00 00 00 01 0a 05 63 65 73 68 |............cesh|
+|00000010| 69                                              |i               |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:46:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x64bdb6e6, L:/127.0.0.1:9999 - R:/127.0.0.1:59135] FLUSH
+2016-09-29 14:49:03 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:49:03 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:49:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x78731cd7, L:/127.0.0.1:9999 - R:/127.0.0.1:59285] REGISTERED
+2016-09-29 14:49:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x78731cd7, L:/127.0.0.1:9999 - R:/127.0.0.1:59285] ACTIVE
+2016-09-29 14:49:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x78731cd7, L:/127.0.0.1:9999 - R:/127.0.0.1:59285] RECEIVED: 17B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0f 00 00 00 0b 00 00 00 01 0a 05 63 65 73 68 |............cesh|
+|00000010| 69                                              |i               |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:49:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x78731cd7, L:/127.0.0.1:9999 - R:/127.0.0.1:59285] FLUSH
+2016-09-29 14:51:29 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:51:29 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:51:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] REGISTERED
+2016-09-29 14:51:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] ACTIVE
+2016-09-29 14:51:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:51:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] FLUSH
+2016-09-29 14:51:57 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] FLUSH
+2016-09-29 14:51:57 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 14:51:57 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 - R:/127.0.0.1:59429] CLOSE
+2016-09-29 14:51:57 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 ! R:/127.0.0.1:59429] INACTIVE
+2016-09-29 14:51:57 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b1fa33d, L:/127.0.0.1:9999 ! R:/127.0.0.1:59429] UNREGISTERED
+2016-09-29 14:52:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x7356d31d, L:/127.0.0.1:9999 ! R:/127.0.0.1:59473] INACTIVE
+2016-09-29 14:52:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x7356d31d, L:/127.0.0.1:9999 ! R:/127.0.0.1:59473] UNREGISTERED
+2016-09-29 14:52:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xfe018edd, L:/127.0.0.1:9999 ! R:/127.0.0.1:59504] INACTIVE
+2016-09-29 14:52:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xfe018edd, L:/127.0.0.1:9999 ! R:/127.0.0.1:59504] UNREGISTERED
+2016-09-29 14:54:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74395cd5, L:/127.0.0.1:9999 ! R:/127.0.0.1:59613] INACTIVE
+2016-09-29 14:54:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74395cd5, L:/127.0.0.1:9999 ! R:/127.0.0.1:59613] UNREGISTERED
+2016-09-29 14:55:23 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:55:23 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:55:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6b874399, L:/127.0.0.1:9999 - R:/127.0.0.1:59703] REGISTERED
+2016-09-29 14:55:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6b874399, L:/127.0.0.1:9999 - R:/127.0.0.1:59703] ACTIVE
+2016-09-29 14:55:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6b874399, L:/127.0.0.1:9999 - R:/127.0.0.1:59703] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:55:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6b874399, L:/127.0.0.1:9999 - R:/127.0.0.1:59703] FLUSH
+2016-09-29 14:56:22 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 14:56:22 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 14:56:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xca611ab0, L:/127.0.0.1:9999 - R:/127.0.0.1:59770] REGISTERED
+2016-09-29 14:56:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xca611ab0, L:/127.0.0.1:9999 - R:/127.0.0.1:59770] ACTIVE
+2016-09-29 14:56:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xca611ab0, L:/127.0.0.1:9999 - R:/127.0.0.1:59770] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 14:56:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xca611ab0, L:/127.0.0.1:9999 - R:/127.0.0.1:59770] FLUSH
+2016-09-29 15:06:07 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:06:08 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:06:11 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x893e14f9, L:/127.0.0.1:9999 - R:/127.0.0.1:60336] REGISTERED
+2016-09-29 15:06:11 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x893e14f9, L:/127.0.0.1:9999 - R:/127.0.0.1:60336] ACTIVE
+2016-09-29 15:06:12 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x893e14f9, L:/127.0.0.1:9999 - R:/127.0.0.1:60336] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:06:12 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x893e14f9, L:/127.0.0.1:9999 - R:/127.0.0.1:60336] FLUSH
+2016-09-29 15:07:27 [INFO ] game.core.net.action.ActionManager (ActionManager.java:60) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:07:28 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:07:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x5fca56e3, L:/127.0.0.1:9999 - R:/127.0.0.1:60426] REGISTERED
+2016-09-29 15:07:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x5fca56e3, L:/127.0.0.1:9999 - R:/127.0.0.1:60426] ACTIVE
+2016-09-29 15:07:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x5fca56e3, L:/127.0.0.1:9999 - R:/127.0.0.1:60426] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:07:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x5fca56e3, L:/127.0.0.1:9999 - R:/127.0.0.1:60426] FLUSH
+2016-09-29 15:11:38 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:11:38 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:11:42 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x338e7d79, L:/127.0.0.1:9999 - R:/127.0.0.1:60623] REGISTERED
+2016-09-29 15:11:42 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x338e7d79, L:/127.0.0.1:9999 - R:/127.0.0.1:60623] ACTIVE
+2016-09-29 15:11:42 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x338e7d79, L:/127.0.0.1:9999 - R:/127.0.0.1:60623] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:11:42 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x338e7d79, L:/127.0.0.1:9999 - R:/127.0.0.1:60623] FLUSH
+2016-09-29 15:20:55 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:20:55 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:21:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0ebf908d, L:/127.0.0.1:9999 - R:/127.0.0.1:61234] REGISTERED
+2016-09-29 15:21:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0ebf908d, L:/127.0.0.1:9999 - R:/127.0.0.1:61234] ACTIVE
+2016-09-29 15:21:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0ebf908d, L:/127.0.0.1:9999 - R:/127.0.0.1:61234] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:21:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0ebf908d, L:/127.0.0.1:9999 - R:/127.0.0.1:61234] FLUSH
+2016-09-29 15:22:29 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:22:29 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:22:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] REGISTERED
+2016-09-29 15:22:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] ACTIVE
+2016-09-29 15:22:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:22:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] FLUSH
+2016-09-29 15:23:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] FLUSH
+2016-09-29 15:23:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 15:23:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 - R:/127.0.0.1:61344] CLOSE
+2016-09-29 15:23:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 ! R:/127.0.0.1:61344] INACTIVE
+2016-09-29 15:23:08 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x8b75f6a1, L:/127.0.0.1:9999 ! R:/127.0.0.1:61344] UNREGISTERED
+2016-09-29 15:23:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd2089228, L:/127.0.0.1:9999 ! R:/127.0.0.1:61379] INACTIVE
+2016-09-29 15:23:13 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd2089228, L:/127.0.0.1:9999 ! R:/127.0.0.1:61379] UNREGISTERED
+2016-09-29 15:26:44 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:26:44 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:27:03 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] REGISTERED
+2016-09-29 15:27:03 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] ACTIVE
+2016-09-29 15:27:03 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:27:03 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] FLUSH
+2016-09-29 15:27:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] FLUSH
+2016-09-29 15:27:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 15:27:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 - R:/127.0.0.1:61543] CLOSE
+2016-09-29 15:27:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 ! R:/127.0.0.1:61543] INACTIVE
+2016-09-29 15:27:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xba1ae263, L:/127.0.0.1:9999 ! R:/127.0.0.1:61543] UNREGISTERED
+2016-09-29 15:27:35 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xeed8bf4e, L:/127.0.0.1:9999 ! R:/127.0.0.1:61575] INACTIVE
+2016-09-29 15:27:35 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xeed8bf4e, L:/127.0.0.1:9999 ! R:/127.0.0.1:61575] UNREGISTERED
+2016-09-29 15:28:05 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:28:05 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:28:07 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] REGISTERED
+2016-09-29 15:28:07 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] ACTIVE
+2016-09-29 15:28:07 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:28:07 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] FLUSH
+2016-09-29 15:28:14 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] FLUSH
+2016-09-29 15:28:14 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 15:28:14 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 - R:/127.0.0.1:61637] CLOSE
+2016-09-29 15:28:14 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 ! R:/127.0.0.1:61637] INACTIVE
+2016-09-29 15:28:14 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xa42d824f, L:/127.0.0.1:9999 ! R:/127.0.0.1:61637] UNREGISTERED
+2016-09-29 15:28:23 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xc8de4659, L:/127.0.0.1:9999 ! R:/127.0.0.1:61660] INACTIVE
+2016-09-29 15:28:23 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xc8de4659, L:/127.0.0.1:9999 ! R:/127.0.0.1:61660] UNREGISTERED
+2016-09-29 15:30:11 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xfb5ef675, L:/127.0.0.1:9999 ! R:/127.0.0.1:61750] INACTIVE
+2016-09-29 15:30:11 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xfb5ef675, L:/127.0.0.1:9999 ! R:/127.0.0.1:61750] UNREGISTERED
+2016-09-29 15:32:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x18cda2f7, L:/127.0.0.1:9999 ! R:/127.0.0.1:61928] INACTIVE
+2016-09-29 15:32:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x18cda2f7, L:/127.0.0.1:9999 ! R:/127.0.0.1:61928] UNREGISTERED
+2016-09-29 15:50:32 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6bbac172, L:/127.0.0.1:9999 ! R:/127.0.0.1:62923] INACTIVE
+2016-09-29 15:50:32 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x6bbac172, L:/127.0.0.1:9999 ! R:/127.0.0.1:62923] UNREGISTERED
+2016-09-29 15:54:12 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x359f4889, L:/127.0.0.1:9999 ! R:/127.0.0.1:63359] INACTIVE
+2016-09-29 15:54:12 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x359f4889, L:/127.0.0.1:9999 ! R:/127.0.0.1:63359] UNREGISTERED
+2016-09-29 15:57:52 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 15:57:52 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 15:57:56 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] REGISTERED
+2016-09-29 15:57:56 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] ACTIVE
+2016-09-29 15:57:56 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 15:57:56 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] FLUSH
+2016-09-29 15:58:24 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] FLUSH
+2016-09-29 15:58:24 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 15:58:24 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 - R:/127.0.0.1:63673] CLOSE
+2016-09-29 15:58:24 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 ! R:/127.0.0.1:63673] INACTIVE
+2016-09-29 15:58:24 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x157a97dc, L:/127.0.0.1:9999 ! R:/127.0.0.1:63673] UNREGISTERED
+2016-09-29 15:59:17 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4dca3e5f, L:/127.0.0.1:9999 ! R:/127.0.0.1:63776] INACTIVE
+2016-09-29 15:59:17 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x4dca3e5f, L:/127.0.0.1:9999 ! R:/127.0.0.1:63776] UNREGISTERED
+2016-09-29 16:06:25 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 16:06:25 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 16:06:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] REGISTERED
+2016-09-29 16:06:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] ACTIVE
+2016-09-29 16:06:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 16:06:28 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] FLUSH
+2016-09-29 16:06:36 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] FLUSH
+2016-09-29 16:06:36 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 16:06:45 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 - R:/127.0.0.1:64223] CLOSE
+2016-09-29 16:06:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 ! R:/127.0.0.1:64223] INACTIVE
+2016-09-29 16:06:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xbe5a3653, L:/127.0.0.1:9999 ! R:/127.0.0.1:64223] UNREGISTERED
+2016-09-29 16:07:22 [INFO ] game.core.net.action.ActionManager (ActionManager.java:64) - [加载action注解]cmd:1--game.core.net.action.A
+2016-09-29 16:07:22 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 16:07:27 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] REGISTERED
+2016-09-29 16:07:27 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] ACTIVE
+2016-09-29 16:07:27 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 16:07:27 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] FLUSH
+2016-09-29 16:07:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] FLUSH
+2016-09-29 16:07:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0x74591f08, L:/127.0.0.1:9999 - R:/127.0.0.1:64344] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 16:07:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 ! R:/127.0.0.1:64344] INACTIVE
+2016-09-29 16:07:29 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x74591f08, L:/127.0.0.1:9999 ! R:/127.0.0.1:64344] UNREGISTERED
+2016-09-29 16:07:37 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x62167382, L:/127.0.0.1:9999 ! R:/127.0.0.1:64368] INACTIVE
+2016-09-29 16:07:37 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x62167382, L:/127.0.0.1:9999 ! R:/127.0.0.1:64368] UNREGISTERED
+2016-09-29 16:23:55 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 16:25:19 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 16:25:19 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 16:47:29 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 16:47:29 [INFO ] game.core.net.Server (Server.java:74) - start server---
+2016-09-29 16:47:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 - R:/127.0.0.1:50418] REGISTERED
+2016-09-29 16:47:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 - R:/127.0.0.1:50418] ACTIVE
+2016-09-29 16:47:33 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 - R:/127.0.0.1:50418] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 16:47:40 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xd54804b1, L:/127.0.0.1:9999 - R:/127.0.0.1:50418] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 16:47:40 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 - R:/127.0.0.1:50418] CLOSE
+2016-09-29 16:47:40 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 ! R:/127.0.0.1:50418] INACTIVE
+2016-09-29 16:47:40 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd54804b1, L:/127.0.0.1:9999 ! R:/127.0.0.1:50418] UNREGISTERED
+2016-09-29 16:47:48 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0e7c5413, L:/127.0.0.1:9999 ! R:/127.0.0.1:50442] INACTIVE
+2016-09-29 16:47:48 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x0e7c5413, L:/127.0.0.1:9999 ! R:/127.0.0.1:50442] UNREGISTERED
+2016-09-29 16:48:55 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x1c5abc4f, L:/127.0.0.1:9999 ! R:/127.0.0.1:50532] INACTIVE
+2016-09-29 16:48:55 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x1c5abc4f, L:/127.0.0.1:9999 ! R:/127.0.0.1:50532] UNREGISTERED
+2016-09-29 18:16:59 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 18:16:59 [INFO ] game.core.net.Server (Server.java:75) - start server---
+2016-09-29 18:17:45 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 18:17:45 [INFO ] game.core.net.Server (Server.java:73) - start server---
+2016-09-29 18:31:15 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 18:31:15 [INFO ] game.core.net.Server (Server.java:73) - start server---
+2016-09-29 18:33:22 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 18:33:22 [INFO ] game.core.net.Server (Server.java:73) - start server---
+2016-09-29 18:49:41 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:67) - [加载action注解]cmd:1--game.core.test.A
+2016-09-29 18:49:42 [INFO ] game.core.net.Server (Server.java:73) - start server---
+2016-09-29 18:49:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 - R:/127.0.0.1:54693] REGISTERED
+2016-09-29 18:49:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 - R:/127.0.0.1:54693] ACTIVE
+2016-09-29 18:49:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 - R:/127.0.0.1:54693] RECEIVED: 13B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0b 00 00 00 01 0a 05 63 65 73 68 69          |........ceshi   |
++--------+-------------------------------------------------+----------------+
+2016-09-29 18:50:01 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:104) - [id: 0xb42094f0, L:/127.0.0.1:9999 - R:/127.0.0.1:54693] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:571)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:512)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:426)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:398)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:877)
+	at java.lang.Thread.run(Thread.java:744)
+2016-09-29 18:50:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 - R:/127.0.0.1:54693] CLOSE
+2016-09-29 18:50:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 ! R:/127.0.0.1:54693] INACTIVE
+2016-09-29 18:50:02 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xb42094f0, L:/127.0.0.1:9999 ! R:/127.0.0.1:54693] UNREGISTERED
+2016-09-29 18:50:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x526153af, L:/127.0.0.1:9999 ! R:/127.0.0.1:54718] INACTIVE
+2016-09-29 18:50:15 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x526153af, L:/127.0.0.1:9999 ! R:/127.0.0.1:54718] UNREGISTERED
