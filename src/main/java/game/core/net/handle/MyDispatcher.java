@@ -1,16 +1,16 @@
 package game.core.net.handle;
 
-import java.util.concurrent.LinkedBlockingQueue;
-
-import javax.annotation.Resource;
-
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
+import game.core.Config;
 import game.core.net.IDispatcher;
-import game.core.net.manager.ActionManager;
+import game.core.net.action.IAction;
+import game.core.net.thread.MsgProssThread;
+import game.core.role.AbsRole;
+import io.netty.channel.Channel;
 
 /**
+ * 分配器
  * 
  * @author nullzZ
  *
@@ -18,43 +18,54 @@ import game.core.net.manager.ActionManager;
 @Service
 public class MyDispatcher implements IDispatcher {
 
-	private static final Logger logger = Logger.getLogger(MyDispatcher.class);
-	@Resource
-	private ActionManager actionManager;
+	// private static final Logger logger =
+	// Logger.getLogger(MyDispatcher.class);
 
-	private LinkedBlockingQueue<MsgModel> queue = new LinkedBlockingQueue<>();
+	/**
+	 * role角色逻辑处理线程
+	 */
+	private MsgProssThread[] msgProssThreads;
 
+	private MsgProssThread[] loginProssThreads;
+
+	/**
+	 * 
+	 * @param threadSize
+	 *            逻辑线程数量
+	 */
 	private MyDispatcher() {
-		new Thread(new Runnable() {
+		msgProssThreads = new MsgProssThread[Config.msgThreadSize];
+		loginProssThreads = new MsgProssThread[Config.loginThreadSize];
+		for (int i = 0; i < Config.msgThreadSize; i++) {
+			msgProssThreads[i] = new MsgProssThread();
+			new Thread(msgProssThreads[i], "msgThread-" + i).start();
 
-			@Override
-			public void run() {
-				try {
-					while (true) {
-						MsgModel msg = queue.take();
-						long now = System.nanoTime();
-						actionManager.handle(msg.getChannel(), msg.getCmd(), msg.getBb());
-						
-						StringBuilder sb = new StringBuilder();
-						sb.append("[处理时间]cmd:");
-						sb.append(msg.getCmd());
-						sb.append("|");
-						sb.append((System.nanoTime() - now) * 0.000001f);
-						logger.info(sb);
-					}
-				} catch (Exception e) {
-					logger.error("[处理异常]", e);
-				}
-			}
-		}).start();
+			loginProssThreads[i] = new MsgProssThread();
+			new Thread(loginProssThreads[i], "loginThread-" + i).start();
+		}
 	}
 
-	public void add(MsgModel bb) {
+	@SuppressWarnings("rawtypes")
+	@Override
+	public void execute(Channel channel, int cmd, IAction action, Object msg) throws Exception {
 		try {
-			queue.put(bb);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+			int treadIndex = 0;
+			msgProssThreads[treadIndex].add(channel, cmd, action, msg);
+		} catch (Exception e) {
+			throw e;
 		}
+
+	}
+
+	@SuppressWarnings("rawtypes")
+	public void execute(AbsRole role, int cmd, IAction action, Object msg) throws Exception {
+		try {
+			int treadIndex = role.getLine();
+			msgProssThreads[treadIndex].add(role, cmd, action, msg);
+		} catch (Exception e) {
+			throw e;
+		}
+
 	}
 
 }

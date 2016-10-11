@@ -7,7 +7,14 @@ package game.core.net;
  */
 public interface IServer {
 
-	public void start();
+	/**
+	 * 
+	 * @param isLog
+	 *            是否开启日志
+	 * @param isStatistic
+	 *            是否开启统计
+	 */
+	public void start(final boolean isLog, boolean isStatistic);
 
 	public void stop();
 }

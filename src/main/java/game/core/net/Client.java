@@ -1,5 +1,7 @@
 package game.core.net;
 
+import java.util.Random;
+
 import org.apache.log4j.Logger;
 
 import game.core.protobuf.AnyProto.AnyRequest;
@@ -15,8 +17,6 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LengthFieldPrepender;
-import io.netty.handler.logging.LogLevel;
-import io.netty.handler.logging.LoggingHandler;
 
 /**
  * 
@@ -28,7 +28,7 @@ public class Client {
 	public String host;
 	public int port;
 
-	private Channel channel; 
+	private Channel channel;
 
 	public Client(String host, int port) {
 		channel = getChannel(host, port);
@@ -58,7 +58,7 @@ public class Client {
 			public void initChannel(SocketChannel ch) throws Exception {
 				ch.pipeline().addLast("decoder", new LengthFieldBasedFrameDecoder(1024, 0, 2, 0, 2));
 				ch.pipeline().addLast("encoder", new LengthFieldPrepender(2));
-				ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
+				// ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
 				// ch.pipeline().addLast(new MyServerHandler());
 			}
 		});
@@ -78,12 +78,17 @@ public class Client {
 
 	public static void main(String[] args) throws Exception {
 		try {
-			for (int i = 1; i <= 20; i++) {
-				Client c = new Client("127.0.0.1", 20000);
+			Random r = new Random();
+			// for (int i = 1; i <= 20; i++) {
+			Client c = new Client("127.0.0.1", 20000);
+			for (int j = 1; j <= 100; j++) {
 				AnyRequest.Builder m = AnyRequest.newBuilder();
-				m.setTypeUrl("ceshi");
+				m.setTypeUrl("ceshi" + j);
 				c.sendMsg(m.build().toByteArray());
+				Thread.sleep(r.nextInt(1000));
 			}
+
+			// }
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

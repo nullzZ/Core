@@ -1,0 +1,1388 @@
+2016-10-10 15:25:13 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:25:14 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:25:14 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:25:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:0s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:25:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:1s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:25:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:2s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:25:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:3s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:25:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:4s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:25:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:5s][每秒流量]rev:48|revSum:48|revMax:48|revAVG:9
+2016-10-10 15:25:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:6s][每秒流量]rev:12|revSum:60|revMax:48|revAVG:10
+2016-10-10 15:25:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:7s][每秒流量]rev:24|revSum:84|revMax:48|revAVG:12
+2016-10-10 15:25:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:8s][每秒流量]rev:24|revSum:108|revMax:48|revAVG:13
+2016-10-10 15:25:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:9s][每秒流量]rev:13|revSum:121|revMax:48|revAVG:13
+2016-10-10 15:25:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:10s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:12
+2016-10-10 15:25:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:11s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:11
+2016-10-10 15:25:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:12s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:10
+2016-10-10 15:25:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:13s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:9
+2016-10-10 15:25:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:14s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:8
+2016-10-10 15:25:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:15s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:8
+2016-10-10 15:25:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:16s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:7
+2016-10-10 15:25:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:17s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:7
+2016-10-10 15:25:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:18s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:6
+2016-10-10 15:25:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:19s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:6
+2016-10-10 15:25:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:20s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:6
+2016-10-10 15:25:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:21s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:5
+2016-10-10 15:25:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:22s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:5
+2016-10-10 15:25:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:23s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:5
+2016-10-10 15:25:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:24s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:5
+2016-10-10 15:25:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:25s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:26s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:27s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:28s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:29s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:30s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:4
+2016-10-10 15:25:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:31s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:32s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:33s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:34s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:35s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:36s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:37s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:38s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:39s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:40s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:3
+2016-10-10 15:25:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:41s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:25:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:42s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:25:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:43s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:25:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:44s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:25:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:45s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:46s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:47s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:48s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:49s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:50s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:51s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:52s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:53s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:54s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:55s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:56s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:57s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:58s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:59s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:60s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:2
+2016-10-10 15:26:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:61s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:62s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:63s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:64s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:65s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:66s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:67s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:68s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:69s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:70s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:71s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:72s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:73s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:74s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:75s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:76s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:77s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:78s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:79s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:80s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:81s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:82s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:83s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:84s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:85s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:86s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:87s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:88s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:89s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:90s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:91s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:92s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:93s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:94s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:95s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:96s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:97s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:98s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:99s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:100s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:101s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:102s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:103s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:104s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:26:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:105s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:106s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:107s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:108s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:109s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:110s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:111s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:112s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:113s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:114s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:115s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:116s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:117s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:118s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:119s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:120s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:121s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:1
+2016-10-10 15:27:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:122s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:123s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:124s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:125s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:126s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:127s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:128s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:129s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:130s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:131s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:132s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:133s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:134s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:135s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:136s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:137s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:138s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:139s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:140s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:141s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:142s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:143s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:144s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:145s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:146s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:147s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:148s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:149s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:150s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:151s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:152s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:153s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:154s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:27:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:155s][每秒流量]rev:0|revSum:121|revMax:48|revAVG:0
+2016-10-10 15:40:34 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:40:35 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:40:35 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:40:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:0s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:1s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:2s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:3s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:4s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:5s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:6s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:7s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:8s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:9s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:40:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:10s][每秒流量]rev:12|revSum:12|revMax:12|revAVG:1
+2016-10-10 15:40:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:11s][每秒流量]rev:24|revSum:36|revMax:24|revAVG:3
+2016-10-10 15:40:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:12s][每秒流量]rev:36|revSum:72|revMax:36|revAVG:6
+2016-10-10 15:42:50 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:42:50 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:42:50 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:42:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:0s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:42:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:1s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:42:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:2s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:42:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:3s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:42:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:4s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:42:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.105747
+2016-10-10 15:42:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.063137
+2016-10-10 15:42:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.063449
+2016-10-10 15:42:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:5s][每秒流量]rev:36|revSum:36|revMax:36|revAVG:7
+2016-10-10 15:42:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:3|countSum:3|prossMaxTime:21.85082
+
+2016-10-10 15:42:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125341
+2016-10-10 15:42:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:6s][每秒流量]rev:12|revSum:48|revMax:36|revAVG:8
+2016-10-10 15:42:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:42:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:7s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:6
+2016-10-10 15:42:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:42:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:8s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:6
+2016-10-10 15:42:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:42:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:9s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:5
+2016-10-10 15:42:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:43:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:10s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:4
+2016-10-10 15:43:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:43:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:11s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:4
+2016-10-10 15:43:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:43:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:12s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:4
+2016-10-10 15:43:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:43:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:13s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:3
+2016-10-10 15:43:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:43:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:14s][每秒流量]rev:0|revSum:48|revMax:36|revAVG:3
+2016-10-10 15:43:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:21.85082
+
+2016-10-10 15:46:54 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:46:55 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:46:55 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:46:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:0s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:46:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:1s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:46:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:2s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:46:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:3s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:46:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:4s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:33 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:55:33 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:55:33 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:55:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:0s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:1s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:2s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:3s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:4s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:5s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:6s][每秒流量]rev:0|revSum:0|revMax:0|revAVG:0
+2016-10-10 15:55:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.134983
+2016-10-10 15:55:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:7s][每秒流量]rev:12|revSum:12|revMax:12|revAVG:1
+2016-10-10 15:55:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:1|countSum:1|prossMaxTime:0.827628
+
+2016-10-10 15:55:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.153645
+2016-10-10 15:55:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.127208
+2016-10-10 15:55:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125031
+2016-10-10 15:55:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:8s][每秒流量]rev:36|revSum:48|revMax:36|revAVG:6
+2016-10-10 15:55:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:0.827628
+
+2016-10-10 15:55:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.12689699
+2016-10-10 15:55:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.092063
+2016-10-10 15:55:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:9s][每秒流量]rev:24|revSum:72|revMax:36|revAVG:8
+2016-10-10 15:55:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:6|countSum:6|prossMaxTime:0.827628
+
+2016-10-10 15:55:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.190345
+2016-10-10 15:55:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.129385
+2016-10-10 15:55:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:10s][每秒流量]rev:24|revSum:96|revMax:36|revAVG:9
+2016-10-10 15:55:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:8|countSum:8|prossMaxTime:0.827628
+
+2016-10-10 15:55:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.121921
+2016-10-10 15:55:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.077444
+2016-10-10 15:55:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:11s][每秒流量]rev:25|revSum:121|revMax:36|revAVG:11
+2016-10-10 15:55:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:10|countSum:10|prossMaxTime:0.827628
+
+2016-10-10 15:55:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.134672
+2016-10-10 15:55:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:12s][每秒流量]rev:13|revSum:134|revMax:36|revAVG:11
+2016-10-10 15:55:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:11|countSum:11|prossMaxTime:0.827628
+
+2016-10-10 15:55:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.065937
+2016-10-10 15:55:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.128763
+2016-10-10 15:55:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:13s][每秒流量]rev:26|revSum:160|revMax:36|revAVG:12
+2016-10-10 15:55:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:13|countSum:13|prossMaxTime:0.827628
+
+2016-10-10 15:55:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.055984
+2016-10-10 15:55:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.348966
+2016-10-10 15:55:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:14s][每秒流量]rev:26|revSum:186|revMax:36|revAVG:13
+2016-10-10 15:55:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:15|countSum:15|prossMaxTime:0.827628
+
+2016-10-10 15:55:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|1.477353
+2016-10-10 15:55:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.126275
+2016-10-10 15:55:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.112901
+2016-10-10 15:55:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125342
+2016-10-10 15:55:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:15s][每秒流量]rev:52|revSum:238|revMax:52|revAVG:15
+2016-10-10 15:55:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:19|countSum:19|prossMaxTime:0.827628
+
+2016-10-10 15:55:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.081176996
+2016-10-10 15:55:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.054739
+2016-10-10 15:55:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:16s][每秒流量]rev:26|revSum:264|revMax:52|revAVG:16
+2016-10-10 15:55:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:21|countSum:21|prossMaxTime:0.827628
+
+2016-10-10 15:55:50 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.085219
+2016-10-10 15:55:50 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125964
+2016-10-10 15:55:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:17s][每秒流量]rev:26|revSum:290|revMax:52|revAVG:17
+2016-10-10 15:55:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:23|countSum:23|prossMaxTime:0.827628
+
+2016-10-10 15:55:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.069047
+2016-10-10 15:55:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.128763
+2016-10-10 15:55:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:18s][每秒流量]rev:26|revSum:316|revMax:52|revAVG:17
+2016-10-10 15:55:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:25|countSum:25|prossMaxTime:0.827628
+
+2016-10-10 15:55:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.135294
+2016-10-10 15:55:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.060649
+2016-10-10 15:55:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:19s][每秒流量]rev:26|revSum:342|revMax:52|revAVG:18
+2016-10-10 15:55:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:27|countSum:27|prossMaxTime:0.827628
+
+2016-10-10 15:55:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.13125099
+2016-10-10 15:55:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.091751
+2016-10-10 15:55:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:20s][每秒流量]rev:26|revSum:368|revMax:52|revAVG:18
+2016-10-10 15:55:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:29|countSum:29|prossMaxTime:0.827628
+
+2016-10-10 15:55:54 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.67585
+2016-10-10 15:55:54 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.083976
+2016-10-10 15:55:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:21s][每秒流量]rev:26|revSum:394|revMax:52|revAVG:18
+2016-10-10 15:55:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:31|countSum:31|prossMaxTime:0.827628
+
+2016-10-10 15:55:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.139338
+2016-10-10 15:55:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:22s][每秒流量]rev:13|revSum:407|revMax:52|revAVG:18
+2016-10-10 15:55:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:32|countSum:32|prossMaxTime:0.827628
+
+2016-10-10 15:55:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.12814
+2016-10-10 15:55:56 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125964
+2016-10-10 15:55:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:23s][每秒流量]rev:26|revSum:433|revMax:52|revAVG:18
+2016-10-10 15:55:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:34|countSum:34|prossMaxTime:0.827628
+
+2016-10-10 15:55:57 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.13094
+2016-10-10 15:55:57 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.063448
+2016-10-10 15:55:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:24s][每秒流量]rev:26|revSum:459|revMax:52|revAVG:19
+2016-10-10 15:55:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:36|countSum:36|prossMaxTime:0.827628
+
+2016-10-10 15:55:58 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.13342799
+2016-10-10 15:55:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:25s][每秒流量]rev:13|revSum:472|revMax:52|revAVG:18
+2016-10-10 15:55:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:37|countSum:37|prossMaxTime:0.827628
+
+2016-10-10 15:55:59 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.109479
+2016-10-10 15:55:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:26s][每秒流量]rev:13|revSum:485|revMax:52|revAVG:18
+2016-10-10 15:55:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:38|countSum:38|prossMaxTime:0.827628
+
+2016-10-10 15:56:00 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.068735
+2016-10-10 15:56:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:27s][每秒流量]rev:13|revSum:498|revMax:52|revAVG:18
+2016-10-10 15:56:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:39|countSum:39|prossMaxTime:0.827628
+
+2016-10-10 15:56:01 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.06096
+2016-10-10 15:56:01 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.05474
+2016-10-10 15:56:01 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.06407
+2016-10-10 15:56:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:28s][每秒流量]rev:39|revSum:537|revMax:52|revAVG:19
+2016-10-10 15:56:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:42|countSum:42|prossMaxTime:0.827628
+
+2016-10-10 15:56:02 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.064071
+2016-10-10 15:56:02 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.053185
+2016-10-10 15:56:02 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.135294
+2016-10-10 15:56:02 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.083354
+2016-10-10 15:56:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:29s][每秒流量]rev:52|revSum:589|revMax:52|revAVG:20
+2016-10-10 15:56:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:46|countSum:46|prossMaxTime:0.827628
+
+2016-10-10 15:56:03 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.118188
+2016-10-10 15:56:03 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.083043
+2016-10-10 15:56:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:30s][每秒流量]rev:26|revSum:615|revMax:52|revAVG:20
+2016-10-10 15:56:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:48|countSum:48|prossMaxTime:0.827628
+
+2016-10-10 15:56:04 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.090507
+2016-10-10 15:56:04 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.125653
+2016-10-10 15:56:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:31s][每秒流量]rev:26|revSum:641|revMax:52|revAVG:20
+2016-10-10 15:56:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:50|countSum:50|prossMaxTime:0.827628
+
+2016-10-10 15:56:05 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.094861
+2016-10-10 15:56:05 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.128141
+2016-10-10 15:56:05 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.126275
+2016-10-10 15:56:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:32s][每秒流量]rev:39|revSum:680|revMax:52|revAVG:21
+2016-10-10 15:56:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:53|countSum:53|prossMaxTime:0.827628
+
+2016-10-10 15:56:05 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.150845
+2016-10-10 15:56:06 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.079622
+2016-10-10 15:56:06 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.049142
+2016-10-10 15:56:06 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.107613
+2016-10-10 15:56:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:33s][每秒流量]rev:52|revSum:732|revMax:52|revAVG:22
+2016-10-10 15:56:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:57|countSum:57|prossMaxTime:0.827628
+
+2016-10-10 15:56:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.092062
+2016-10-10 15:56:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:34s][每秒流量]rev:13|revSum:745|revMax:52|revAVG:21
+2016-10-10 15:56:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:58|countSum:58|prossMaxTime:0.827628
+
+2016-10-10 15:56:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.085842
+2016-10-10 15:56:08 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.053807
+2016-10-10 15:56:08 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.111346
+2016-10-10 15:56:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:35s][每秒流量]rev:39|revSum:784|revMax:52|revAVG:22
+2016-10-10 15:56:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:61|countSum:61|prossMaxTime:0.827628
+
+2016-10-10 15:56:09 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.128763
+2016-10-10 15:56:09 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.084287
+2016-10-10 15:56:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:36s][每秒流量]rev:26|revSum:810|revMax:52|revAVG:22
+2016-10-10 15:56:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:63|countSum:63|prossMaxTime:0.827628
+
+2016-10-10 15:56:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.096106
+2016-10-10 15:56:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.096105
+2016-10-10 15:56:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:28) - [处理时间]cmd:1|0.069358
+2016-10-10 15:56:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:26) - [流量统计][统计时间:37s][每秒流量]rev:39|revSum:849|revMax:52|revAVG:22
+2016-10-10 15:56:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:42) - [流量统计][每秒action执行]cmd:1|count:66|countSum:66|prossMaxTime:0.827628
+
+2016-10-10 15:59:18 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:70) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 15:59:18 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 15:59:18 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 15:59:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 15:59:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.127208ms
+2016-10-10 15:59:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:12b|revSum:12b|revMax:12b|revAVG:2b
+2016-10-10 15:59:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:1|countSum:1|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.107925ms
+2016-10-10 15:59:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.308222ms
+2016-10-10 15:59:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.062204ms
+2016-10-10 15:59:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:36b|revSum:48b|revMax:36b|revAVG:6b
+2016-10-10 15:59:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:4|countSum:4|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.088641ms
+2016-10-10 15:59:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.123475ms
+2016-10-10 15:59:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:24b|revSum:72b|revMax:36b|revAVG:9b
+2016-10-10 15:59:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:6|countSum:6|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.128763ms
+2016-10-10 15:59:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:12b|revSum:84b|revMax:36b|revAVG:9b
+2016-10-10 15:59:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:7|countSum:7|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.053496ms
+2016-10-10 15:59:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:12b|revSum:96b|revMax:36b|revAVG:9b
+2016-10-10 15:59:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:8|countSum:8|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.124409ms
+2016-10-10 15:59:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.123475ms
+2016-10-10 15:59:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:25b|revSum:121b|revMax:36b|revAVG:11b
+2016-10-10 15:59:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:10|countSum:10|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.091129ms
+2016-10-10 15:59:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.127519ms
+2016-10-10 15:59:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:26b|revSum:147b|revMax:36b|revAVG:12b
+2016-10-10 15:59:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:12|countSum:12|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.053185ms
+2016-10-10 15:59:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.062516ms
+2016-10-10 15:59:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.123476ms
+2016-10-10 15:59:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:39b|revSum:186b|revMax:39b|revAVG:14b
+2016-10-10 15:59:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:15|countSum:15|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.21056099ms
+2016-10-10 15:59:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:13b|revSum:199b|revMax:39b|revAVG:14b
+2016-10-10 15:59:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:16|countSum:16|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.139337ms
+2016-10-10 15:59:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.083043ms
+2016-10-10 15:59:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.083665ms
+2016-10-10 15:59:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:39b|revSum:238b|revMax:39b|revAVG:15b
+2016-10-10 15:59:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:19|countSum:19|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.097039ms
+2016-10-10 15:59:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:13b|revSum:251b|revMax:39b|revAVG:15b
+2016-10-10 15:59:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:20|countSum:20|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.074645ms
+2016-10-10 15:59:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.137161ms
+2016-10-10 15:59:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:26b|revSum:277b|revMax:39b|revAVG:16b
+2016-10-10 15:59:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:22|countSum:22|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.128763ms
+2016-10-10 15:59:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:13b|revSum:290b|revMax:39b|revAVG:16b
+2016-10-10 15:59:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:23|countSum:23|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125341ms
+2016-10-10 15:59:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.130007ms
+2016-10-10 15:59:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:26b|revSum:316b|revMax:39b|revAVG:16b
+2016-10-10 15:59:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:25|countSum:25|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.131873ms
+2016-10-10 15:59:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:13b|revSum:329b|revMax:39b|revAVG:16b
+2016-10-10 15:59:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:26|countSum:26|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.199987ms
+2016-10-10 15:59:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.061894ms
+2016-10-10 15:59:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.122852996ms
+2016-10-10 15:59:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:39b|revSum:368b|revMax:39b|revAVG:17b
+2016-10-10 15:59:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:29|countSum:29|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.146491ms
+2016-10-10 15:59:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125963ms
+2016-10-10 15:59:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:26b|revSum:394b|revMax:39b|revAVG:17b
+2016-10-10 15:59:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:31|countSum:31|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.065004ms
+2016-10-10 15:59:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:13b|revSum:407b|revMax:39b|revAVG:17b
+2016-10-10 15:59:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:32|countSum:32|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.064692ms
+2016-10-10 15:59:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.088952ms
+2016-10-10 15:59:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:26b|revSum:433b|revMax:39b|revAVG:18b
+2016-10-10 15:59:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:34|countSum:34|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.092062ms
+2016-10-10 15:59:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125653ms
+2016-10-10 15:59:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125653ms
+2016-10-10 15:59:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:39b|revSum:472b|revMax:39b|revAVG:18b
+2016-10-10 15:59:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:37|countSum:37|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125964ms
+2016-10-10 15:59:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:13b|revSum:485b|revMax:39b|revAVG:18b
+2016-10-10 15:59:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:38|countSum:38|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.13405ms
+2016-10-10 15:59:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:27s][每秒流量]rev:13b|revSum:498b|revMax:39b|revAVG:18b
+2016-10-10 15:59:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:39|countSum:39|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.624532ms
+2016-10-10 15:59:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.122232ms
+2016-10-10 15:59:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:28s][每秒流量]rev:26b|revSum:524b|revMax:39b|revAVG:18b
+2016-10-10 15:59:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:41|countSum:41|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.074023ms
+2016-10-10 15:59:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.074334ms
+2016-10-10 15:59:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:29s][每秒流量]rev:26b|revSum:550b|revMax:39b|revAVG:18b
+2016-10-10 15:59:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:43|countSum:43|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.065315ms
+2016-10-10 15:59:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.05785ms
+2016-10-10 15:59:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:30s][每秒流量]rev:26b|revSum:576b|revMax:39b|revAVG:19b
+2016-10-10 15:59:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:45|countSum:45|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.09766ms
+2016-10-10 15:59:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.09424ms
+2016-10-10 15:59:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.209629ms
+2016-10-10 15:59:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.073401ms
+2016-10-10 15:59:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.072157ms
+2016-10-10 15:59:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:31s][每秒流量]rev:65b|revSum:641b|revMax:65b|revAVG:20b
+2016-10-10 15:59:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:50|countSum:50|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:50 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.078689ms
+2016-10-10 15:59:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:32s][每秒流量]rev:13b|revSum:654b|revMax:65b|revAVG:20b
+2016-10-10 15:59:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:51|countSum:51|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.133117ms
+2016-10-10 15:59:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.053495ms
+2016-10-10 15:59:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.124719ms
+2016-10-10 15:59:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:33s][每秒流量]rev:39b|revSum:693b|revMax:65b|revAVG:21b
+2016-10-10 15:59:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:54|countSum:54|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.198743ms
+2016-10-10 15:59:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.12472ms
+2016-10-10 15:59:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.244463ms
+2016-10-10 15:59:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:34s][每秒流量]rev:39b|revSum:732b|revMax:65b|revAVG:21b
+2016-10-10 15:59:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:57|countSum:57|prossMaxTime:0.827318ms
+
+2016-10-10 15:59:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.090819ms
+2016-10-10 15:59:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.092685ms
+2016-10-10 15:59:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125031ms
+2016-10-10 15:59:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:29) - [处理时间]cmd:1|0.125342ms
+2016-10-10 16:13:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:108) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 16:13:36 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 16:13:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 16:13:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:13:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:13:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:02 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 16:28:02 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 16:28:02 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 16:28:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 16:28:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.124719ms
+2016-10-10 16:28:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.057539ms
+2016-10-10 16:28:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:24b|revSum:24b|revMax:24b|revAVG:4b
+2016-10-10 16:28:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:2|countSum:2|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:08 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.097972ms
+2016-10-10 16:28:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:12b|revSum:36b|revMax:24b|revAVG:5b
+2016-10-10 16:28:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:3|countSum:3|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:09 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.159554ms
+2016-10-10 16:28:09 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.069358ms
+2016-10-10 16:28:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.052874ms
+2016-10-10 16:28:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:36b|revSum:72b|revMax:36b|revAVG:9b
+2016-10-10 16:28:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:6|countSum:6|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.062515ms
+2016-10-10 16:28:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.096106ms
+2016-10-10 16:28:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:24b|revSum:96b|revMax:36b|revAVG:10b
+2016-10-10 16:28:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:8|countSum:8|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:11 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.071224ms
+2016-10-10 16:28:11 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.053495ms
+2016-10-10 16:28:12 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.192523ms
+2016-10-10 16:28:12 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.287384ms
+2016-10-10 16:28:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:50b|revSum:146b|revMax:50b|revAVG:14b
+2016-10-10 16:28:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:12|countSum:12|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:12 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.065004ms
+2016-10-10 16:28:13 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.057539ms
+2016-10-10 16:28:13 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.054739ms
+2016-10-10 16:28:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:38b|revSum:184b|revMax:50b|revAVG:16b
+2016-10-10 16:28:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:15|countSum:15|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:13 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.13685ms
+2016-10-10 16:28:13 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.67896ms
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.089885ms
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.057228ms
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.05474ms
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.108235ms
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.097972ms
+2016-10-10 16:28:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:86b|revSum:270b|revMax:86b|revAVG:22b
+2016-10-10 16:28:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:22|countSum:22|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059716ms
+2016-10-10 16:28:15 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.132184ms
+2016-10-10 16:28:15 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.187546ms
+2016-10-10 16:28:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:37b|revSum:307b|revMax:86b|revAVG:23b
+2016-10-10 16:28:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:25|countSum:25|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:15 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.127208ms
+2016-10-10 16:28:15 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.073402ms
+2016-10-10 16:28:16 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.055362ms
+2016-10-10 16:28:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:39b|revSum:346b|revMax:86b|revAVG:24b
+2016-10-10 16:28:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:28|countSum:28|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:16 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.081488ms
+2016-10-10 16:28:16 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.083354ms
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.10046ms
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.060339ms
+2016-10-10 16:28:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:52b|revSum:398b|revMax:86b|revAVG:26b
+2016-10-10 16:28:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:32|countSum:32|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.083665ms
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.072779ms
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059405ms
+2016-10-10 16:28:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.039811ms
+2016-10-10 16:28:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.060338ms
+2016-10-10 16:28:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.060338ms
+2016-10-10 16:28:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.106058ms
+2016-10-10 16:28:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:91b|revSum:489b|revMax:91b|revAVG:30b
+2016-10-10 16:28:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:39|countSum:39|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.124098ms
+2016-10-10 16:28:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.083975ms
+2016-10-10 16:28:19 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.111346ms
+2016-10-10 16:28:19 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.067491ms
+2016-10-10 16:28:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:52b|revSum:541b|revMax:91b|revAVG:31b
+2016-10-10 16:28:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:43|countSum:43|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:19 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.122543ms
+2016-10-10 16:28:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.467155ms
+2016-10-10 16:28:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:26b|revSum:567b|revMax:91b|revAVG:31b
+2016-10-10 16:28:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:45|countSum:45|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.20185299ms
+2016-10-10 16:28:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.082732ms
+2016-10-10 16:28:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.231089ms
+2016-10-10 16:28:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.126586ms
+2016-10-10 16:28:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:52b|revSum:619b|revMax:91b|revAVG:32b
+2016-10-10 16:28:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:49|countSum:49|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.126275ms
+2016-10-10 16:28:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.125964ms
+2016-10-10 16:28:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.091129ms
+2016-10-10 16:28:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:39b|revSum:658b|revMax:91b|revAVG:32b
+2016-10-10 16:28:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:52|countSum:52|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.078688ms
+2016-10-10 16:28:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.147735ms
+2016-10-10 16:28:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.088019ms
+2016-10-10 16:28:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.124408ms
+2016-10-10 16:28:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.125652ms
+2016-10-10 16:28:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:65b|revSum:723b|revMax:91b|revAVG:34b
+2016-10-10 16:28:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:57|countSum:57|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.082421ms
+2016-10-10 16:28:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.123476ms
+2016-10-10 16:28:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.125653ms
+2016-10-10 16:28:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:39b|revSum:762b|revMax:91b|revAVG:34b
+2016-10-10 16:28:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:60|countSum:60|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.109169ms
+2016-10-10 16:28:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.100771ms
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059095ms
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059094ms
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059405ms
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.066559ms
+2016-10-10 16:28:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:78b|revSum:840b|revMax:91b|revAVG:36b
+2016-10-10 16:28:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:66|countSum:66|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.052874ms
+2016-10-10 16:28:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.059094ms
+2016-10-10 16:28:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.058161ms
+2016-10-10 16:28:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.054429ms
+2016-10-10 16:28:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:52b|revSum:892b|revMax:91b|revAVG:37b
+2016-10-10 16:28:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:70|countSum:70|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.105436ms
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.124409ms
+2016-10-10 16:28:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:26b|revSum:918b|revMax:91b|revAVG:36b
+2016-10-10 16:28:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:72|countSum:72|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.085842ms
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.116633ms
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.075889ms
+2016-10-10 16:28:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.057228ms
+2016-10-10 16:28:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.06718ms
+2016-10-10 16:28:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.082732ms
+2016-10-10 16:28:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:78b|revSum:996b|revMax:91b|revAVG:38b
+2016-10-10 16:28:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:78|countSum:78|prossMaxTime:0.842557ms
+
+2016-10-10 16:28:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.083043ms
+2016-10-10 16:28:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.080244ms
+2016-10-10 16:28:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.097661ms
+2016-10-10 16:28:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.068736ms
+2016-10-10 16:28:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:33) - [处理时间]cmd:1|0.067492ms
+2016-10-10 17:11:27 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 17:11:27 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 17:11:27 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 17:11:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:11:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.111346ms
+2016-10-10 17:11:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:12b|revSum:12b|revMax:12b|revAVG:2b
+2016-10-10 17:11:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:1|countSum:1|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054429ms
+2016-10-10 17:11:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052563ms
+2016-10-10 17:11:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:24b|revSum:36b|revMax:24b|revAVG:5b
+2016-10-10 17:11:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:3|countSum:3|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049763ms
+2016-10-10 17:11:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.079933ms
+2016-10-10 17:11:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:24b|revSum:60b|revMax:24b|revAVG:7b
+2016-10-10 17:11:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:5|countSum:5|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.073401ms
+2016-10-10 17:11:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:12b|revSum:72b|revMax:24b|revAVG:8b
+2016-10-10 17:11:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:6|countSum:6|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.063448ms
+2016-10-10 17:11:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065626ms
+2016-10-10 17:11:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.062826ms
+2016-10-10 17:11:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:36b|revSum:108b|revMax:36b|revAVG:10b
+2016-10-10 17:11:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:9|countSum:9|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.063759ms
+2016-10-10 17:11:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.066247ms
+2016-10-10 17:11:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050697ms
+2016-10-10 17:11:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:39b|revSum:147b|revMax:39b|revAVG:13b
+2016-10-10 17:11:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:12|countSum:12|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125031ms
+2016-10-10 17:11:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:13b|revSum:160b|revMax:39b|revAVG:13b
+2016-10-10 17:11:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:13|countSum:13|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.061893ms
+2016-10-10 17:11:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054429ms
+2016-10-10 17:11:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.093929ms
+2016-10-10 17:11:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052874ms
+2016-10-10 17:11:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:52b|revSum:212b|revMax:52b|revAVG:16b
+2016-10-10 17:11:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:17|countSum:17|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.060027ms
+2016-10-10 17:11:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:13b|revSum:225b|revMax:52b|revAVG:16b
+2016-10-10 17:11:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:18|countSum:18|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051941ms
+2016-10-10 17:11:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.078999ms
+2016-10-10 17:11:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.650968ms
+2016-10-10 17:11:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:39b|revSum:264b|revMax:52b|revAVG:17b
+2016-10-10 17:11:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:21|countSum:21|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.084287ms
+2016-10-10 17:11:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:13b|revSum:277b|revMax:52b|revAVG:17b
+2016-10-10 17:11:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:22|countSum:22|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.043232ms
+2016-10-10 17:11:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.07589ms
+2016-10-10 17:11:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.046965ms
+2016-10-10 17:11:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:39b|revSum:316b|revMax:52b|revAVG:18b
+2016-10-10 17:11:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:25|countSum:25|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050386ms
+2016-10-10 17:11:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.183814ms
+2016-10-10 17:11:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.106991ms
+2016-10-10 17:11:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:39b|revSum:355b|revMax:52b|revAVG:19b
+2016-10-10 17:11:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:28|countSum:28|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.048519ms
+2016-10-10 17:11:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.110413ms
+2016-10-10 17:11:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:26b|revSum:381b|revMax:52b|revAVG:20b
+2016-10-10 17:11:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:30|countSum:30|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.093929ms
+2016-10-10 17:11:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.047586ms
+2016-10-10 17:11:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.055984ms
+2016-10-10 17:11:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:39b|revSum:420b|revMax:52b|revAVG:21b
+2016-10-10 17:11:47 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:33|countSum:33|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065003ms
+2016-10-10 17:11:48 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.063449ms
+2016-10-10 17:11:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:26b|revSum:446b|revMax:52b|revAVG:21b
+2016-10-10 17:11:48 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:35|countSum:35|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.079621ms
+2016-10-10 17:11:49 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.074334ms
+2016-10-10 17:11:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:26b|revSum:472b|revMax:52b|revAVG:21b
+2016-10-10 17:11:49 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:37|countSum:37|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:50 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050385ms
+2016-10-10 17:11:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:13b|revSum:485b|revMax:52b|revAVG:21b
+2016-10-10 17:11:50 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:38|countSum:38|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.129696ms
+2016-10-10 17:11:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.062204998ms
+2016-10-10 17:11:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:26b|revSum:511b|revMax:52b|revAVG:21b
+2016-10-10 17:11:51 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:40|countSum:40|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:51 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.424234ms
+2016-10-10 17:11:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.561394ms
+2016-10-10 17:11:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.062204998ms
+2016-10-10 17:11:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:39b|revSum:550b|revMax:52b|revAVG:22b
+2016-10-10 17:11:52 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:43|countSum:43|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:52 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049452ms
+2016-10-10 17:11:53 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.059717ms
+2016-10-10 17:11:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:26b|revSum:576b|revMax:52b|revAVG:22b
+2016-10-10 17:11:53 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:45|countSum:45|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:54 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.048208ms
+2016-10-10 17:11:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:27s][每秒流量]rev:13b|revSum:589b|revMax:52b|revAVG:21b
+2016-10-10 17:11:54 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:46|countSum:46|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050074ms
+2016-10-10 17:11:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:28s][每秒流量]rev:13b|revSum:602b|revMax:52b|revAVG:21b
+2016-10-10 17:11:55 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:47|countSum:47|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:55 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.328749ms
+2016-10-10 17:11:56 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054429ms
+2016-10-10 17:11:56 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.059094ms
+2016-10-10 17:11:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:29s][每秒流量]rev:39b|revSum:641b|revMax:52b|revAVG:22b
+2016-10-10 17:11:56 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:50|countSum:50|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:57 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052252ms
+2016-10-10 17:11:57 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.059095ms
+2016-10-10 17:11:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:30s][每秒流量]rev:26b|revSum:667b|revMax:52b|revAVG:22b
+2016-10-10 17:11:57 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:52|countSum:52|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:58 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.072779ms
+2016-10-10 17:11:58 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.041366ms
+2016-10-10 17:11:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:31s][每秒流量]rev:26b|revSum:693b|revMax:52b|revAVG:22b
+2016-10-10 17:11:58 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:54|countSum:54|prossMaxTime:0.750807ms
+
+2016-10-10 17:11:59 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.196566ms
+2016-10-10 17:11:59 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.076512ms
+2016-10-10 17:11:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:32s][每秒流量]rev:26b|revSum:719b|revMax:52b|revAVG:22b
+2016-10-10 17:11:59 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:56|countSum:56|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:00 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.10979ms
+2016-10-10 17:12:00 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.062516ms
+2016-10-10 17:12:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:33s][每秒流量]rev:26b|revSum:745b|revMax:52b|revAVG:22b
+2016-10-10 17:12:00 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:58|countSum:58|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:01 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049764ms
+2016-10-10 17:12:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:34s][每秒流量]rev:13b|revSum:758b|revMax:52b|revAVG:22b
+2016-10-10 17:12:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:59|countSum:59|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:02 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049141ms
+2016-10-10 17:12:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:35s][每秒流量]rev:13b|revSum:771b|revMax:52b|revAVG:22b
+2016-10-10 17:12:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:60|countSum:60|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:03 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050386ms
+2016-10-10 17:12:03 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.059094ms
+2016-10-10 17:12:03 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.063449ms
+2016-10-10 17:12:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:36s][每秒流量]rev:39b|revSum:810b|revMax:52b|revAVG:22b
+2016-10-10 17:12:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:63|countSum:63|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:04 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.126586ms
+2016-10-10 17:12:04 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.04572ms
+2016-10-10 17:12:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:37s][每秒流量]rev:26b|revSum:836b|revMax:52b|revAVG:22b
+2016-10-10 17:12:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:65|countSum:65|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:05 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.060338ms
+2016-10-10 17:12:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:38s][每秒流量]rev:13b|revSum:849b|revMax:52b|revAVG:22b
+2016-10-10 17:12:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:66|countSum:66|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:06 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065314ms
+2016-10-10 17:12:06 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05474ms
+2016-10-10 17:12:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:39s][每秒流量]rev:26b|revSum:875b|revMax:52b|revAVG:22b
+2016-10-10 17:12:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:68|countSum:68|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.109479ms
+2016-10-10 17:12:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.060028ms
+2016-10-10 17:12:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065626ms
+2016-10-10 17:12:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:40s][每秒流量]rev:39b|revSum:914b|revMax:52b|revAVG:22b
+2016-10-10 17:12:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:71|countSum:71|prossMaxTime:0.750807ms
+
+2016-10-10 17:12:07 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.047586ms
+2016-10-10 17:12:08 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.06376ms
+2016-10-10 17:12:08 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.063759ms
+2016-10-10 17:12:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:41s][每秒流量]rev:39b|revSum:953b|revMax:52b|revAVG:23b
+2016-10-10 17:12:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][每秒action执行]cmd:1|count:74|countSum:74|prossMaxTime:0.750807ms
+
+2016-10-10 17:37:01 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 17:37:01 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 17:37:01 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 17:37:01 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:02 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:03 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:04 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:05 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:06 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:07 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:08 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:37:09 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.385356ms
+2016-10-10 17:37:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:12b|revSum:12b|revMax:12b|revAVG:1b
+2016-10-10 17:37:09 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:10 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.590941ms
+2016-10-10 17:37:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:12b|revSum:24b|revMax:12b|revAVG:2b
+2016-10-10 17:37:10 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:11 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.126275ms
+2016-10-10 17:37:11 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.132185ms
+2016-10-10 17:37:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:24b|revSum:48b|revMax:24b|revAVG:4b
+2016-10-10 17:37:11 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:4|countSum:4|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:12 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.132184ms
+2016-10-10 17:37:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:12b|revSum:60b|revMax:24b|revAVG:5b
+2016-10-10 17:37:12 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:5|countSum:5|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:12 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.196877ms
+2016-10-10 17:37:13 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.127208ms
+2016-10-10 17:37:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:24b|revSum:84b|revMax:24b|revAVG:7b
+2016-10-10 17:37:13 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:7|countSum:7|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.128451ms
+2016-10-10 17:37:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.141515ms
+2016-10-10 17:37:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.124409ms
+2016-10-10 17:37:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.067803ms
+2016-10-10 17:37:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:50b|revSum:134b|revMax:50b|revAVG:10b
+2016-10-10 17:37:14 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:11|countSum:11|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:14 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.068736ms
+2016-10-10 17:37:15 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.083043ms
+2016-10-10 17:37:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:26b|revSum:160b|revMax:50b|revAVG:11b
+2016-10-10 17:37:15 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:13|countSum:13|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:16 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.132495ms
+2016-10-10 17:37:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:13b|revSum:173b|revMax:50b|revAVG:11b
+2016-10-10 17:37:16 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:14|countSum:14|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.124409ms
+2016-10-10 17:37:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.813944ms
+2016-10-10 17:37:17 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.122854ms
+2016-10-10 17:37:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:39b|revSum:212b|revMax:50b|revAVG:13b
+2016-10-10 17:37:17 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:17|countSum:17|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.0762ms
+2016-10-10 17:37:18 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.128452ms
+2016-10-10 17:37:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:26b|revSum:238b|revMax:50b|revAVG:14b
+2016-10-10 17:37:18 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:19|countSum:19|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:19 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.084598ms
+2016-10-10 17:37:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:13b|revSum:251b|revMax:50b|revAVG:13b
+2016-10-10 17:37:19 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:20|countSum:20|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.150534ms
+2016-10-10 17:37:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:13b|revSum:264b|revMax:50b|revAVG:13b
+2016-10-10 17:37:20 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:21|countSum:21|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125964ms
+2016-10-10 17:37:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.094551ms
+2016-10-10 17:37:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.08211ms
+2016-10-10 17:37:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:39b|revSum:303b|revMax:50b|revAVG:15b
+2016-10-10 17:37:21 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:24|countSum:24|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.081798ms
+2016-10-10 17:37:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.123165ms
+2016-10-10 17:37:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.123786ms
+2016-10-10 17:37:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:39b|revSum:342b|revMax:50b|revAVG:16b
+2016-10-10 17:37:22 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:27|countSum:27|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.171995ms
+2016-10-10 17:37:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:13b|revSum:355b|revMax:50b|revAVG:16b
+2016-10-10 17:37:23 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:28|countSum:28|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.060027ms
+2016-10-10 17:37:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:13b|revSum:368b|revMax:50b|revAVG:16b
+2016-10-10 17:37:24 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:29|countSum:29|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.053807ms
+2016-10-10 17:37:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:13b|revSum:381b|revMax:50b|revAVG:15b
+2016-10-10 17:37:25 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:30|countSum:30|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.122852996ms
+2016-10-10 17:37:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125031ms
+2016-10-10 17:37:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:26b|revSum:407b|revMax:50b|revAVG:16b
+2016-10-10 17:37:26 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:32|countSum:32|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.616445ms
+2016-10-10 17:37:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.185369ms
+2016-10-10 17:37:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:26b|revSum:433b|revMax:50b|revAVG:16b
+2016-10-10 17:37:27 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:34|countSum:34|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.107924ms
+2016-10-10 17:37:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.083353ms
+2016-10-10 17:37:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:27s][每秒流量]rev:26b|revSum:459b|revMax:50b|revAVG:17b
+2016-10-10 17:37:28 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:36|countSum:36|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125964ms
+2016-10-10 17:37:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:28s][每秒流量]rev:13b|revSum:472b|revMax:50b|revAVG:16b
+2016-10-10 17:37:29 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:37|countSum:37|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.105436ms
+2016-10-10 17:37:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.120676ms
+2016-10-10 17:37:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052874ms
+2016-10-10 17:37:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:29s][每秒流量]rev:39b|revSum:511b|revMax:50b|revAVG:17b
+2016-10-10 17:37:30 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:40|countSum:40|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125964ms
+2016-10-10 17:37:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.124719ms
+2016-10-10 17:37:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:30s][每秒流量]rev:26b|revSum:537b|revMax:50b|revAVG:17b
+2016-10-10 17:37:31 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:42|countSum:42|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.121298ms
+2016-10-10 17:37:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.058161ms
+2016-10-10 17:37:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:31s][每秒流量]rev:26b|revSum:563b|revMax:50b|revAVG:18b
+2016-10-10 17:37:32 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:44|countSum:44|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.06998ms
+2016-10-10 17:37:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:32s][每秒流量]rev:13b|revSum:576b|revMax:50b|revAVG:18b
+2016-10-10 17:37:33 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:45|countSum:45|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.083976ms
+2016-10-10 17:37:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.621421ms
+2016-10-10 17:37:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.12161ms
+2016-10-10 17:37:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052874ms
+2016-10-10 17:37:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:33s][每秒流量]rev:52b|revSum:628b|revMax:52b|revAVG:19b
+2016-10-10 17:37:34 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:49|countSum:49|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.122854ms
+2016-10-10 17:37:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.279608ms
+2016-10-10 17:37:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.084287ms
+2016-10-10 17:37:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:34s][每秒流量]rev:39b|revSum:667b|revMax:52b|revAVG:19b
+2016-10-10 17:37:35 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:52|countSum:52|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.14618ms
+2016-10-10 17:37:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.120676ms
+2016-10-10 17:37:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:35s][每秒流量]rev:26b|revSum:693b|revMax:52b|revAVG:19b
+2016-10-10 17:37:36 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:54|countSum:54|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.127518ms
+2016-10-10 17:37:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.122231ms
+2016-10-10 17:37:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125031ms
+2016-10-10 17:37:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:36s][每秒流量]rev:39b|revSum:732b|revMax:52b|revAVG:20b
+2016-10-10 17:37:37 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:57|countSum:57|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.12192ms
+2016-10-10 17:37:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.127208ms
+2016-10-10 17:37:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:37s][每秒流量]rev:26b|revSum:758b|revMax:52b|revAVG:20b
+2016-10-10 17:37:38 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:59|countSum:59|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.200298ms
+2016-10-10 17:37:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:38s][每秒流量]rev:13b|revSum:771b|revMax:52b|revAVG:20b
+2016-10-10 17:37:39 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:60|countSum:60|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.089886ms
+2016-10-10 17:37:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.066247ms
+2016-10-10 17:37:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.102949ms
+2016-10-10 17:37:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.094551ms
+2016-10-10 17:37:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:39s][每秒流量]rev:52b|revSum:823b|revMax:52b|revAVG:21b
+2016-10-10 17:37:40 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:64|countSum:64|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125342ms
+2016-10-10 17:37:41 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.137783ms
+2016-10-10 17:37:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:40s][每秒流量]rev:26b|revSum:849b|revMax:52b|revAVG:21b
+2016-10-10 17:37:41 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:66|countSum:66|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.187857ms
+2016-10-10 17:37:42 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125653ms
+2016-10-10 17:37:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:41s][每秒流量]rev:26b|revSum:875b|revMax:52b|revAVG:21b
+2016-10-10 17:37:42 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:68|countSum:68|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.124097ms
+2016-10-10 17:37:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:42s][每秒流量]rev:13b|revSum:888b|revMax:52b|revAVG:21b
+2016-10-10 17:37:43 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:69|countSum:69|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.074645ms
+2016-10-10 17:37:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.129385ms
+2016-10-10 17:37:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:43s][每秒流量]rev:26b|revSum:914b|revMax:52b|revAVG:21b
+2016-10-10 17:37:44 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:71|countSum:71|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.123164ms
+2016-10-10 17:37:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.123164ms
+2016-10-10 17:37:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:44s][每秒流量]rev:26b|revSum:940b|revMax:52b|revAVG:21b
+2016-10-10 17:37:45 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:73|countSum:73|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.081176ms
+2016-10-10 17:37:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:30) - [流量统计][统计时间:45s][每秒流量]rev:13b|revSum:953b|revMax:52b|revAVG:21b
+2016-10-10 17:37:46 [INFO ] game.core.statistics.StatisticTimerTask (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:74|countSum:74|prossMaxTime:1.072092ms
+
+2016-10-10 17:37:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.122542ms
+2016-10-10 17:37:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.066869ms
+2016-10-10 17:37:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125653ms
+2016-10-10 17:48:18 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 17:48:19 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 17:48:19 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 17:48:19 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:20 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:21 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:22 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:23 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:24 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:48:25 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:52:30 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 17:52:30 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 17:52:30 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 17:52:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.097039ms
+2016-10-10 17:52:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125964ms
+2016-10-10 17:52:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.20402999ms
+2016-10-10 17:52:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.124097ms
+2016-10-10 17:52:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.222069ms
+2016-10-10 17:52:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.269034ms
+2016-10-10 17:52:44 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.089574ms
+2016-10-10 17:52:45 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.12472ms
+2016-10-10 17:52:46 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.131873ms
+2016-10-10 17:52:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.132495ms
+2016-10-10 17:52:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.561394ms
+2016-10-10 17:54:02 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 17:54:03 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 17:54:03 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 17:54:03 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:54:04 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:54:05 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 17:54:06 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:03:00 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:03:00 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:03:00 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:05:44 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:05:44 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:05:44 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:06:24 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:06:24 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:06:24 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:08:44 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:08:45 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:08:45 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:09:44 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:09:44 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:09:44 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:10:14 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:10:14 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:10:14 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:10:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:10:36 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:10:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:11:39 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:11:39 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:11:39 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:12:29 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:12:29 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:12:29 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:12:48 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:12:49 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:12:49 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:13:22 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:13:22 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:13:22 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:13:50 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:13:50 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:13:50 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:14:11 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:14:11 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:14:11 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:15:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:15:36 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:15:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:16:27 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:16:28 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:16:28 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:17:35 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:17:35 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:17:35 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:18:21 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:18:21 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:18:21 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:19:39 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:19:39 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:19:39 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:20:08 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:20:08 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:20:08 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:20:29 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:20:29 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:20:29 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:20:55 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:20:55 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:20:55 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:21:47 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:21:47 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:21:47 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:21:47 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:21:48 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:21:49 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:21:50 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:21:51 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:21:52 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:05 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:22:05 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:22:05 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:22:05 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:06 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:07 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:08 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:09 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:10 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:11 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:12 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:13 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:14 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:22:15 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:27 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:23:27 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:23:27 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:23:27 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:28 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:29 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:30 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:31 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:23:32 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:24:11 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:24:12 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:24:12 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:29:09 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:29:09 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:29:09 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:29:44 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:29:45 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:29:45 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:30:41 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:30:41 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:30:41 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:30:41 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:42 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:43 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:44 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:45 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:46 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:30:47 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:29 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:31:30 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:31:30 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:31:30 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:31 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:32 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:33 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:34 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:35 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:36 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:37 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:38 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:39 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:31:40 [INFO ] STRecordASYNCOUT (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:26 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:34:27 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:34:27 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:34:27 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:28 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:29 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:30 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:31 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:32 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:33 [INFO ] STRecord (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-10 18:34:55 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:34:55 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:34:55 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:35:25 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:35:25 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:35:25 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:35:46 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:35:47 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:35:47 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:36:02 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:36:02 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:36:02 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:37:48 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:37:49 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:37:49 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:40:49 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:40:50 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:40:50 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:41:00 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:41:01 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:41:01 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:42:06 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:42:07 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:42:07 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:42:20 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:42:20 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:42:20 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:43:55 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:43:55 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:43:55 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---
+2016-10-10 18:44:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.287073ms
+2016-10-10 18:44:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065937ms
+2016-10-10 18:44:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.099527ms
+2016-10-10 18:44:20 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.057539ms
+2016-10-10 18:44:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049453ms
+2016-10-10 18:44:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.101082ms
+2016-10-10 18:44:21 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05785ms
+2016-10-10 18:44:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.144314ms
+2016-10-10 18:44:22 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05194ms
+2016-10-10 18:44:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.045409ms
+2016-10-10 18:44:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054118ms
+2016-10-10 18:44:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.090196ms
+2016-10-10 18:44:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.08211ms
+2016-10-10 18:44:23 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.071224ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.089263ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.583788ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049141ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.047897ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.072779ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.04883ms
+2016-10-10 18:44:24 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05785ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.064693ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.045409ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054117ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049763ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.062516ms
+2016-10-10 18:44:25 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052252ms
+2016-10-10 18:44:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.239486ms
+2016-10-10 18:44:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054429ms
+2016-10-10 18:44:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.130318ms
+2016-10-10 18:44:26 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.072468ms
+2016-10-10 18:44:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.097349ms
+2016-10-10 18:44:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.048208ms
+2016-10-10 18:44:27 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.074956ms
+2016-10-10 18:44:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.074334ms
+2016-10-10 18:44:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054117ms
+2016-10-10 18:44:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125653ms
+2016-10-10 18:44:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051941ms
+2016-10-10 18:44:28 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.054118ms
+2016-10-10 18:44:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.08522ms
+2016-10-10 18:44:29 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.071224ms
+2016-10-10 18:44:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.046965ms
+2016-10-10 18:44:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.050074ms
+2016-10-10 18:44:30 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.046964ms
+2016-10-10 18:44:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.064381ms
+2016-10-10 18:44:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051008ms
+2016-10-10 18:44:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.047897ms
+2016-10-10 18:44:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051008ms
+2016-10-10 18:44:31 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.089263ms
+2016-10-10 18:44:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05163ms
+2016-10-10 18:44:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.047586ms
+2016-10-10 18:44:32 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052252ms
+2016-10-10 18:44:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.048208ms
+2016-10-10 18:44:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.375714ms
+2016-10-10 18:44:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.075579ms
+2016-10-10 18:44:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.076511ms
+2016-10-10 18:44:33 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.064071ms
+2016-10-10 18:44:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.077444ms
+2016-10-10 18:44:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.106992ms
+2016-10-10 18:44:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.154267ms
+2016-10-10 18:44:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.057228ms
+2016-10-10 18:44:34 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051008ms
+2016-10-10 18:44:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.046964ms
+2016-10-10 18:44:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.04883ms
+2016-10-10 18:44:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.131562ms
+2016-10-10 18:44:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.052563ms
+2016-10-10 18:44:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.087708ms
+2016-10-10 18:44:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.04883ms
+2016-10-10 18:44:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.125653ms
+2016-10-10 18:44:36 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.060649ms
+2016-10-10 18:44:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.073712ms
+2016-10-10 18:44:37 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.046653ms
+2016-10-10 18:44:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.075579ms
+2016-10-10 18:44:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.065004ms
+2016-10-10 18:44:38 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.465599ms
+2016-10-10 18:44:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.051008ms
+2016-10-10 18:44:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.06096ms
+2016-10-10 18:44:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.056917ms
+2016-10-10 18:44:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.131563ms
+2016-10-10 18:44:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.049764ms
+2016-10-10 18:44:40 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:32) - [处理时间]cmd:1|0.05194ms
+2016-10-10 18:49:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:107) - [加载action注解]cmd:1--game.core.test.A
+2016-10-10 18:49:36 [INFO ] game.core.net.Server (Server.java:84) - start server---
+2016-10-10 18:49:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:56) - start serverStatistics---

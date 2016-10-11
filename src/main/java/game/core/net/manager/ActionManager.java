@@ -18,7 +18,8 @@ import game.core.net.action.IAction;
 import game.core.net.action.IActionAnnotation;
 import game.core.net.action.IChannelAction;
 import game.core.net.action.IRoleAction;
-import game.core.role.IRole;
+import game.core.net.handle.MyDispatcher;
+import game.core.role.AbsRole;
 import io.netty.channel.Channel;
 
 /**
@@ -27,7 +28,7 @@ import io.netty.channel.Channel;
  *
  */
 @Service
-public class ActionManager {
+public class ActionManager implements IActionManager {
 	private static final Logger logger = Logger.getLogger(ActionManager.class);
 	@SuppressWarnings("rawtypes")
 	@Resource
@@ -36,13 +37,14 @@ public class ActionManager {
 	private Map<Integer, IAction> actions = new HashMap<>();
 	private Map<Integer, Method> methods = new HashMap<>();
 	private Map<Integer, Class<?>> requestMessageMap = new HashMap<>();
-
 	/** key：message类名，value ：对应的消息id **/
 	private Map<String, Integer> responseMessageMap = new HashMap<>();
+	@Resource
+	private MyDispatcher myDispatcher;
 
 	@SuppressWarnings("rawtypes")
 	@PostConstruct
-	public void init() {
+	private void init() {
 		for (IAction ac : allActions) {
 			try {
 				int cmd = checkAnnotation(ac);
@@ -51,6 +53,45 @@ public class ActionManager {
 				System.exit(0);
 			}
 		}
+	}
+
+	/**
+	 * 消息处理
+	 * 
+	 * @param channel
+	 * @param cmd
+	 *            消息指令
+	 * @param bb
+	 *            消息体
+	 * @throws Exception
+	 */
+	@Override
+	public void handle(Channel channel, int cmd, byte[] bb) throws Exception {
+		if (!this.isHasAction(cmd)) {
+			logger.error("[没有指定action]:" + cmd);
+			channel.close();
+			return;
+		}
+
+		Object msg = this.getRequestMessage(cmd, bb);
+
+		@SuppressWarnings("rawtypes")
+		IAction action = this.actions.get(cmd);
+		if (IChannelAction.class.isInstance(action)) {
+			myDispatcher.execute(channel, cmd, action, msg);
+		} else if (IRoleAction.class.isInstance(action)) {
+			AbsRole role = HandleManager.getRole(channel);
+			if (role == null) {
+				channel.close();
+				logger.error("[handle]role is null");
+			} else {
+				myDispatcher.execute(role, cmd, action, msg);
+			}
+
+		} else {
+
+		}
+
 	}
 
 	/**
@@ -109,6 +150,10 @@ public class ActionManager {
 
 	}
 
+	private boolean isHasAction(int cmd) {
+		return this.actions.containsKey(cmd);
+	}
+
 	private String getResponseMessage(Class<?> clz) {
 		String className = clz.getCanonicalName();
 		int index = className.lastIndexOf(".");
@@ -118,40 +163,13 @@ public class ActionManager {
 		return headStr.concat(tailStr.replace("Request", "Response"));
 	}
 
-	public Object getRequestMessage(int cmdId, byte[] bytes) throws Exception {
+	private Object getRequestMessage(int cmdId, byte[] bytes) throws Exception {
 		Class<?> messageClz = requestMessageMap.get(cmdId);
 		Method method = methods.get(cmdId);
 		if (messageClz == null || method == null || bytes == null)
 			return null;
 
 		return method.invoke(messageClz, bytes);
-	}
-
-	@SuppressWarnings({ "unchecked", "rawtypes" })
-	public void handle(Channel channel, int cmd, byte[] bb) throws Exception {
-		Object msg = this.getRequestMessage(cmd, bb);
-
-		IAction action = this.actions.get(cmd);
-		if (action == null) {
-			logger.error("[handle]Action==null |" + cmd);
-			channel.close();
-			return;
-		} else {
-			if (IChannelAction.class.isInstance(action)) {
-				action.execute(channel, msg);
-			} else if (IRoleAction.class.isInstance(action)) {
-				IRole role = HandleManager.getRole(channel);
-				if (role == null) {
-					channel.close();
-					logger.error("[handle]role is null");
-				} else {
-					action.execute(role, msg);
-				}
-
-			} else {
-
-			}
-		}
 	}
 
 }

@@ -6,6 +6,8 @@ import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
+import game.core.net.manager.ActionManager;
+import game.core.statistics.StatisticsUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -24,8 +26,9 @@ import io.netty.channel.ChannelHandler.Sharable;
 public class MyServerHandler extends ChannelInboundHandlerAdapter {
 
 	private static final Logger logger = Logger.getLogger(MyServerHandler.class);
+
 	@Resource
-	private MyDispatcher myDispatcher;
+	private ActionManager actionManager;
 
 	@Override
 	public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
@@ -36,11 +39,13 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
 	public void channelRead(ChannelHandlerContext ctx, Object msg) {
 		try {
 			ByteBuf bb = (ByteBuf) msg;
+			StatisticsUtil.getInstatnce().STReceiveSum(bb.capacity());
+
 			int cmd = bb.readInt();
 			byte[] mb = new byte[bb.capacity() - 4];
 			bb.readBytes(mb);
-			myDispatcher.add(new MsgModel(ctx.channel(), cmd, mb));
 
+			actionManager.handle(ctx.channel(), cmd, mb);
 		} catch (Exception e) {
 			logger.error("[channelRead][异常]", e);
 		} finally {

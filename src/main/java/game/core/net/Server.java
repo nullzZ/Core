@@ -4,6 +4,7 @@ import java.util.concurrent.ThreadFactory;
 
 import org.apache.log4j.Logger;
 
+import game.core.statistics.StatisticsUtil;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInboundHandler;
@@ -30,7 +31,6 @@ public class Server implements IServer {
 	private final int workerThreadSize = Runtime.getRuntime().availableProcessors() * 2;
 	private final int sendBufferSize = 512 * 1024;
 	private final int receiveBufferSize = 8 * 1024;
-
 	private EventLoopGroup bossGroup;
 	private EventLoopGroup workerGroup;
 	private int port;
@@ -50,7 +50,7 @@ public class Server implements IServer {
 		this.handler = handler;
 	}
 
-	public void start() {
+	public void start(final boolean isLog, boolean isStatistic) {
 		try {
 			ServerBootstrap b = new ServerBootstrap();
 			bossGroup = new NioEventLoopGroup(bossThreadSize, new ThreadFactory() {
@@ -71,8 +71,9 @@ public class Server implements IServer {
 						public void initChannel(SocketChannel ch) throws Exception {
 							ch.config().setReceiveBufferSize(receiveBufferSize);
 							ch.config().setSendBufferSize(sendBufferSize);
-
-							ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
+							if (isLog) {
+								ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
+							}
 							ch.pipeline().addLast("decoder", new LengthFieldBasedFrameDecoder(1024, 0, 2, 0, 2));
 							ch.pipeline().addLast("encoder", new LengthFieldPrepender(2));
 							ch.pipeline().addLast("handler", handler);
@@ -81,6 +82,10 @@ public class Server implements IServer {
 					.option(ChannelOption.SO_KEEPALIVE, true).option(ChannelOption.SO_REUSEADDR, true);
 			f = b.bind(this.port).sync();
 			logger.info("start server---");
+			if (isStatistic) {
+				StatisticsUtil.getInstatnce().start();
+			}
+
 			f.channel().closeFuture().sync();
 		} catch (InterruptedException e) {
 			e.printStackTrace();

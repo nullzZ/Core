@@ -22,6 +22,7 @@ public class App {
 		 * Thread.sleep(5000); } catch (InterruptedException e) {
 		 * e.printStackTrace(); } s.stop(); } }).start();
 		 */
-		s.start();
+		s.start(false, true);
+
 	}
 }

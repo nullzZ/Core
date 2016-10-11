@@ -61,6 +61,33 @@
 		</layout>
 	</appender>
 
+	<appender name="STRecord" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/st/info.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Append" value="true" />
+		<param name="BufferedIO" value="true" />
+		<!-- <param name="BufferSize" value="8192" /> -->
+		<param name="BufferSize" value="128" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%-5p] %c (%F:%L) - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMax" value="INFO" />
+			<param name="LevelMin" value="INFO" />
+		</filter>
+	</appender>
+
+	<appender name="STRecord_ASYNCOUT" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="STRecord" />
+	</appender>
+
+	<logger name="STRecordLogger" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="console-std" />
+		<appender-ref ref="console-err" />
+		<appender-ref ref="STRecord_ASYNCOUT" />
+	</logger>
+
 	<logger name="org.springframework">
 		<level value="warn" />
 	</logger>
@@ -68,7 +95,6 @@
 	<logger name="com.mchange.v2">
 		<level value="warn" />
 	</logger>
-
 	<!-- Root Logger -->
 	<root>
 		<level value="DEBUG" /><!-- 改成INFO级别 -->
