@@ -4,6 +4,7 @@ import java.util.concurrent.ThreadFactory;
 
 import org.apache.log4j.Logger;
 
+import game.core.Config;
 import game.core.statistics.StatisticsUtil;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -52,6 +53,7 @@ public class Server implements IServer {
 
 	public void start(final boolean isLog, boolean isStatistic) {
 		try {
+			Config.init();
 			ServerBootstrap b = new ServerBootstrap();
 			bossGroup = new NioEventLoopGroup(bossThreadSize, new ThreadFactory() {
 
@@ -88,6 +90,8 @@ public class Server implements IServer {
 
 			f.channel().closeFuture().sync();
 		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			workerGroup.shutdownGracefully();

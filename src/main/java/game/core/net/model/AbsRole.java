@@ -1,4 +1,4 @@
-package game.core.role;
+package game.core.net.model;
 
 /**
  * 角色抽象类

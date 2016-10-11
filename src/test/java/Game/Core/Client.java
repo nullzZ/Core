@@ -1,10 +1,10 @@
-package game.core.net;
+package Game.Core;
 
 import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import game.core.protobuf.AnyProto.AnyRequest;
+import Game.Core.AnyProto.AnyRequest;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

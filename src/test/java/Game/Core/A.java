@@ -1,10 +1,10 @@
-package game.core.test;
+package Game.Core;
 
 import org.springframework.stereotype.Service;
 
+import Game.Core.AnyProto.AnyRequest;
 import game.core.net.action.IActionAnnotation;
 import game.core.net.action.IChannelAction;
-import game.core.protobuf.AnyProto.AnyRequest;
 import io.netty.channel.Channel;
 
 @IActionAnnotation(cmd = 1)

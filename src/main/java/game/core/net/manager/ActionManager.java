@@ -19,7 +19,7 @@ import game.core.net.action.IActionAnnotation;
 import game.core.net.action.IChannelAction;
 import game.core.net.action.IRoleAction;
 import game.core.net.handle.MyDispatcher;
-import game.core.role.AbsRole;
+import game.core.net.model.AbsRole;
 import io.netty.channel.Channel;
 
 /**

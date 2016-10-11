@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import game.core.Config;
 import game.core.net.IDispatcher;
 import game.core.net.action.IAction;
+import game.core.net.model.AbsRole;
 import game.core.net.thread.MsgProssThread;
-import game.core.role.AbsRole;
 import io.netty.channel.Channel;
 
 /**
@@ -37,10 +37,11 @@ public class MyDispatcher implements IDispatcher {
 		msgProssThreads = new MsgProssThread[Config.msgThreadSize];
 		loginProssThreads = new MsgProssThread[Config.loginThreadSize];
 		for (int i = 0; i < Config.msgThreadSize; i++) {
-			msgProssThreads[i] = new MsgProssThread();
+			msgProssThreads[i] = new MsgProssThread(Config.msgQueueSize);
 			new Thread(msgProssThreads[i], "msgThread-" + i).start();
-
-			loginProssThreads[i] = new MsgProssThread();
+		}
+		for (int i = 0; i < Config.loginThreadSize; i++) {
+			loginProssThreads[i] = new MsgProssThread(Config.loginProssSize);
 			new Thread(loginProssThreads[i], "loginThread-" + i).start();
 		}
 	}
@@ -50,7 +51,7 @@ public class MyDispatcher implements IDispatcher {
 	public void execute(Channel channel, int cmd, IAction action, Object msg) throws Exception {
 		try {
 			int treadIndex = 0;
-			msgProssThreads[treadIndex].add(channel, cmd, action, msg);
+			loginProssThreads[treadIndex].add(channel, cmd, action, msg);
 		} catch (Exception e) {
 			throw e;
 		}

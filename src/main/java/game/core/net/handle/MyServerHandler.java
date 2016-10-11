@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import game.core.net.manager.ActionManager;
+import game.core.net.manager.HandleManager;
+import game.core.net.model.Account;
 import game.core.statistics.StatisticsUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -32,7 +34,8 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
 
 	@Override
 	public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
-
+		Account account = new Account(ctx.channel());
+		HandleManager.putAccount(ctx.channel(), account);
 	}
 
 	@Override

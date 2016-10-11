@@ -15,7 +15,8 @@
 		<log4j.version>1.2.17</log4j.version>
 		<protobuf.version>3.0.0</protobuf.version>
 		<spring.version>4.3.3.RELEASE</spring.version>
-		<aspectjrt-verson>1.6.9</aspectjrt-verson>
+		<aspectjrt-version>1.6.9</aspectjrt-version>
+		<commons-configuration-version>1.10</commons-configuration-version>
 	</properties>
 
 
@@ -64,7 +65,13 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>${aspectjrt-verson}</version>
+			<version>${aspectjrt-version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>${commons-configuration-version}</version>
 		</dependency>
 
 
