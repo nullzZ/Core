@@ -37,6 +37,11 @@ public class StatisticsUtil {
 	 * 发送总流量
 	 */
 	private AtomicLong sendSum = new AtomicLong(0L);
+	/**
+	 * 每秒流量
+	 */
+	private AtomicInteger send = new AtomicInteger(0);
+	private AtomicInteger sendMax = new AtomicInteger(0);
 
 	private Timer timer;
 
@@ -87,6 +92,8 @@ public class StatisticsUtil {
 			return;
 		}
 		sendSum.addAndGet(s);
+		send.addAndGet(s);
+		// logger.info("[流量统计]send:" + s + "|sendSum:" + this.getSendSum());
 	}
 
 	/**
@@ -111,6 +118,23 @@ public class StatisticsUtil {
 		return this.getReceiveSum() / t;
 	}
 
+	public int getSend() {
+		int r = send.get();
+		if (r > sendMax.get()) {
+			sendMax.set(r);
+		}
+		send.set(0);
+		return r;
+	}
+
+	public long getSendAvg() {
+		long t = getTime();
+		if (t <= 0) {
+			return 0;
+		}
+		return this.getSendSum() / t;
+	}
+
 	public long getTime() {
 		return (System.currentTimeMillis() - this.startTime) / 1000;
 	}
@@ -125,6 +149,10 @@ public class StatisticsUtil {
 
 	public int getReceiveMax() {
 		return receiveMax.get();
+	}
+
+	public long getSendMax() {
+		return sendMax.get();
 	}
 
 	public boolean isOpen() {

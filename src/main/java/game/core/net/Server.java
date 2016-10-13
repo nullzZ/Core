@@ -4,7 +4,10 @@ import java.util.concurrent.ThreadFactory;
 
 import org.apache.log4j.Logger;
 
+import com.google.protobuf.GeneratedMessage;
+
 import game.core.Config;
+import game.core.net.handle.StatisticsHandler;
 import game.core.statistics.StatisticsUtil;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -17,6 +20,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LengthFieldPrepender;
+import io.netty.handler.codec.MessageToByteEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
@@ -38,6 +42,7 @@ public class Server implements IServer {
 	// private String host;
 	private ChannelFuture f;
 	private ChannelInboundHandler handler;
+	private MessageToByteEncoder<GeneratedMessage> encoder;
 
 	/**
 	 * 
@@ -49,6 +54,12 @@ public class Server implements IServer {
 	public Server(int port, ChannelInboundHandler handler) {
 		this.port = port;
 		this.handler = handler;
+	}
+
+	public Server(int port, ChannelInboundHandler handler, MessageToByteEncoder<GeneratedMessage> encoder) {
+		this.port = port;
+		this.handler = handler;
+		this.encoder = encoder;
 	}
 
 	public void start(final boolean isLog, boolean isStatistic) {
@@ -76,9 +87,17 @@ public class Server implements IServer {
 							if (isLog) {
 								ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
 							}
+							ch.pipeline().addLast(new StatisticsHandler());
+
 							ch.pipeline().addLast("decoder", new LengthFieldBasedFrameDecoder(1024, 0, 2, 0, 2));
 							ch.pipeline().addLast("encoder", new LengthFieldPrepender(2));
+
+							if (encoder != null) {
+								ch.pipeline().addLast(encoder);
+							}
+
 							ch.pipeline().addLast("handler", handler);
+
 						}
 					}).option(ChannelOption.SO_BACKLOG, 128).option(ChannelOption.TCP_NODELAY, true)
 					.option(ChannelOption.SO_KEEPALIVE, true).option(ChannelOption.SO_REUSEADDR, true);

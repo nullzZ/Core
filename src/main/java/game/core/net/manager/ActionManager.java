@@ -16,8 +16,8 @@ import com.google.protobuf.GeneratedMessageLite;
 
 import game.core.net.action.IAction;
 import game.core.net.action.IActionAnnotation;
-import game.core.net.action.IChannelAction;
-import game.core.net.action.IRoleAction;
+import game.core.net.action.AbsChannelAction;
+import game.core.net.action.AbsRoleAction;
 import game.core.net.handle.MyDispatcher;
 import game.core.net.model.AbsRole;
 import io.netty.channel.Channel;
@@ -77,9 +77,9 @@ public class ActionManager implements IActionManager {
 
 		@SuppressWarnings("rawtypes")
 		IAction action = this.actions.get(cmd);
-		if (IChannelAction.class.isInstance(action)) {
+		if (AbsChannelAction.class.isInstance(action)) {
 			myDispatcher.execute(channel, cmd, action, msg);
-		} else if (IRoleAction.class.isInstance(action)) {
+		} else if (AbsRoleAction.class.isInstance(action)) {
 			AbsRole role = HandleManager.getRole(channel);
 			if (role == null) {
 				channel.close();
@@ -91,7 +91,13 @@ public class ActionManager implements IActionManager {
 		} else {
 
 		}
+	}
 
+	@Override
+	public Integer getResponseCmd(GeneratedMessage msg) {
+		String s = msg.getClass().getCanonicalName();
+		Integer cmd = this.responseMessageMap.get(s);
+		return cmd;
 	}
 
 	/**

@@ -4,7 +4,7 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import Game.Core.AnyProto.AnyRequest;
+import Game.Core.protobuf.AnyProto.AnyRequest;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -59,7 +59,7 @@ public class Client {
 				ch.pipeline().addLast("decoder", new LengthFieldBasedFrameDecoder(1024, 0, 2, 0, 2));
 				ch.pipeline().addLast("encoder", new LengthFieldPrepender(2));
 				// ch.pipeline().addLast(new LoggingHandler(LogLevel.INFO));
-				// ch.pipeline().addLast(new MyServerHandler());
+				ch.pipeline().addLast(new MyClientHandler());
 			}
 		});
 		return b;
@@ -81,9 +81,10 @@ public class Client {
 			Random r = new Random();
 			// for (int i = 1; i <= 20; i++) {
 			Client c = new Client("127.0.0.1", 20000);
-			for (int j = 1; j <= 100; j++) {
+			for (int j = 1; j <= 1; j++) {
 				AnyRequest.Builder m = AnyRequest.newBuilder();
 				m.setTypeUrl("ceshi" + j);
+				System.err.println(m.build().toByteArray().length + "@@@@@@@@@@");
 				c.sendMsg(m.build().toByteArray());
 				Thread.sleep(r.nextInt(1000));
 			}

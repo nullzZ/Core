@@ -1,5 +1,7 @@
 package game.core.net.handle;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 import org.springframework.stereotype.Service;
 
 import game.core.Config;
@@ -26,7 +28,12 @@ public class MyDispatcher implements IDispatcher {
 	 */
 	private MsgProssThread[] msgProssThreads;
 
+	/**
+	 * 登录线程 主要登录会加载db中的一些数据比较耗时
+	 */
 	private MsgProssThread[] loginProssThreads;
+
+	private AtomicInteger nextLoginProssThreadIndex = new AtomicInteger(0);
 
 	/**
 	 * 
@@ -50,11 +57,19 @@ public class MyDispatcher implements IDispatcher {
 	@Override
 	public void execute(Channel channel, int cmd, IAction action, Object msg) throws Exception {
 		try {
-			int treadIndex = 0;
+			int treadIndex = getNextLoginProssThreadIndex();
 			loginProssThreads[treadIndex].add(channel, cmd, action, msg);
 		} catch (Exception e) {
 			throw e;
 		}
+
+	}
+
+	private int getNextLoginProssThreadIndex() {
+		if (nextLoginProssThreadIndex.get() >= loginProssThreads.length) {
+			nextLoginProssThreadIndex.set(0);
+		}
+		return nextLoginProssThreadIndex.getAndIncrement();
 
 	}
 

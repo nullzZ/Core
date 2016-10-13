@@ -1,4 +1,4 @@
-package game.core.net.handle;
+package Game.Core;
 
 import javax.annotation.Resource;
 
@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
+import Game.Core.protobuf.AnyProto.AnyResponse;
 import game.core.net.manager.ActionManager;
 import game.core.net.manager.HandleManager;
 import game.core.net.model.Account;
@@ -24,9 +25,9 @@ import io.netty.util.ReferenceCountUtil;
 @Service
 @Scope("prototype")
 @Sharable // 注解@Sharable可以让它在channels间共享
-public class MyServerHandler extends ChannelInboundHandlerAdapter {
+public class MyClientHandler extends ChannelInboundHandlerAdapter {
 
-	private static final Logger logger = Logger.getLogger(MyServerHandler.class);
+	private static final Logger logger = Logger.getLogger(MyClientHandler.class);
 
 	@Resource
 	private ActionManager actionManager;
@@ -49,8 +50,9 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
 			int cmd = bb.readInt();
 			byte[] mb = new byte[bb.capacity() - 4];
 			bb.readBytes(mb);
+			AnyResponse m = AnyResponse.parseFrom(mb);
+			System.err.println("!!!!!!!!!!!!!" + "cmd:" + cmd + "|" + m.getState());
 
-			actionManager.handle(ctx.channel(), cmd, mb);
 		} catch (Exception e) {
 			logger.error("[channelRead][异常]", e);
 		} finally {

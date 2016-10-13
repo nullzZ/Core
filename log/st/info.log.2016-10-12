@@ -1,0 +1,1060 @@
+2016-10-12 10:49:42 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 10:49:43 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 10:49:44 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 10:49:45 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:12b|revSum:12b|revMax:12b|revAVG:4b
+2016-10-12 10:49:45 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:46 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:12b|revSum:24b|revMax:12b|revAVG:6b
+2016-10-12 10:49:46 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:47 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:24b|revSum:48b|revMax:24b|revAVG:9b
+2016-10-12 10:49:47 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:4|countSum:4|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:48 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:36b|revSum:84b|revMax:36b|revAVG:14b
+2016-10-12 10:49:48 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:7|countSum:7|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:49 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:12b|revSum:96b|revMax:36b|revAVG:13b
+2016-10-12 10:49:49 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:8|countSum:8|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:50 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:38b|revSum:134b|revMax:38b|revAVG:16b
+2016-10-12 10:49:50 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:11|countSum:11|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:51 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:13b|revSum:147b|revMax:38b|revAVG:16b
+2016-10-12 10:49:51 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:12|countSum:12|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:52 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:26b|revSum:173b|revMax:38b|revAVG:17b
+2016-10-12 10:49:52 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:14|countSum:14|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:53 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:13b|revSum:186b|revMax:38b|revAVG:16b
+2016-10-12 10:49:53 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:54 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:13b|revSum:199b|revMax:38b|revAVG:16b
+2016-10-12 10:49:54 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:16|countSum:16|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:55 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:39b|revSum:238b|revMax:39b|revAVG:18b
+2016-10-12 10:49:55 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:19|countSum:19|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:56 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:52b|revSum:290b|revMax:52b|revAVG:20b
+2016-10-12 10:49:56 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:23|countSum:23|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:57 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:13b|revSum:303b|revMax:52b|revAVG:20b
+2016-10-12 10:49:57 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:24|countSum:24|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:58 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:26b|revSum:329b|revMax:52b|revAVG:20b
+2016-10-12 10:49:58 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:26|countSum:26|prossMaxTime:6.933293ms
+
+2016-10-12 10:49:59 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:13b|revSum:342b|revMax:52b|revAVG:20b
+2016-10-12 10:49:59 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:27|countSum:27|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:00 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:39b|revSum:381b|revMax:52b|revAVG:21b
+2016-10-12 10:50:00 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:30|countSum:30|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:01 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:13b|revSum:394b|revMax:52b|revAVG:20b
+2016-10-12 10:50:01 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:31|countSum:31|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:02 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:39b|revSum:433b|revMax:52b|revAVG:21b
+2016-10-12 10:50:02 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:34|countSum:34|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:03 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:13b|revSum:446b|revMax:52b|revAVG:21b
+2016-10-12 10:50:03 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:35|countSum:35|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:04 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:26b|revSum:472b|revMax:52b|revAVG:21b
+2016-10-12 10:50:04 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:37|countSum:37|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:05 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:26b|revSum:498b|revMax:52b|revAVG:21b
+2016-10-12 10:50:05 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:39|countSum:39|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:06 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:26b|revSum:524b|revMax:52b|revAVG:21b
+2016-10-12 10:50:06 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:41|countSum:41|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:07 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:26b|revSum:550b|revMax:52b|revAVG:22b
+2016-10-12 10:50:07 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:43|countSum:43|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:08 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:26b|revSum:576b|revMax:52b|revAVG:22b
+2016-10-12 10:50:08 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:45|countSum:45|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:09 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:27s][每秒流量]rev:26b|revSum:602b|revMax:52b|revAVG:22b
+2016-10-12 10:50:09 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:47|countSum:47|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:10 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:28s][每秒流量]rev:13b|revSum:615b|revMax:52b|revAVG:21b
+2016-10-12 10:50:10 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:48|countSum:48|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:11 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:29s][每秒流量]rev:26b|revSum:641b|revMax:52b|revAVG:22b
+2016-10-12 10:50:11 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:50|countSum:50|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:12 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:30s][每秒流量]rev:39b|revSum:680b|revMax:52b|revAVG:22b
+2016-10-12 10:50:12 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:53|countSum:53|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:13 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:31s][每秒流量]rev:39b|revSum:719b|revMax:52b|revAVG:23b
+2016-10-12 10:50:13 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:56|countSum:56|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:14 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:32s][每秒流量]rev:39b|revSum:758b|revMax:52b|revAVG:23b
+2016-10-12 10:50:14 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:59|countSum:59|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:15 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:33s][每秒流量]rev:26b|revSum:784b|revMax:52b|revAVG:23b
+2016-10-12 10:50:15 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:61|countSum:61|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:16 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:34s][每秒流量]rev:25b|revSum:809b|revMax:52b|revAVG:23b
+2016-10-12 10:50:16 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:63|countSum:63|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:17 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:35s][每秒流量]rev:49b|revSum:858b|revMax:52b|revAVG:24b
+2016-10-12 10:50:17 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:67|countSum:67|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:18 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:36s][每秒流量]rev:98b|revSum:956b|revMax:98b|revAVG:26b
+2016-10-12 10:50:18 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:75|countSum:75|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:19 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:37s][每秒流量]rev:111b|revSum:1067b|revMax:111b|revAVG:28b
+2016-10-12 10:50:19 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:84|countSum:84|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:20 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:38s][每秒流量]rev:122b|revSum:1189b|revMax:122b|revAVG:31b
+2016-10-12 10:50:20 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:94|countSum:94|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:21 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:39s][每秒流量]rev:136b|revSum:1325b|revMax:136b|revAVG:33b
+2016-10-12 10:50:21 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:105|countSum:105|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:22 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:40s][每秒流量]rev:88b|revSum:1413b|revMax:136b|revAVG:35b
+2016-10-12 10:50:22 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:112|countSum:112|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:23 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:41s][每秒流量]rev:154b|revSum:1567b|revMax:154b|revAVG:38b
+2016-10-12 10:50:23 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:124|countSum:124|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:24 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:42s][每秒流量]rev:117b|revSum:1684b|revMax:154b|revAVG:40b
+2016-10-12 10:50:24 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:133|countSum:133|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:25 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:43s][每秒流量]rev:156b|revSum:1840b|revMax:156b|revAVG:42b
+2016-10-12 10:50:25 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:145|countSum:145|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:26 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:44s][每秒流量]rev:91b|revSum:1931b|revMax:156b|revAVG:43b
+2016-10-12 10:50:26 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:152|countSum:152|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:27 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:45s][每秒流量]rev:117b|revSum:2048b|revMax:156b|revAVG:45b
+2016-10-12 10:50:27 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:161|countSum:161|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:28 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:46s][每秒流量]rev:143b|revSum:2191b|revMax:156b|revAVG:47b
+2016-10-12 10:50:28 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:172|countSum:172|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:29 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:47s][每秒流量]rev:130b|revSum:2321b|revMax:156b|revAVG:49b
+2016-10-12 10:50:29 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:182|countSum:182|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:30 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:48s][每秒流量]rev:117b|revSum:2438b|revMax:156b|revAVG:50b
+2016-10-12 10:50:30 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:191|countSum:191|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:31 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:49s][每秒流量]rev:143b|revSum:2581b|revMax:156b|revAVG:52b
+2016-10-12 10:50:31 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:202|countSum:202|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:32 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:50s][每秒流量]rev:130b|revSum:2711b|revMax:156b|revAVG:54b
+2016-10-12 10:50:32 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:212|countSum:212|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:33 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:51s][每秒流量]rev:143b|revSum:2854b|revMax:156b|revAVG:55b
+2016-10-12 10:50:33 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:223|countSum:223|prossMaxTime:6.933293ms
+
+2016-10-12 10:50:34 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:52s][每秒流量]rev:104b|revSum:2958b|revMax:156b|revAVG:56b
+2016-10-12 10:50:34 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:231|co2016-10-12 10:57:10 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 10:57:11 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 10:57:12 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:2s][每秒流量]rev:24b|revSum:24b|revMax:24b|revAVG:12b
+2016-10-12 10:57:12 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:13 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:3s][每秒流量]rev:12b|revSum:36b|revMax:24b|revAVG:12b
+2016-10-12 10:57:13 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:3|countSum:3|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:14 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:4s][每秒流量]rev:24b|revSum:60b|revMax:24b|revAVG:15b
+2016-10-12 10:57:14 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:5|countSum:5|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:15 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:5s][每秒流量]rev:24b|revSum:84b|revMax:24b|revAVG:16b
+2016-10-12 10:57:15 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:7|countSum:7|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:16 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:6s][每秒流量]rev:12b|revSum:96b|revMax:24b|revAVG:16b
+2016-10-12 10:57:16 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:8|countSum:8|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:17 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:7s][每秒流量]rev:50b|revSum:146b|revMax:50b|revAVG:20b
+2016-10-12 10:57:17 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:12|countSum:12|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:18 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:8s][每秒流量]rev:62b|revSum:208b|revMax:62b|revAVG:26b
+2016-10-12 10:57:18 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:17|countSum:17|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:19 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:9s][每秒流量]rev:85b|revSum:293b|revMax:85b|revAVG:32b
+2016-10-12 10:57:19 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:24|countSum:24|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:20 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:10s][每秒流量]rev:62b|revSum:355b|revMax:85b|revAVG:35b
+2016-10-12 10:57:20 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:29|countSum:29|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:21 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:11s][每秒流量]rev:76b|revSum:431b|revMax:85b|revAVG:39b
+2016-10-12 10:57:21 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:35|countSum:35|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:22 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:12s][每秒流量]rev:101b|revSum:532b|revMax:101b|revAVG:44b
+2016-10-12 10:57:22 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:43|countSum:43|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:23 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:13s][每秒流量]rev:52b|revSum:584b|revMax:101b|revAVG:44b
+2016-10-12 10:57:23 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:47|countSum:47|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:24 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:14s][每秒流量]rev:104b|revSum:688b|revMax:104b|revAVG:49b
+2016-10-12 10:57:24 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:55|countSum:55|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:25 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:15s][每秒流量]rev:52b|revSum:740b|revMax:104b|revAVG:49b
+2016-10-12 10:57:25 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:59|countSum:59|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:26 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:16s][每秒流量]rev:91b|revSum:831b|revMax:104b|revAVG:51b
+2016-10-12 10:57:26 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:66|countSum:66|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:27 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:17s][每秒流量]rev:78b|revSum:909b|revMax:104b|revAVG:53b
+2016-10-12 10:57:27 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:72|countSum:72|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:28 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:18s][每秒流量]rev:91b|revSum:1000b|revMax:104b|revAVG:55b
+2016-10-12 10:57:28 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:79|countSum:79|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:29 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:19s][每秒流量]rev:52b|revSum:1052b|revMax:104b|revAVG:55b
+2016-10-12 10:57:29 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:83|countSum:83|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:30 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:20s][每秒流量]rev:104b|revSum:1156b|revMax:104b|revAVG:57b
+2016-10-12 10:57:30 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:91|countSum:91|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:31 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:21s][每秒流量]rev:91b|revSum:1247b|revMax:104b|revAVG:59b
+2016-10-12 10:57:31 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:98|countSum:98|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:32 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:22s][每秒流量]rev:91b|revSum:1338b|revMax:104b|revAVG:60b
+2016-10-12 10:57:32 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:105|countSum:105|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:33 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:23s][每秒流量]rev:91b|revSum:1429b|revMax:104b|revAVG:62b
+2016-10-12 10:57:33 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:112|countSum:112|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:34 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:24s][每秒流量]rev:65b|revSum:1494b|revMax:104b|revAVG:62b
+2016-10-12 10:57:34 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:117|countSum:117|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:35 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:25s][每秒流量]rev:91b|revSum:1585b|revMax:104b|revAVG:63b
+2016-10-12 10:57:35 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:124|countSum:124|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:36 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:26s][每秒流量]rev:104b|revSum:1689b|revMax:104b|revAVG:64b
+2016-10-12 10:57:36 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:132|countSum:132|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:37 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:27s][每秒流量]rev:91b|revSum:1780b|revMax:104b|revAVG:65b
+2016-10-12 10:57:37 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:139|countSum:139|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:38 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:28s][每秒流量]rev:39b|revSum:1819b|revMax:104b|revAVG:64b
+2016-10-12 10:57:38 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:142|countSum:142|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:39 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:29s][每秒流量]rev:91b|revSum:1910b|revMax:104b|revAVG:65b
+2016-10-12 10:57:39 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:149|countSum:149|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:40 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:30s][每秒流量]rev:65b|revSum:1975b|revMax:104b|revAVG:65b
+2016-10-12 10:57:40 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:154|countSum:154|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:41 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:31s][每秒流量]rev:91b|revSum:2066b|revMax:104b|revAVG:66b
+2016-10-12 10:57:41 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:161|countSum:161|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:42 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:32s][每秒流量]rev:91b|revSum:2157b|revMax:104b|revAVG:67b
+2016-10-12 10:57:42 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:168|countSum:168|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:43 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:33s][每秒流量]rev:65b|revSum:2222b|revMax:104b|revAVG:67b
+2016-10-12 10:57:43 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:173|countSum:173|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:44 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:34s][每秒流量]rev:65b|revSum:2287b|revMax:104b|revAVG:67b
+2016-10-12 10:57:44 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:178|countSum:178|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:45 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:35s][每秒流量]rev:117b|revSum:2404b|revMax:117b|revAVG:68b
+2016-10-12 10:57:45 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:187|countSum:187|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:46 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:36s][每秒流量]rev:65b|revSum:2469b|revMax:117b|revAVG:68b
+2016-10-12 10:57:46 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:192|countSum:192|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:47 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:37s][每秒流量]rev:104b|revSum:2573b|revMax:117b|revAVG:69b
+2016-10-12 10:57:47 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:200|countSum:200|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:48 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:38s][每秒流量]rev:78b|revSum:2651b|revMax:117b|revAVG:69b
+2016-10-12 10:57:48 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:206|countSum:206|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:49 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:39s][每秒流量]rev:117b|revSum:2768b|revMax:117b|revAVG:70b
+2016-10-12 10:57:49 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:215|countSum:215|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:50 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:40s][每秒流量]rev:78b|revSum:2846b|revMax:117b|revAVG:71b
+2016-10-12 10:57:50 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:221|countSum:221|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:51 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:41s][每秒流量]rev:78b|revSum:2924b|revMax:117b|revAVG:71b
+2016-10-12 10:57:51 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:227|countSum:227|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:52 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:42s][每秒流量]rev:78b|revSum:3002b|revMax:117b|revAVG:71b
+2016-10-12 10:57:52 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:233|countSum:233|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:53 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:43s][每秒流量]rev:52b|revSum:3054b|revMax:117b|revAVG:71b
+2016-10-12 10:57:53 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:237|countSum:237|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:54 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:44s][每秒流量]rev:65b|revSum:3119b|revMax:117b|revAVG:70b
+2016-10-12 10:57:54 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:242|countSum:242|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:55 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:45s][每秒流量]rev:78b|revSum:3197b|revMax:117b|revAVG:71b
+2016-10-12 10:57:55 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:248|countSum:248|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:56 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:46s][每秒流量]rev:104b|revSum:3301b|revMax:117b|revAVG:71b
+2016-10-12 10:57:56 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:256|countSum:256|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:57 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:47s][每秒流量]rev:91b|revSum:3392b|revMax:117b|revAVG:72b
+2016-10-12 10:57:57 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:263|countSum:263|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:58 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:48s][每秒流量]rev:78b|revSum:3470b|revMax:117b|revAVG:72b
+2016-10-12 10:57:58 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:269|countSum:269|prossMaxTime:0.781908ms
+
+2016-10-12 10:57:59 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:49s][每秒流量]rev:65b|revSum:3535b|revMax:117b|revAVG:72b
+2016-10-12 10:57:59 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:274|countSum:274|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:00 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:50s][每秒流量]rev:65b|revSum:3600b|revMax:117b|revAVG:72b
+2016-10-12 10:58:00 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:279|countSum:279|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:01 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:51s][每秒流量]rev:67b|revSum:3667b|revMax:117b|revAVG:71b
+2016-10-12 10:58:01 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:284|countSum:284|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:02 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:52s][每秒流量]rev:26b|revSum:3693b|revMax:117b|revAVG:71b
+2016-10-12 10:58:02 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:286|countSum:286|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:03 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:53s][每秒流量]rev:26b|revSum:3719b|revMax:117b|revAVG:70b
+2016-10-12 10:58:03 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:288|countSum:288|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:04 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:54s][每秒流量]rev:13b|revSum:3732b|revMax:117b|revAVG:69b
+2016-10-12 10:58:04 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:289|countSum:289|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:05 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:55s][每秒流量]rev:26b|revSum:3758b|revMax:117b|revAVG:68b
+2016-10-12 10:58:05 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:291|countSum:291|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:06 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:56s][每秒流量]rev:13b|revSum:3771b|revMax:117b|revAVG:67b
+2016-10-12 10:58:06 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:292|countSum:292|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:07 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:57s][每秒流量]rev:13b|revSum:3784b|revMax:117b|revAVG:66b
+2016-10-12 10:58:07 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:293|countSum:293|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:08 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:58s][每秒流量]rev:39b|revSum:3823b|revMax:117b|revAVG:65b
+2016-10-12 10:58:08 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:296|countSum:296|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:09 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:59s][每秒流量]rev:26b|revSum:3849b|revMax:117b|revAVG:65b
+2016-10-12 10:58:09 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:298|countSum:298|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:10 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:60s][每秒流量]rev:13b|revSum:3862b|revMax:117b|revAVG:64b
+2016-10-12 10:58:10 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:299|countSum:299|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:11 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:61s][每秒流量]rev:14b|revSum:3876b|revMax:117b|revAVG:63b
+2016-10-12 10:58:11 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:12 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:62s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:62b
+2016-10-12 10:58:12 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:13 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:63s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:61b
+2016-10-12 10:58:13 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:14 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:64s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:60b
+2016-10-12 10:58:14 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:15 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:65s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:59b
+2016-10-12 10:58:15 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:16 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:66s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:58b
+2016-10-12 10:58:16 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:17 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:67s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:57b
+2016-10-12 10:58:17 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:18 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:68s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:57b
+2016-10-12 10:58:18 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:19 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:69s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:56b
+2016-10-12 10:58:19 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:20 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:70s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:55b
+2016-10-12 10:58:20 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:21 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:71s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:54b
+2016-10-12 10:58:21 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:22 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:72s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:53b
+2016-10-12 10:58:22 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:23 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:73s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:53b
+2016-10-12 10:58:23 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:24 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:74s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:52b
+2016-10-12 10:58:24 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:25 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:75s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:51b
+2016-10-12 10:58:25 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:26 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:76s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:51b
+2016-10-12 10:58:26 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:27 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:77s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:50b
+2016-10-12 10:58:27 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:28 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:78s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:49b
+2016-10-12 10:58:28 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:29 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:79s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:49b
+2016-10-12 10:58:29 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:30 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:80s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:48b
+2016-10-12 10:58:30 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:31 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:81s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:47b
+2016-10-12 10:58:31 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:32 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:82s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:47b
+2016-10-12 10:58:32 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:33 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:83s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:46b
+2016-10-12 10:58:33 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:34 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:84s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:46b
+2016-10-12 10:58:34 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:35 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:85s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:45b
+2016-10-12 10:58:35 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:36 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:86s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:45b
+2016-10-12 10:58:36 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:37 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:87s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:44b
+2016-10-12 10:58:37 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:38 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:88s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:44b
+2016-10-12 10:58:38 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:39 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:89s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:43b
+2016-10-12 10:58:39 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:40 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:90s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:43b
+2016-10-12 10:58:40 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:41 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:91s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:42b
+2016-10-12 10:58:41 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:42 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:92s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:42b
+2016-10-12 10:58:42 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:43 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:93s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:41b
+2016-10-12 10:58:43 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:44 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:94s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:41b
+2016-10-12 10:58:44 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:45 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:95s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:40b
+2016-10-12 10:58:45 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:46 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:96s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:40b
+2016-10-12 10:58:46 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:47 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:97s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:39b
+2016-10-12 10:58:47 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:48 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:98s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:39b
+2016-10-12 10:58:48 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:49 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:99s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:39b
+2016-10-12 10:58:49 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:50 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:100s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:38b
+2016-10-12 10:58:50 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:51 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:101s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:38b
+2016-10-12 10:58:51 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:52 [INFO ] STRecordLogger (StatisticTimerTask.java:30) - [流量统计][统计时间:102s][每秒流量]rev:0b|revSum:3876b|revMax:117b|revAVG:38b
+2016-10-12 10:58:52 [INFO ] STRecordLogger (StatisticTimerTask.java:53) - [流量统计][action执行]cmd:1|count:300|countSum:300|prossMaxTime:0.781908ms
+
+2016-10-12 10:58:53 [INFO ] STRecordLogger (Statist2016-10-12 14:45:50 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:50 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:51 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:51 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:52 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:52 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:53 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:53 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:45:54 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:4s][每秒流量]rev:16b|revSum:16b|revMax:16b|revAVG:4b
+2016-10-12 14:45:54 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:54 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:4b
+2016-10-12 14:45:55 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:3b
+2016-10-12 14:45:55 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:55 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:3b
+2016-10-12 14:45:56 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:45:56 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:56 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:45:57 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:45:57 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:57 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:45:58 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:45:58 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:58 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:45:59 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:45:59 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:45:59 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:00 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:00 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:00 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:01 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:01 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:01 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:02 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:02 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:02 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:03 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:03 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:03 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:04 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:04 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:04 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:05 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:05 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:05 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:06 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:46:06 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:06 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:46:07 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:07 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:07 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:08 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:18s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:08 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:08 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:18s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:09 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:19s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:09 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:09 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:19s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:10 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:20s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:10 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:10 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:20s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:11 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:21s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:11 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:11 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:21s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:12 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:22s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:12 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:12 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:22s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:13 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:23s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:13 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:13 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:23s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:14 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:24s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:14 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:14 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:24s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:15 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:25s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:15 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:15 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:25s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:16 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:26s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:16 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:16 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:26s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:17 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:27s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:17 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:17 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:27s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:18 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:28s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:18 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:18 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:28s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:19 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:29s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:19 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:19 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:29s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:20 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:30s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:20 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:20 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:30s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:21 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:31s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:21 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:21 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:31s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:22 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:32s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:22 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:22 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:32s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:23 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:33s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:23 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:23 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:33s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:24 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:34s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:24 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:24 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:34s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:25 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:35s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:25 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:25 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:35s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:26 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:36s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:26 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:26 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:36s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:27 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:37s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:27 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:27 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:37s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:28 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:38s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:28 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:28 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:38s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:29 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:39s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:29 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:29 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:39s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:30 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:40s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:30 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:30 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:40s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:31 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:41s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:31 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:31 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:41s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:32 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:42s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:32 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:32 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:42s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:33 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:43s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:33 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:33 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:43s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:34 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:44s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:34 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:34 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:44s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:35 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:45s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:35 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:35 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:45s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:36 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:46s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:36 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:36 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:46s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:37 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:47s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:37 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:37 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:47s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:38 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:48s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:38 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:38 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:48s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:39 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:49s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:39 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:39 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:49s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:40 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:50s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:40 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:40 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:50s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:41 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:51s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:41 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:41 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:51s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:42 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:52s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:42 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:42 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:52s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:43 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:53s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:43 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:43 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:53s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:44 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:54s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:44 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:44 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:54s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:45 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:55s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:45 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:45 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:55s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:46 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:56s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:46 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:46 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:56s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:47 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:57s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:47 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:47 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:57s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:48 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:58s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:48 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:48 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:58s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:49 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:59s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:49 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:49 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:59s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:50 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:60s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:50 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:50 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:60s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:51 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:61s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:51 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:51 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:61s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:52 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:62s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:52 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:52 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:62s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:53 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:63s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:53 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:53 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:63s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:54 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:64s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:54 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:54 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:64s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:55 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:65s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:55 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:55 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:65s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:56 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:66s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:56 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:56 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:66s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:57 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:67s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:57 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:57 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:67s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:58 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:68s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:58 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:58 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:68s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:46:59 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:69s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:46:59 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:46:59 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:69s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:00 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:70s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:00 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:00 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:70s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:01 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:71s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:01 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:01 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:71s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:02 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:72s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:02 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:02 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:72s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:03 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:73s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:03 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:03 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:73s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:04 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:74s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:04 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:04 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:74s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:05 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:75s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:05 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:05 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:75s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:06 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:76s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:06 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:06 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:76s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:07 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:77s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:07 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:07 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:77s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:08 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:78s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:08 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:08 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:78s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:09 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:79s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:09 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:09 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:79s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:10 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:80s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:10 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:10 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:80s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:11 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:81s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:11 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:11 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:81s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:12 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:82s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:12 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:12 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:82s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:13 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:83s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:13 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:13 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:83s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:14 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:84s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:14 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:14 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:84s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:15 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:85s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:15 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:15 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:85s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:16 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:86s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:16 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:16 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:86s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:17 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:87s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:17 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.045965ms
+
+2016-10-12 14:47:17 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:87s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:18 [INFO ] STRecordLogger (StatisticTimerTask.java2016-10-12 14:47:34 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:47:34 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:47:35 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:47:35 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:47:36 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:2s][每秒流量]rev:16b|revSum:16b|revMax:16b|revAVG:8b
+2016-10-12 14:47:36 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:36 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:8b
+2016-10-12 14:47:37 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:5b
+2016-10-12 14:47:37 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:37 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:5b
+2016-10-12 14:47:38 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:4b
+2016-10-12 14:47:38 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:38 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:4b
+2016-10-12 14:47:39 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:3b
+2016-10-12 14:47:39 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:39 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:3b
+2016-10-12 14:47:40 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:47:40 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:40 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:47:41 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:47:41 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:41 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:47:42 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:2b
+2016-10-12 14:47:42 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:42 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:2b
+2016-10-12 14:47:43 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:43 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:43 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:44 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:44 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:44 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:45 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:45 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:45 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:46 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:46 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:46 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:47 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:47 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:47 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:48 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:48 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:48 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:49 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:49 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:49 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:50 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:1b
+2016-10-12 14:47:50 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:50 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:1b
+2016-10-12 14:47:51 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:16b|revMax:16b|revAVG:0b
+2016-10-12 14:47:51 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:1.051564ms
+
+2016-10-12 14:47:51 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:0b|revMax:16b|revAVG:0b
+2016-10-12 14:47:52 [INFO ]2016-10-12 14:49:44 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:44 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:45 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:45 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:46 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:46 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:47 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:47 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:48 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:48 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:49 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:49 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:50 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:50 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:51 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:51 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:52 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:52 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:53 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:53 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:54 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:54 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:55 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:55 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 14:49:56 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:12s][每秒流量]rev:314b|revSum:314b|revMax:314b|revAVG:26b
+2016-10-12 14:49:56 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:16|countSum:16|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:49:56 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:26b
+2016-10-12 14:49:57 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:13s][每秒流量]rev:51b|revSum:365b|revMax:314b|revAVG:28b
+2016-10-12 14:49:57 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:19|countSum:19|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:49:57 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:28b
+2016-10-12 14:49:58 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:14s][每秒流量]rev:17b|revSum:382b|revMax:314b|revAVG:27b
+2016-10-12 14:49:58 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:20|countSum:20|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:49:58 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:27b
+2016-10-12 14:49:59 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:382b|revMax:314b|revAVG:25b
+2016-10-12 14:49:59 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:20|countSum:20|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:49:59 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:25b
+2016-10-12 14:50:00 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:16s][每秒流量]rev:34b|revSum:416b|revMax:314b|revAVG:26b
+2016-10-12 14:50:00 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:22|countSum:22|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:50:00 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:26b
+2016-10-12 14:50:01 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:17s][每秒流量]rev:85b|revSum:501b|revMax:314b|revAVG:29b
+2016-10-12 14:50:01 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:27|countSum:27|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:50:01 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:29b
+2016-10-12 14:50:02 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:18s][每秒流量]rev:17b|revSum:518b|revMax:314b|revAVG:28b
+2016-10-12 14:50:02 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:28|countSum:28|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:50:02 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:18s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:28b
+2016-10-12 14:50:03 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:19s][每秒流量]rev:0b|revSum:518b|revMax:314b|revAVG:27b
+2016-10-12 14:50:03 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:28|countSum:28|prossMaxTime:0.249129ms
+cmd:1|count:1|countSum:1|prossMaxTime:0.46ms
+
+2016-10-12 14:50:03 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:19s][每秒流量]rev:0b|revSum:0b|revMax:314b|revAVG:27b
+2016-10-12 14:50:04 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:20s][每秒流量]rev:0b|revSum:518b|revMax:314b|revAVG:25b
+2016-10-12 14:50:04 [INFO ] STRecordLogger (StatisticTimer2016-10-12 16:08:09 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:09 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:0s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:10 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:10 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:1s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:11 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:2s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:11 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:2s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:12 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:12 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:3s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:13 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:13 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:4s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:14 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:14 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:5s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:15 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:15 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:6s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:16 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:16 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:7s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:17 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:08:17 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:8s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:18 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:9s][每秒流量]rev:28b|revSum:28b|revMax:28b|revAVG:3b
+2016-10-12 16:08:18 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:18 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:9s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:19 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:2b
+2016-10-12 16:08:19 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:19 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:10s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:20 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:2b
+2016-10-12 16:08:20 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:20 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:11s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:21 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:12s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:2b
+2016-10-12 16:08:21 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:21 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:12s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:22 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:2b
+2016-10-12 16:08:22 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:22 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:13s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:23 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:2b
+2016-10-12 16:08:23 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:23 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:14s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:24 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:1b
+2016-10-12 16:08:24 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:24 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:15s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:25 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:1b
+2016-10-12 16:08:25 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:25 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:16s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:26 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:1b
+2016-10-12 16:08:26 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:26 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:17s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:27 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:18s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:1b
+2016-10-12 16:08:27 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:27 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:18s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:08:28 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:19s][每秒流量]rev:0b|revSum:28b|revMax:28b|revAVG:1b
+2016-10-12 16:08:28 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:2|countSum:2|prossMaxTime:15.65496ms
+
+2016-10-12 16:08:28 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:19s][每秒输出流量]send:0b|sendSum:0b|sendMax:02016-10-12 16:21:03 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:0s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:21:03 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:0s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:21:04 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:1s][每秒流量]rev:0b|revSum:0b|revMax:0b|revAVG:0b
+2016-10-12 16:21:04 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:1s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:21:05 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:2s][每秒流量]rev:14b|revSum:14b|revMax:14b|revAVG:7b
+2016-10-12 16:21:05 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:05 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:2s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:21:06 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:3s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:4b
+2016-10-12 16:21:06 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:06 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:3s][每秒输出流量]send:0b|sendSum:0b|sendMax:0b|sendAVG:0b
+2016-10-12 16:21:07 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:4s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:3b
+2016-10-12 16:21:07 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:07 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:4s][每秒输出流量]send:2b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:08 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:5s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:2b
+2016-10-12 16:21:08 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:08 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:5s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:09 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:6s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:2b
+2016-10-12 16:21:09 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:09 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:6s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:10 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:7s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:2b
+2016-10-12 16:21:10 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:10 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:7s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:11 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:8s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:1b
+2016-10-12 16:21:11 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:11 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:8s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:12 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:9s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:1b
+2016-10-12 16:21:12 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:12 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:9s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:13 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:10s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:1b
+2016-10-12 16:21:13 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:13 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:10s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:14 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:11s][每秒流量]rev:0b|revSum:14b|revMax:14b|revAVG:1b
+2016-10-12 16:21:14 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:1|countSum:1|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:14 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:11s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:15 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:12s][每秒流量]rev:202b|revSum:216b|revMax:202b|revAVG:18b
+2016-10-12 16:21:15 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:15 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:12s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:16 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:13s][每秒流量]rev:0b|revSum:216b|revMax:202b|revAVG:16b
+2016-10-12 16:21:16 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:16 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:13s][每秒输出流量]send:0b|sendSum:2b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:17 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:14s][每秒流量]rev:0b|revSum:216b|revMax:202b|revAVG:15b
+2016-10-12 16:21:17 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:17 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:14s][每秒输出流量]send:2b|sendSum:4b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:18 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:15s][每秒流量]rev:0b|revSum:216b|revMax:202b|revAVG:14b
+2016-10-12 16:21:18 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:18 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:15s][每秒输出流量]send:2b|sendSum:6b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:19 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:16s][每秒流量]rev:0b|revSum:216b|revMax:202b|revAVG:13b
+2016-10-12 16:21:19 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTime:16.404833ms
+
+2016-10-12 16:21:19 [INFO ] STRecordLogger (StatisticTimerTask.java:59) - [流量统计][统计时间:16s][每秒输出流量]send:0b|sendSum:6b|sendMax:2b|sendAVG:0b
+2016-10-12 16:21:20 [INFO ] STRecordLogger (StatisticTimerTask.java:38) - [流量统计][统计时间:17s][每秒流量]rev:0b|revSum:216b|revMax:202b|revAVG:12b
+2016-10-12 16:21:20 [INFO ] STRecordLogger (StatisticTimerTask.java:79) - [流量统计][action执行]cmd:1|count:15|countSum:15|prossMaxTi
