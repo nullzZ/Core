@@ -1,5 +1,10 @@
 package game.core.statistics;
 
+/**
+ * 
+ * @author nullzZ
+ *
+ */
 public class ActionModel {
 
 	private int cmd;

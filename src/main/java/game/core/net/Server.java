@@ -39,7 +39,6 @@ public class Server implements IServer {
 	private EventLoopGroup bossGroup;
 	private EventLoopGroup workerGroup;
 	private int port;
-	// private String host;
 	private ChannelFuture f;
 	private ChannelInboundHandler handler;
 	private MessageToByteEncoder<GeneratedMessage> encoder;

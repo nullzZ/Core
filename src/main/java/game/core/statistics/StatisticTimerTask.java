@@ -4,6 +4,11 @@ import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
 
+/**
+ * 
+ * @author nullzZ
+ *
+ */
 public class StatisticTimerTask extends TimerTask {
 	private static final Logger logger = Logger.getLogger("STRecordLogger");
 

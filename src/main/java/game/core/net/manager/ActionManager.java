@@ -16,10 +16,10 @@ import com.google.protobuf.GeneratedMessageLite;
 
 import game.core.net.action.IAction;
 import game.core.net.action.IActionAnnotation;
+import game.core.model.AbsRole;
 import game.core.net.action.AbsChannelAction;
 import game.core.net.action.AbsRoleAction;
 import game.core.net.handle.MyDispatcher;
-import game.core.net.model.AbsRole;
 import io.netty.channel.Channel;
 
 /**

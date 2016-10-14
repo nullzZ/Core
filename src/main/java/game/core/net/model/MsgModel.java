@@ -2,6 +2,11 @@ package game.core.net.model;
 
 import game.core.net.action.IAction;
 
+/**
+ * 
+ * @author nullzZ
+ *
+ */
 public class MsgModel {
 	private Object u;
 	private int cmd;

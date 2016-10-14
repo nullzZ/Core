@@ -1,4 +1,4 @@
-package game.core.net.model;
+package game.core.model;
 
 import com.google.protobuf.GeneratedMessage;
 

@@ -3,8 +3,8 @@ package game.core.net.manager;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import game.core.net.model.AbsRole;
-import game.core.net.model.Account;
+import game.core.model.AbsRole;
+import game.core.model.Account;
 import io.netty.channel.Channel;
 
 /**

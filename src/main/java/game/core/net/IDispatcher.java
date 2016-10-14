@@ -1,7 +1,7 @@
 package game.core.net;
 
+import game.core.model.AbsRole;
 import game.core.net.action.IAction;
-import game.core.net.model.AbsRole;
 import io.netty.channel.Channel;
 
 /**

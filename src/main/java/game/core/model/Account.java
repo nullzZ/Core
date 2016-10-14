@@ -1,4 +1,4 @@
-package game.core.net.model;
+package game.core.model;
 
 import io.netty.channel.Channel;
 

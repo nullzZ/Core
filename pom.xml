@@ -19,8 +19,6 @@
 		<commons-configuration-version>1.10</commons-configuration-version>
 	</properties>
 
-
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>

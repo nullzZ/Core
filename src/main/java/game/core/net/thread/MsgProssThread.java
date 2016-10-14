@@ -8,6 +8,11 @@ import game.core.net.action.IAction;
 import game.core.net.model.MsgModel;
 import game.core.statistics.StatisticsUtil;
 
+/**
+ * 
+ * @author nullzZ
+ *
+ */
 public class MsgProssThread implements Runnable {
 
 	private static final Logger logger = Logger.getLogger(MsgProssThread.class);
