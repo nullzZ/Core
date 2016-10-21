@@ -17,6 +17,7 @@
 		<spring.version>4.3.3.RELEASE</spring.version>
 		<aspectjrt-version>1.6.9</aspectjrt-version>
 		<commons-configuration-version>1.10</commons-configuration-version>
+		<quartz-version>1.8.6</quartz-version>
 	</properties>
 
 	<dependencies>
@@ -71,6 +72,14 @@
 			<artifactId>commons-configuration</artifactId>
 			<version>${commons-configuration-version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>${quartz-version}</version>
+		</dependency>
+
+
 
 
 
