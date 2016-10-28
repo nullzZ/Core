@@ -1,11 +1,11 @@
-package game.core.net.thread;
+package game.core.net.my.thread;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
 import org.apache.log4j.Logger;
 
 import game.core.net.action.IAction;
-import game.core.net.model.MsgModel;
+import game.core.net.my.model.MsgModel;
 import game.core.statistics.StatisticsUtil;
 
 /**

@@ -6,8 +6,8 @@ import org.apache.log4j.Logger;
 
 import com.google.protobuf.GeneratedMessage;
 
-import game.core.Config;
 import game.core.net.handle.StatisticsHandler;
+import game.core.net.my.Config;
 import game.core.statistics.StatisticsUtil;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -41,7 +41,8 @@ public class Server implements IServer {
 	private int port;
 	private ChannelFuture f;
 	private ChannelInboundHandler handler;
-	private MessageToByteEncoder<GeneratedMessage> encoder;
+	@SuppressWarnings("rawtypes")
+	private MessageToByteEncoder encoder;
 
 	/**
 	 * 

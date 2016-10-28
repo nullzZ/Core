@@ -9,17 +9,13 @@ import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Service;
 
 import com.google.protobuf.GeneratedMessage;
 import com.google.protobuf.GeneratedMessageLite;
 
 import game.core.net.action.IAction;
 import game.core.net.action.IActionAnnotation;
-import game.core.model.AbsRole;
-import game.core.net.action.AbsChannelAction;
-import game.core.net.action.AbsRoleAction;
-import game.core.net.handle.MyDispatcher;
+import game.core.net.my.MyDispatcher;
 import io.netty.channel.Channel;
 
 /**
@@ -27,20 +23,17 @@ import io.netty.channel.Channel;
  * @author nullzZ
  *
  */
-@Service
-public class ActionManager implements IActionManager {
-	private static final Logger logger = Logger.getLogger(ActionManager.class);
+public abstract class AbsActionManager implements IActionManager {
+	private static final Logger logger = Logger.getLogger(AbsActionManager.class);
 	@SuppressWarnings("rawtypes")
 	@Resource
 	private List<IAction> allActions;
 	@SuppressWarnings("rawtypes")
-	private Map<Integer, IAction> actions = new HashMap<>();
-	private Map<Integer, Method> methods = new HashMap<>();
-	private Map<Integer, Class<?>> requestMessageMap = new HashMap<>();
+	protected Map<Integer, IAction> actions = new HashMap<>();
+	protected Map<Integer, Method> methods = new HashMap<>();
+	protected Map<Integer, Class<?>> requestMessageMap = new HashMap<>();
 	/** key：message类名，value ：对应的消息id **/
-	private Map<String, Integer> responseMessageMap = new HashMap<>();
-	@Resource
-	private MyDispatcher myDispatcher;
+	protected Map<String, Integer> responseMessageMap = new HashMap<>();
 
 	@SuppressWarnings("rawtypes")
 	@PostConstruct
@@ -66,32 +59,7 @@ public class ActionManager implements IActionManager {
 	 * @throws Exception
 	 */
 	@Override
-	public void handle(Channel channel, int cmd, byte[] bb) throws Exception {
-		if (!this.isHasAction(cmd)) {
-			logger.error("[没有指定action]:" + cmd);
-			channel.close();
-			return;
-		}
-
-		Object msg = this.getRequestMessage(cmd, bb);
-
-		@SuppressWarnings("rawtypes")
-		IAction action = this.actions.get(cmd);
-		if (AbsChannelAction.class.isInstance(action)) {
-			myDispatcher.execute(channel, cmd, action, msg);
-		} else if (AbsRoleAction.class.isInstance(action)) {
-			AbsRole role = HandleManager.getRole(channel);
-			if (role == null) {
-				channel.close();
-				logger.error("[handle]role is null");
-			} else {
-				myDispatcher.execute(role, cmd, action, msg);
-			}
-
-		} else {
-
-		}
-	}
+	public abstract void handle(Channel channel, int cmd, byte[] bb) throws Exception;
 
 	@Override
 	public Integer getResponseCmd(GeneratedMessage msg) {
@@ -156,7 +124,7 @@ public class ActionManager implements IActionManager {
 
 	}
 
-	private boolean isHasAction(int cmd) {
+	protected boolean isHasAction(int cmd) {
 		return this.actions.containsKey(cmd);
 	}
 
@@ -169,7 +137,7 @@ public class ActionManager implements IActionManager {
 		return headStr.concat(tailStr.replace("Request", "Response"));
 	}
 
-	private Object getRequestMessage(int cmdId, byte[] bytes) throws Exception {
+	protected Object getRequestMessage(int cmdId, byte[] bytes) throws Exception {
 		Class<?> messageClz = requestMessageMap.get(cmdId);
 		Method method = methods.get(cmdId);
 		if (messageClz == null || method == null || bytes == null)

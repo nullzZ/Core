@@ -47,8 +47,7 @@ public class QuartzManager {
 			// 启动
 			if (!sched.isShutdown()) {
 				sched.start();
-				// logger.info("添加定时器:" + "jobName:" + jobName + "|time:" +
-				// time);
+				logger.info("添加定时器:" + "jobName:" + jobName + "|time:" + time);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -84,6 +83,7 @@ public class QuartzManager {
 			sched.scheduleJob(jobDetail, trigger);
 			if (!sched.isShutdown()) {
 				sched.start();
+				logger.info("添加定时器:" + "jobName:" + jobName);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -101,6 +101,7 @@ public class QuartzManager {
 			// 启动
 			if (!sched.isShutdown()) {
 				sched.start();
+				logger.info("添加定时器:" + "jobName:" + jobName);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -135,6 +136,11 @@ public class QuartzManager {
 			CronTrigger trigger = new CronTrigger(triggerName, triggerGroupName);// 触发器名,触发器组
 			trigger.setCronExpression(time);// 触发器时间设定
 			sched.scheduleJob(jobDetail, trigger);
+			// 启动
+			if (!sched.isShutdown()) {
+				sched.start();
+				logger.info("添加定时器:" + "jobName:" + jobName);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException(e);

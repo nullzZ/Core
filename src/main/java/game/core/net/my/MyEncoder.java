@@ -1,4 +1,4 @@
-package game.core.net.code;
+package game.core.net.my;
 
 import javax.annotation.Resource;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.google.protobuf.GeneratedMessage;
 
-import game.core.net.manager.ActionManager;
+import game.core.net.my.manager.ActionManager;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;

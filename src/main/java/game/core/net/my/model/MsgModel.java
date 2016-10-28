@@ -1,4 +1,4 @@
-package game.core.net.model;
+package game.core.net.my.model;
 
 import game.core.net.action.IAction;
 

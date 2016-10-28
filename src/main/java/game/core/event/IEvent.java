@@ -4,7 +4,7 @@ package game.core.event;
  * @author nullzZ
  *
  */
-public interface Event {
+public interface IEvent {
 
 	public void event();
 }

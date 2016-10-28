@@ -9,8 +9,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 import game.core.net.Server;
-import game.core.net.code.MyEncoder;
-import game.core.net.handle.MyServerHandler;
+import game.core.net.my.MyEncoder;
+import game.core.net.my.MyServerHandler;
 
 /**
  * Hello world!

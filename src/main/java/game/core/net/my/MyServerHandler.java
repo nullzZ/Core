@@ -1,4 +1,4 @@
-package game.core.net.handle;
+package game.core.net.my;
 
 import javax.annotation.Resource;
 
@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import game.core.model.Account;
-import game.core.net.manager.ActionManager;
 import game.core.net.manager.HandleManager;
+import game.core.net.my.manager.ActionManager;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;

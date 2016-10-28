@@ -1,14 +1,12 @@
-package game.core.net.handle;
+package game.core.net.my;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.springframework.stereotype.Service;
 
-import game.core.Config;
 import game.core.model.AbsRole;
-import game.core.net.IDispatcher;
 import game.core.net.action.IAction;
-import game.core.net.thread.MsgProssThread;
+import game.core.net.my.thread.MsgProssThread;
 import io.netty.channel.Channel;
 
 /**

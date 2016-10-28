@@ -1,4 +1,4 @@
-package game.core.net;
+package game.core.net.my;
 
 import game.core.model.AbsRole;
 import game.core.net.action.IAction;

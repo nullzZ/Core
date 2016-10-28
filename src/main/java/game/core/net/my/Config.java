@@ -1,4 +1,4 @@
-package game.core;
+package game.core.net.my;
 
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
