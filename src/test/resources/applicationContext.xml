@@ -19,7 +19,8 @@
 	<!-- 启用spring mvc 注解 -->
 	<context:annotation-config />
 
-	<context:component-scan base-package="game.core" />
+	<context:component-scan base-package="game.core.redis" />
 	<aop:aspectj-autoproxy />
 
+	<import resource="jedis.xml" />
 </beans>
