@@ -1,5 +1,5 @@
 syntax = "proto3";
-option java_package = "Game.Core.protobuf";
+option java_package = "game.core.protobuf";
 option java_outer_classname = "AnyProto";
 
 message AnyRequest {

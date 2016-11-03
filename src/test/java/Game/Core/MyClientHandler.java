@@ -1,4 +1,4 @@
-package Game.Core;
+package game.core;
 
 import javax.annotation.Resource;
 
@@ -6,10 +6,10 @@ import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import Game.Core.protobuf.AnyProto.AnyResponse;
 import game.core.model.Account;
 import game.core.net.manager.HandleManager;
 import game.core.net.my.manager.ActionManager;
+import game.core.protobuf.AnyProto.AnyResponse;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;

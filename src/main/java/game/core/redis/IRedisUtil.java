@@ -1,6 +1,7 @@
 package game.core.redis;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 
@@ -25,7 +26,7 @@ public interface IRedisUtil {
 	 * @param value
 	 *            must not be {@literal null}.
 	 */
-	public boolean set(String key, Object value);
+	public <T> boolean set(String key, T value);
 
 	/**
 	 *
@@ -43,7 +44,7 @@ public interface IRedisUtil {
 	 * @param value
 	 *            must not be {@literal null}.
 	 */
-	public boolean set(String key, Object value, long seconds);
+	public <T> boolean set(String key, T value, long seconds);
 
 	/**
 	 *
@@ -66,7 +67,9 @@ public interface IRedisUtil {
 	 * @param value
 	 *            must not be {@literal null}.
 	 */
-	public boolean hset(String key, String field, Object value);
+	public <T> boolean hset(String key, String field, T value);
+
+	public <T> boolean hsetAll(String key, Map<String, T> values);
 
 	/**
 	 *
@@ -88,7 +91,7 @@ public interface IRedisUtil {
 	 * @param value
 	 *            must not be {@literal null}.
 	 */
-	public boolean hset(String key, String field, Object value, long seconds);
+	public <T> boolean hset(String key, String field, T value, long seconds);
 
 	/**
 	 *
@@ -153,4 +156,16 @@ public interface IRedisUtil {
 	 *            must not be {@literal null}.
 	 */
 	public boolean hremove(String key, List<String> fields);
+
+	public long listLPush(String key, String value);
+
+	public String listRPop(String key);
+
+	public <T> long listLPush(String key, T value);
+
+	public long setPush(String key, String value);
+
+	public <T> long setPush(String key, T value);
+
+	public <T> T setPop(String key, Class<T> clazz);
 }

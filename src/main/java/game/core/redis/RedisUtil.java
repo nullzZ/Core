@@ -1,8 +1,9 @@
 package game.core.redis;
 
 import java.util.ArrayList;
-
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Resource;
@@ -37,7 +38,7 @@ public class RedisUtil implements IRedisUtil {
 	}
 
 	@Override
-	public boolean set(String key, Object value) {
+	public <T> boolean set(String key, T value) {
 		String v = JSON.toJSONString(value);
 		return this.set(key, v);
 	}
@@ -54,7 +55,7 @@ public class RedisUtil implements IRedisUtil {
 	}
 
 	@Override
-	public boolean set(String key, Object value, long seconds) {
+	public <T> boolean set(String key, T value, long seconds) {
 		String v = JSON.toJSONString(value);
 		return this.set(key, v, seconds);
 	}
@@ -71,7 +72,43 @@ public class RedisUtil implements IRedisUtil {
 	}
 
 	@Override
-	public boolean hset(String key, String field, Object value) {
+	public <T> boolean hsetAll(String key, Map<String, T> values) {
+		try {
+			if (values == null) {
+				return false;
+			}
+			Map<String, String> vm = new HashMap<>();
+			for (String k : values.keySet()) {
+				vm.put(k, JSON.toJSONString(values.get(k)));
+			}
+			redisTemplate.opsForHash().putAll(key, vm);
+			return true;
+		} catch (Exception e) {
+			logger.error("hset异常", e);
+			return false;
+		}
+	}
+
+	public <T> boolean hsetAll(String key, Map<String, T> values, long seconds) {
+		try {
+			if (values == null) {
+				return false;
+			}
+			Map<String, String> vm = new HashMap<>();
+			for (String k : values.keySet()) {
+				vm.put(k, JSON.toJSONString(values.get(k)));
+			}
+			redisTemplate.opsForHash().putAll(key, vm);
+			redisTemplate.expire(key, seconds, TimeUnit.SECONDS);
+			return true;
+		} catch (Exception e) {
+			logger.error("hset异常", e);
+			return false;
+		}
+	}
+
+	@Override
+	public <T> boolean hset(String key, String field, T value) {
 		String v = JSON.toJSONString(value);
 		return this.hset(key, field, v);
 	}
@@ -82,6 +119,7 @@ public class RedisUtil implements IRedisUtil {
 			if (this.hset(key, field, value)) {
 				return redisTemplate.expire(key, seconds, TimeUnit.SECONDS);
 			} else {
+				logger.error("hset异常,设置时间");
 				return false;
 			}
 		} catch (Exception e) {
@@ -91,7 +129,7 @@ public class RedisUtil implements IRedisUtil {
 	}
 
 	@Override
-	public boolean hset(String key, String field, Object value, long seconds) {
+	public <T> boolean hset(String key, String field, T value, long seconds) {
 		String v = JSON.toJSONString(value);
 		return this.hset(key, field, v, seconds);
 	}
@@ -126,10 +164,10 @@ public class RedisUtil implements IRedisUtil {
 
 	@Override
 	public <T> List<T> hgetAll(String key, Class<T> clazz) {
-		List<T> resultStr = new ArrayList<>();
 		try {
 			List<Object> v = redisTemplate.opsForHash().values(key);
 			if (v != null) {
+				List<T> resultStr = new ArrayList<>();
 				for (Object o : v) {
 					resultStr.add((T) JSON.parseObject((String) o, clazz));
 				}
@@ -137,7 +175,7 @@ public class RedisUtil implements IRedisUtil {
 		} catch (Exception e) {
 			logger.error("hgetAll异常", e);
 		}
-		return resultStr;
+		return null;
 	}
 
 	@Override
@@ -189,6 +227,72 @@ public class RedisUtil implements IRedisUtil {
 			logger.error("hremoves异常", e);
 		}
 		return false;
+	}
+
+	@Override
+	public long listLPush(String key, String value) {
+		try {
+			return redisTemplate.opsForList().leftPush(key, value);
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return 0;
+	}
+
+	@Override
+	public String listRPop(String key) {
+		try {
+			return redisTemplate.opsForList().rightPop(key);
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return null;
+	}
+
+	@Override
+	public <T> long listLPush(String key, T value) {
+		try {
+			String v = JSON.toJSONString(value);
+			return this.listLPush(key, v);
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return 0;
+	}
+
+	@Override
+	public long setPush(String key, String value) {
+		try {
+			return redisTemplate.opsForSet().add(key, value);
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return 0;
+	}
+
+	@Override
+	public <T> long setPush(String key, T value) {
+		try {
+			String v = JSON.toJSONString(value);
+			return this.setPush(key, v);
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return 0;
+	}
+
+	@Override
+	public <T> T setPop(String key, Class<T> clazz) {
+		try {
+			String v = redisTemplate.opsForSet().pop(key);
+			if (v != null) {
+				T t = JSON.parseObject(v, clazz);
+				return t;
+			}
+		} catch (Exception e) {
+			logger.error("listPush异常", e);
+		}
+		return null;
 	}
 
 }

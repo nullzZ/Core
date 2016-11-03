@@ -1,4 +1,4 @@
-package Game.Core;
+package game.core;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
+import game.core.dao.RedisManager;
 import game.core.net.Server;
 import game.core.net.my.MyEncoder;
 import game.core.net.my.MyServerHandler;
@@ -24,15 +25,20 @@ public class App {
 	@Resource
 	private MyEncoder myEncoder;
 
-	@PostConstruct
 	public void start() {
 		Server s = new Server(20000, myServerHandler, myEncoder);
 		s.start(false, false);
 	}
 
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("D:\\git\\Core\\src\\test\\resources\\log4j.xml");
-		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+		try {
+			PropertyConfigurator.configure("D:\\git\\Core\\src\\test\\resources\\log4j.xml");
+			ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+			RedisManager redisManager = (RedisManager) ac.getBean("redisManager");
+			redisManager.start();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 		/*
 		 * new Thread(new Runnable() { public void run() { try {
