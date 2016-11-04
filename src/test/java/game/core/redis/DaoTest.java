@@ -29,17 +29,17 @@ public class DaoTest {
 	@Test
 	public void test() {
 		OrderRecord r = new OrderRecord();
-		r.setUid(1002L);
+		r.setUid(1004L);
 		r.setRoleId(9999L);
-		r.setName("test3");
+		r.setName("test4");
 		testDao.insert(r);
 
 		List<OrderRecord> list = testDao.selectAll(r.getRoleId());
 		for (OrderRecord or : list) {
 			System.out.println("1@@@uid:" + or.getUid() + "|name:" + or.getName() + "|roleId:" + or.getRoleId());
 		}
-		OrderRecord or2 = testDao.selectOne(9999L, 1000L);
-		System.out.println("2@@@uid:" + or2.getUid() + "|name:" + or2.getName() + "|roleId:" + or2.getRoleId());
+//		OrderRecord or2 = testDao.selectOne(9999L, 1000L);
+//		System.out.println("2@@@uid:" + or2.getUid() + "|name:" + or2.getName() + "|roleId:" + or2.getRoleId());
 
 	}
 }

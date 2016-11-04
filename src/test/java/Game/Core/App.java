@@ -1,17 +1,11 @@
 package game.core;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-
 import org.apache.log4j.PropertyConfigurator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
-import game.core.dao.RedisManager;
-import game.core.net.Server;
-import game.core.net.my.MyEncoder;
-import game.core.net.my.MyServerHandler;
+import game.core.cach.RedisManager;
 
 /**
  * Hello world!
@@ -20,15 +14,15 @@ import game.core.net.my.MyServerHandler;
 @Service
 public class App {
 
-	@Resource
-	private MyServerHandler myServerHandler;
-	@Resource
-	private MyEncoder myEncoder;
+	// @Resource
+	// private MyServerHandler myServerHandler;
+	// @Resource
+	// private MyEncoder myEncoder;
 
-	public void start() {
-		Server s = new Server(20000, myServerHandler, myEncoder);
-		s.start(false, false);
-	}
+	// public void start() {
+	// Server s = new Server(20000, myServerHandler, myEncoder);
+	// s.start(false, false);
+	// }
 
 	public static void main(String[] args) {
 		try {

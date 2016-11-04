@@ -18,19 +18,19 @@ public class Keys {
 		return key.toString();
 	}
 
-	public static String getDataKey(String table, long roleId) {
+	public static String getDataKey(String table, String userKey) {
 		StringBuilder key = new StringBuilder();
 		key.append(Keys.DATA_KEY);
 		key.append(Keys.SIGN);
 		key.append(table);
 		key.append(Keys.SIGN);
-		key.append(roleId);
+		key.append(userKey);
 		return key.toString();
 	}
 
-	public static String getDataFieldKey(String table, long roleId, long uid) {
+	public static String getDataFieldKey(String table, String userKey, long uid) {
 		StringBuilder key = new StringBuilder();
-		key.append(getDataKey(table, roleId));
+		key.append(getDataKey(table, userKey));
 		key.append(Keys.SIGN);
 		key.append(Keys.FIELD_KEY);
 		key.append(Keys.SIGN);

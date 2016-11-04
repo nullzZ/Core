@@ -22,15 +22,15 @@ public class TestDao extends AbsDao<OrderRecord> {
 	private OrderRecordMapper orderRecordMapper;
 
 	public boolean insert(OrderRecord t) {
-		return super.insertHEx(t.getRoleId(), t.getUid(), t);
+		return super.insertHEx(String.valueOf(t.getRoleId()), t.getUid(), t);
 	}
 
 	public List<OrderRecord> selectAll(long roleId) {
-		return super.selectAll(roleId, OrderRecord.class);
+		return super.selectAll(String.valueOf(roleId), OrderRecord.class);
 	}
 
 	public OrderRecord selectOne(long roleId, long uid) {
-		return super.selectOne(roleId, uid, OrderRecord.class);
+		return super.selectOne(String.valueOf(roleId), uid, OrderRecord.class);
 	}
 
 	@Override
@@ -39,10 +39,20 @@ public class TestDao extends AbsDao<OrderRecord> {
 	}
 
 	@Override
-	public List<OrderRecord> selectAllByDB(long roleId) {
+	public List<OrderRecord> selectAllByDB(String roleId) {
 		OrderRecordExample ex = new OrderRecordExample();
-		ex.createCriteria().andRoleIdEqualTo(roleId);
+		ex.createCriteria().andRoleIdEqualTo(Long.parseLong(roleId));
 		return orderRecordMapper.selectByExample(ex);
+	}
+
+	@Override
+	public int updateDB(OrderRecord t) {
+		return orderRecordMapper.updateByPrimaryKey(t);
+	}
+
+	@Override
+	public int insertDB(OrderRecord t) {
+		return orderRecordMapper.insertSelective(t);
 	}
 
 }

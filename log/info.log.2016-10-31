@@ -1,0 +1,8 @@
+2016-10-31 14:01:28 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--Game.Core.A
+2016-10-31 14:01:29 [INFO ] game.core.net.my.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-31 14:01:29 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-31 16:58:39 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.A
+2016-10-31 16:58:39 [INFO ] game.core.net.my.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-31 16:58:39 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-31 16:59:32 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.A
+2016-10-31 17:02:38 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.A

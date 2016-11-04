@@ -21,58 +21,56 @@ public abstract class AbsDao<T> implements IDao<T> {
 
 	private long seconds = 100;
 
-	@SuppressWarnings("rawtypes")
-	@Resource
-	private List<AbsDao> daos;
 	@Resource
 	private RedisUtil redisUtil;
 
-	private String table = this.getClass().getSimpleName();
+	private String table = this.getClass().getSimpleName().replace("Dao", "");
 
-	public boolean insertHEx(long roleId, long uid, T t) {
-		if (redisUtil.hContainsKey(Keys.getDataKey(table, roleId), Keys.getDataFieldKey(table, roleId, uid))) {
+	public boolean insertHEx(String primaryKey, long uid, T t) {
+		if (redisUtil.hContainsKey(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid))) {
 			return false;
 		}
 		this.asynUpdateQ(t);
-		return redisUtil.hset(Keys.getDataKey(table, roleId), Keys.getDataFieldKey(table, roleId, uid), t, seconds);
+		return redisUtil.hset(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid), t,
+				seconds);
 	}
 
-	public boolean updateH(long roleId, long uid, T t) {
-		return this.insertHEx(roleId, uid, t);
+	public boolean updateH(String primaryKey, long uid, T t) {
+		return this.insertHEx(primaryKey, uid, t);
 	}
 
-	public boolean deleteH(long roleId, long uid) {
-		this.asynDelete(roleId, uid);
-		return redisUtil.hremove(Keys.getDataKey(table, roleId), String.valueOf(uid));
+	public boolean deleteH(String primaryKey, long uid) {
+		this.asynDelete(uid);
+		return redisUtil.hremove(Keys.getDataKey(table, primaryKey), String.valueOf(uid));
 	}
 
-	public T selectOne(long roleId, long uid, Class<T> clazz) {
-		T t = redisUtil.hget(Keys.getDataKey(table, roleId), Keys.getDataFieldKey(table, roleId, uid), clazz);
+	public T selectOne(String primaryKey, long uid, Class<T> clazz) {
+		T t = redisUtil.hget(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid), clazz);
 		if (t == null) {
 			t = this.selectOneByDB(uid);
 			if (t != null) {
-				this.insertHEx(roleId, uid, t);
+				this.insertHEx(primaryKey, uid, t);
 			}
 		}
 		return t;
 	}
 
-	public List<T> selectAll(long roleId, Class<T> clazz) {
-		List<T> list = redisUtil.hgetAll(Keys.getDataKey(table, roleId), clazz);
+	public List<T> selectAll(String primaryKey, Class<T> clazz) {
+		List<T> list = redisUtil.hgetAll(Keys.getDataKey(table, primaryKey), clazz);
 		if (list == null) {
-			list = selectAllByDB(roleId);
+			list = selectAllByDB(primaryKey);
 			if (list != null && list.size() > 0) {
 				Map<String, T> values = new HashMap<>();
 				for (T vt : list) {
 					try {
 						Method method = vt.getClass().getDeclaredMethod("getUid");
 						long uid = (long) method.invoke(vt);
-						values.put(Keys.getDataFieldKey(table, roleId, uid), vt);
+						values.put(Keys.getDataFieldKey(table, primaryKey, uid), vt);
 					} catch (Exception e) {
 						logger.error("selectAll", e);
 					}
 				}
-				redisUtil.hsetAll(Keys.getDataKey(table, roleId), values, seconds);
+				redisUtil.hsetAll(Keys.getDataKey(table, primaryKey), values, seconds);
 			}
 		}
 		return list;
@@ -96,7 +94,7 @@ public abstract class AbsDao<T> implements IDao<T> {
 	 * @param roleId
 	 * @return
 	 */
-	private boolean asynDelete(long roleId, long uid) {
+	private boolean asynDelete(long uid) {
 		return redisUtil.setPush(Keys.getUdateKey(table), uid) > 0;
 	}
 

@@ -15,7 +15,6 @@ import com.google.protobuf.GeneratedMessageLite;
 
 import game.core.net.action.IAction;
 import game.core.net.action.IActionAnnotation;
-import game.core.net.my.MyDispatcher;
 import io.netty.channel.Channel;
 
 /**
