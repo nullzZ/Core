@@ -1,0 +1,147 @@
+2016-11-04 14:38:46 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:38:46 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:38:46 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:43:24 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:43:24 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:43:24 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:52:15 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:52:16 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:52:16 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:54:27 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:81) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:54:27 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:54:28 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:55:42 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:55:42 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:55:43 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:58:02 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-11-04 14:58:02 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-11-04 14:58:02 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 14:59:06 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 14:59:06 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-11-04 14:59:18 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-11-04 15:07:13 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 15:07:13 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 15:07:30 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 15:07:30 [INFO ] game.core.cach.RedisManager (RedisManager.java:43) - [异步mysql存储]启动
+2016-11-04 15:21:35 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 15:21:36 [INFO ] game.core.cach.RedisManager (RedisManager.java:70) - [异步mysql存储]启动
+2016-11-04 16:40:15 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:40:48 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:40:55 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:45:11 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:46:22 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:54:01 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 16:54:22 [INFO ] game.core.cach.RedisManager (RedisManager.java:87) - [异步mysql存储]启动成功
+2016-11-04 17:04:50 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 17:04:50 [INFO ] game.core.cach.RedisManager (RedisManager.java:91) - [异步mysql存储]启动成功
+2016-11-04 17:04:59 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 17:05:00 [ERROR] game.core.cach.RedisManager (RedisManager.java:69) - [异步存储异常]key:asyn_update_Test|{"name":"test4","roleId":9999,"uid":1002}
+2016-11-04 17:06:04 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-04 18:24:52 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction

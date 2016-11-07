@@ -31,6 +31,8 @@
 			targetProject="Core/src/test/java">
 			<property name="enableSubPackages" value="true" />
 			<property name="trimStrings" value="true" />
+			<property name="rootClass" value="game.core.cach.AbsRecord" /><!-- 
+				注意这里一定要加入 -->
 		</javaModelGenerator>
 
 		<!-- XML映射文件 -->
@@ -46,8 +48,9 @@
 		</javaClientGenerator>
 
 
-		<table tableName="t_a" domainObjectName="OrderRecord">
-			<!-- useActualColumnNames属性是为了使生成的model字段与数据库的字段大小写不一致 -->
+		<!-- <table tableName="t_a" domainObjectName="OrderRecord"> <property name="useActualColumnNames" 
+			value="true" /> </table> -->
+		<table tableName="%">
 			<property name="useActualColumnNames" value="true" />
 		</table>
 

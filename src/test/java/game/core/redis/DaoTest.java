@@ -1,7 +1,5 @@
 package game.core.redis;
 
-import java.util.List;
-
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import game.core.dao.TestDao;
-import game.core.db.dto.OrderRecord;
+import game.core.db.dto.Order;
 
 /**
  * @author nullzZ
@@ -28,18 +26,28 @@ public class DaoTest {
 
 	@Test
 	public void test() {
-		OrderRecord r = new OrderRecord();
-		r.setUid(1004L);
-		r.setRoleId(9999L);
-		r.setName("test4");
-		testDao.insert(r);
+		for (int i = 0; i < 100; i++) {
+			Order r = new Order();
+			r.setUid((long) i);
+			r.setRoleId((long) i);
+			r.setName("test:" + i);
+			testDao.insert(r);
 
-		List<OrderRecord> list = testDao.selectAll(r.getRoleId());
-		for (OrderRecord or : list) {
-			System.out.println("1@@@uid:" + or.getUid() + "|name:" + or.getName() + "|roleId:" + or.getRoleId());
+			r.setName("test-u:" + i);
+			testDao.update(r);
+
+			testDao.delete(r);
 		}
-//		OrderRecord or2 = testDao.selectOne(9999L, 1000L);
-//		System.out.println("2@@@uid:" + or2.getUid() + "|name:" + or2.getName() + "|roleId:" + or2.getRoleId());
+
+		// List<OrderRecord> list = testDao.selectAll(r.getRoleId());
+		// for (OrderRecord or : list) {
+		// System.out.println("1@@@uid:" + or.getUid() + "|name:" + or.getName()
+		// + "|roleId:" + or.getRoleId());
+		// }
+
+		// OrderRecord or2 = testDao.selectOne(9999L, 1000L);
+		// System.out.println("2@@@uid:" + or2.getUid() + "|name:" +
+		// or2.getName() + "|roleId:" + or2.getRoleId());
 
 	}
 }

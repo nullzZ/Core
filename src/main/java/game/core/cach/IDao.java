@@ -11,15 +11,15 @@ public interface IDao<T> {
 
 	// public boolean insertH(long roleId, long uid, T t);
 
-	public boolean insertHEx(String primaryKey, long uid, T t);
-
-	public boolean updateH(String primaryKey, long uid, T t);
-
-	public boolean deleteH(String primaryKey, long uid);
-
-	public T selectOne(String primaryKey, long uid, Class<T> clazz);
-
-	public List<T> selectAll(String primaryKey, Class<T> clazz);
+//	public boolean insertHEx(String primaryKey, long uid, T t);
+//
+//	public boolean updateH(String primaryKey, long uid, T t);
+//
+//	public boolean deleteH(String primaryKey, T t);
+//
+//	public T selectOne(String primaryKey, long uid, Class<T> clazz);
+//
+//	public List<T> selectAll(String primaryKey, Class<T> clazz);
 
 	public T selectOneByDB(long uid);
 
@@ -28,4 +28,6 @@ public interface IDao<T> {
 	public int updateDB(T t);
 
 	public int insertDB(T t);
+
+	public int deleteDB(T t);
 }

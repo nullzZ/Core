@@ -1,6 +1,5 @@
 package game.core.cach;
 
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,7 +14,7 @@ import game.core.redis.RedisUtil;
  * @author nullzZ
  *
  */
-public abstract class AbsDao<T> implements IDao<T> {
+public abstract class AbsDao<T extends AbsRecord> implements IDao<T> {
 
 	private static final Logger logger = Logger.getLogger(AbsDao.class);
 
@@ -26,36 +25,41 @@ public abstract class AbsDao<T> implements IDao<T> {
 
 	private String table = this.getClass().getSimpleName().replace("Dao", "");
 
-	public boolean insertHEx(String primaryKey, long uid, T t) {
-		if (redisUtil.hContainsKey(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid))) {
+	protected boolean insertHEx(String primaryKey, T t) {
+		if (redisUtil.hContainsKey(Keys.getDataKey(table, primaryKey),
+				Keys.getDataFieldKey(table, primaryKey, t.getUid()))) {
+			logger.error("[insertHEx]:key重复");
 			return false;
 		}
+		this.asynInsertQ(t);
+		return redisUtil.hset(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, t.getUid()),
+				t, seconds);
+	}
+
+	protected boolean updateH(String primaryKey, T t) {
 		this.asynUpdateQ(t);
-		return redisUtil.hset(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid), t,
-				seconds);
+		return redisUtil.hset(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, t.getUid()),
+				t, seconds);
 	}
 
-	public boolean updateH(String primaryKey, long uid, T t) {
-		return this.insertHEx(primaryKey, uid, t);
+	protected boolean deleteH(String primaryKey, T t) {
+		this.asynDelete(t);
+		return redisUtil.hremove(Keys.getDataKey(table, primaryKey),
+				Keys.getDataFieldKey(table, primaryKey, t.getUid()));
 	}
 
-	public boolean deleteH(String primaryKey, long uid) {
-		this.asynDelete(uid);
-		return redisUtil.hremove(Keys.getDataKey(table, primaryKey), String.valueOf(uid));
-	}
-
-	public T selectOne(String primaryKey, long uid, Class<T> clazz) {
+	protected T selectOne(String primaryKey, long uid, Class<T> clazz) {
 		T t = redisUtil.hget(Keys.getDataKey(table, primaryKey), Keys.getDataFieldKey(table, primaryKey, uid), clazz);
 		if (t == null) {
 			t = this.selectOneByDB(uid);
 			if (t != null) {
-				this.insertHEx(primaryKey, uid, t);
+				this.insertHEx(primaryKey, t);
 			}
 		}
 		return t;
 	}
 
-	public List<T> selectAll(String primaryKey, Class<T> clazz) {
+	protected List<T> selectAll(String primaryKey, Class<T> clazz) {
 		List<T> list = redisUtil.hgetAll(Keys.getDataKey(table, primaryKey), clazz);
 		if (list == null) {
 			list = selectAllByDB(primaryKey);
@@ -63,9 +67,12 @@ public abstract class AbsDao<T> implements IDao<T> {
 				Map<String, T> values = new HashMap<>();
 				for (T vt : list) {
 					try {
-						Method method = vt.getClass().getDeclaredMethod("getUid");
-						long uid = (long) method.invoke(vt);
-						values.put(Keys.getDataFieldKey(table, primaryKey, uid), vt);
+						// Method method =
+						// vt.getClass().getDeclaredMethod("getUid");
+						// long uid = (long) method.invoke(vt);
+						// values.put(Keys.getDataFieldKey(table, primaryKey,
+						// uid), vt);
+						values.put(Keys.getDataFieldKey(table, primaryKey, vt.getUid()), vt);
 					} catch (Exception e) {
 						logger.error("selectAll", e);
 					}
@@ -84,6 +91,12 @@ public abstract class AbsDao<T> implements IDao<T> {
 	 * @return
 	 */
 	private boolean asynUpdateQ(T t) {
+		t.setFlag(CachFlag.UPDATE);
+		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
+	}
+
+	private boolean asynInsertQ(T t) {
+		t.setFlag(CachFlag.UPDATE);
 		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
 	}
 
@@ -94,8 +107,9 @@ public abstract class AbsDao<T> implements IDao<T> {
 	 * @param roleId
 	 * @return
 	 */
-	private boolean asynDelete(long uid) {
-		return redisUtil.setPush(Keys.getUdateKey(table), uid) > 0;
+	private boolean asynDelete(T t) {
+		t.setFlag(CachFlag.DELETE);
+		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
 	}
 
 }

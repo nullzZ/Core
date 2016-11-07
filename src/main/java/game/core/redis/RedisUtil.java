@@ -13,6 +13,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONException;
 
 /**
  * 
@@ -244,7 +245,7 @@ public class RedisUtil implements IRedisUtil {
 		try {
 			return redisTemplate.opsForList().rightPop(key);
 		} catch (Exception e) {
-			logger.error("listPush异常", e);
+			logger.error("listRPop异常", e);
 		}
 		return null;
 	}
@@ -276,7 +277,7 @@ public class RedisUtil implements IRedisUtil {
 			String v = JSON.toJSONString(value);
 			return this.setPush(key, v);
 		} catch (Exception e) {
-			logger.error("listPush异常", e);
+			logger.error("setPush异常", e);
 		}
 		return 0;
 	}
@@ -290,7 +291,7 @@ public class RedisUtil implements IRedisUtil {
 				return t;
 			}
 		} catch (Exception e) {
-			logger.error("listPush异常", e);
+			logger.error("setPop异常", e);
 		}
 		return null;
 	}

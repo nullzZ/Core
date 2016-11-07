@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
 
-import game.core.db.dao.OrderRecordMapper;
 import game.core.redis.RedisUtil;
 
 /**
@@ -29,8 +28,6 @@ public class RedisManager {
 	public Map<String, String> keyRecords = new HashMap<>();
 	@Resource
 	private RedisUtil redisUtil;
-	@Resource
-	private OrderRecordMapper orderRecordMapper;
 	@SuppressWarnings("rawtypes")
 	@Resource
 	private List<AbsDao> daos;
@@ -58,22 +55,31 @@ public class RedisManager {
 					for (String daoName : keys.keySet()) {
 						String k = Keys.getUdateKey(daoName);
 						AbsDao dao = keys.get(daoName);
-						Object or = null;
+						AbsRecord or = null;
 						try {
-							or = redisUtil.setPop(k, Class.forName(keyRecords.get(daoName)));
+							or = (AbsRecord) redisUtil.setPop(k, Class.forName(keyRecords.get(daoName)));
 							if (or != null && dao != null) {
-								if (dao.updateDB(or) <= 0) {
-									dao.insertDB(or);
+								if (or.getFlag() == CachFlag.DELETE) {
+									if (dao.deleteDB(or) <= 0) {
+										logger.error("[异步存储异常deleteDB]key:" + k + "|" + JSON.toJSONString(or));
+									}
+								} else if (or.getFlag() == CachFlag.UPDATE) {
+									if (dao.updateDB(or) <= 0) {
+										if (dao.insertDB(or) <= 0) {
+											logger.error("[异步存储异常insertDB]key:" + k + "|" + JSON.toJSONString(or));
+										}
+									}
+								} else {
+									logger.error("[异步存储异常updateDB]key:" + k + "|" + JSON.toJSONString(or));
 								}
-							} else {
-								logger.error("[异步存储异常]key:" + k + "|" + JSON.toJSONString(or));
 							}
+
 						} catch (Exception e) {
-							if (or == null) {
-								logger.error("[异步存储异常]key:" + k + "|" + JSON.toJSONString(or));
-							} else {
-								logger.error("[异步存储异常]key:" + k + "|" + JSON.toJSONString(or));
-							}
+							logger.error("[异步存储异常]key:" + k + "|" + JSON.toJSONString(or));
+							// if (or != null) {
+							// redisUtil.setPush(k, or);
+							// logger.error("[异步存储异常]key:" + k + "|重新放入队列中");
+							// }
 
 						}
 					}
