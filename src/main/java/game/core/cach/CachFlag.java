@@ -6,5 +6,5 @@ package game.core.cach;
  */
 public enum CachFlag {
 
-	UPDATE, DELETE
+	INSERT, UPDATE, DELETE
 }

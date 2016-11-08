@@ -7,7 +7,8 @@ package game.core.cach;
 public class AbsRecord {
 
 	protected Long uid;
-	protected CachFlag flag;
+	private CachFlag flag;
+	private String daoName;
 
 	public Long getUid() {
 		return uid;
@@ -23,6 +24,14 @@ public class AbsRecord {
 
 	public void setFlag(CachFlag flag) {
 		this.flag = flag;
+	}
+
+	public String getDaoName() {
+		return daoName;
+	}
+
+	public void setDaoName(String daoName) {
+		this.daoName = daoName;
 	}
 
 }

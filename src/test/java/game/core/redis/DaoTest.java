@@ -6,8 +6,10 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import game.core.dao.RoleDao;
 import game.core.dao.TestDao;
-import game.core.db.dto.Order;
+import game.core.db.dto.Orders;
+import game.core.db.dto.Role;
 
 /**
  * @author nullzZ
@@ -15,19 +17,20 @@ import game.core.db.dto.Order;
  */
 public class DaoTest {
 	TestDao testDao;
+	RoleDao roleDao;
 
 	@Before
 	public void init() {
 		PropertyConfigurator.configure("D:\\git\\Core\\src\\test\\resources\\log4j.xml");
 		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 		testDao = (TestDao) ac.getBean("testDao");
-
+		roleDao = (RoleDao) ac.getBean("roleDao");
 	}
 
 	@Test
 	public void test() {
-		for (int i = 0; i < 100; i++) {
-			Order r = new Order();
+		for (int i = 0; i < 10; i++) {
+			Orders r = new Orders();
 			r.setUid((long) i);
 			r.setRoleId((long) i);
 			r.setName("test:" + i);
@@ -36,7 +39,12 @@ public class DaoTest {
 			r.setName("test-u:" + i);
 			testDao.update(r);
 
-			testDao.delete(r);
+			// testDao.delete(r);
+
+			Role role = new Role();
+			role.setUid((long) i);
+
+			roleDao.insert(role);
 		}
 
 		// List<OrderRecord> list = testDao.selectAll(r.getRoleId());

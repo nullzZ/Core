@@ -10,11 +10,17 @@ public class Keys {
 	public static final String FIELD_KEY = "field";
 	public static final String UPDATE_KEY = "asyn_update";
 
-	public static String getUdateKey(String table) {
+	// public static String getUdateKey(String table) {
+	// StringBuilder key = new StringBuilder();
+	// key.append(Keys.UPDATE_KEY);
+	// key.append(Keys.SIGN);
+	// key.append(table);
+	// return key.toString();
+	// }
+
+	public static String getUdateKey() {
 		StringBuilder key = new StringBuilder();
 		key.append(Keys.UPDATE_KEY);
-		key.append(Keys.SIGN);
-		key.append(table);
 		return key.toString();
 	}
 

@@ -13,7 +13,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONException;
 
 /**
  * 
@@ -259,6 +258,17 @@ public class RedisUtil implements IRedisUtil {
 			logger.error("listPush异常", e);
 		}
 		return 0;
+	}
+
+	@Override
+	public <T> T listRPop(String key, Class<T> clazz) {
+		try {
+			String v = redisTemplate.opsForList().rightPop(key);
+			return JSON.parseObject(v, clazz);
+		} catch (Exception e) {
+			logger.error("listRPop异常", e);
+		}
+		return null;
 	}
 
 	@Override

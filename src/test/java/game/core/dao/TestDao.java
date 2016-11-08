@@ -7,70 +7,70 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 import game.core.cach.AbsDao;
-import game.core.db.dao.OrderMapper;
-import game.core.db.dto.Order;
-import game.core.db.dto.OrderExample;
+import game.core.db.dao.OrdersMapper;
+import game.core.db.dto.Orders;
+import game.core.db.dto.OrdersExample;
 
 /**
  * @author nullzZ
  *
  */
 @Service
-public class TestDao extends AbsDao<Order> implements ITestDao {
+public class TestDao extends AbsDao<Orders> implements ITestDao {
 
 	@Resource
-	private OrderMapper orderMapper;
+	private OrdersMapper ordersMapper;
 
 	@Override
-	public boolean insert(Order t) {
+	public boolean insert(Orders t) {
 		return super.insertHEx(String.valueOf(t.getRoleId()), t);
 	}
 
 	@Override
-	public boolean update(Order t) {
+	public boolean update(Orders t) {
 		return super.updateH(String.valueOf(t.getRoleId()), t);
 	}
 
 	@Override
-	public boolean delete(Order t) {
+	public boolean delete(Orders t) {
 		return super.deleteH(String.valueOf(t.getRoleId()), t);
 	}
 
 	@Override
-	public List<Order> selectAll(long roleId) {
-		return super.selectAll(String.valueOf(roleId), Order.class);
+	public List<Orders> selectAll(long roleId) {
+		return super.selectAll(String.valueOf(roleId), Orders.class);
 	}
 
 	@Override
-	public Order selectOne(long roleId, long uid) {
-		return super.selectOne(String.valueOf(roleId), uid, Order.class);
+	public Orders selectOne(long roleId, long uid) {
+		return super.selectOne(String.valueOf(roleId), uid, Orders.class);
 	}
 
 	@Override
-	public Order selectOneByDB(long uid) {
-		return orderMapper.selectByPrimaryKey(uid);
+	public Orders selectOneByDB(long uid) {
+		return ordersMapper.selectByPrimaryKey(uid);
 	}
 
 	@Override
-	public List<Order> selectAllByDB(String roleId) {
-		OrderExample ex = new OrderExample();
+	public List<Orders> selectAllByDB(String roleId) {
+		OrdersExample ex = new OrdersExample();
 		ex.createCriteria().andRoleIdEqualTo(Long.parseLong(roleId));
-		return orderMapper.selectByExample(ex);
+		return ordersMapper.selectByExample(ex);
 	}
 
 	@Override
-	public int updateDB(Order t) {
-		return orderMapper.updateByPrimaryKey(t);
+	public int updateDB(Orders t) {
+		return ordersMapper.updateByPrimaryKey(t);
 	}
 
 	@Override
-	public int insertDB(Order t) {
-		return orderMapper.insertSelective(t);
+	public int insertDB(Orders t) {
+		return ordersMapper.insertSelective(t);
 	}
 
 	@Override
-	public int deleteDB(Order t) {
-		return orderMapper.deleteByPrimaryKey(t.getUid());
+	public int deleteDB(Orders t) {
+		return ordersMapper.deleteByPrimaryKey(t.getUid());
 	}
 
 }

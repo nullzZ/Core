@@ -161,6 +161,8 @@ public interface IRedisUtil {
 
 	public String listRPop(String key);
 
+	public <T> T listRPop(String key, Class<T> clazz);
+
 	public <T> long listLPush(String key, T value);
 
 	public long setPush(String key, String value);

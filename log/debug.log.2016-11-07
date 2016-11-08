@@ -1,0 +1,598 @@
+2016-11-07 15:05:07 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:05:32 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:05:32 [INFO ] game.core.cach.RedisManager (RedisManager.java:94) - [异步mysql存储]启动成功
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:33 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:34 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:35 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:36 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:37 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:38 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:39 [ERROR] game.core.cach.RedisManager (RedisManager.java:73) - [异步存储异常]or==null|key:asyn_update_Test|null
+2016-11-07 15:05:56 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:05:56 [INFO ] game.core.cach.RedisManager (RedisManager.java:94) - [异步mysql存储]启动成功
+2016-11-07 15:06:53 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:07:33 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:07:33 [INFO ] game.core.cach.RedisManager (RedisManager.java:93) - [异步mysql存储]启动成功
+2016-11-07 15:07:33 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:293) - listPush异常
+com.alibaba.fastjson.JSONException: syntax error, expect {, actual int, pos 0
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:343)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:822)
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_OrderRecord.deserialze(Unknown Source)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:185)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:621)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:339)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:243)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:456)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:289)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+2016-11-07 15:41:20 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:42:33 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:42:54 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:42:54 [INFO ] game.core.cach.RedisManager (RedisManager.java:93) - [异步mysql存储]启动成功
+2016-11-07 15:43:29 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:44:21 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:44:53 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:45:02 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:45:03 [INFO ] game.core.cach.RedisManager (RedisManager.java:93) - [异步mysql存储]启动成功
+2016-11-07 15:45:50 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:46:49 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:47:05 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:47:54 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:48:09 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:48:09 [INFO ] game.core.cach.RedisManager (RedisManager.java:93) - [异步mysql存储]启动成功
+2016-11-07 15:54:47 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:55:13 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 15:55:13 [INFO ] game.core.cach.RedisManager (RedisManager.java:93) - [异步mysql存储]启动成功
+2016-11-07 16:31:14 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:34:50 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:34:50 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 16:34:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:71) - [异步存储异常insertDB]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:35:07 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:35:31 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:35:31 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 16:35:32 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:18 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:18 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:20 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:21 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:37:21 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:37:29 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:33 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:37 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:41 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:45 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:49 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:294) - setPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.pop(DefaultSetOperations.java:201)
+	at game.core.redis.RedisUtil.setPop(RedisUtil.java:288)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:63)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+2016-11-07 16:37:59 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:38:03 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:197) - hContainsKey异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:63)
+	at game.core.redis.RedisUtil.hContainsKey(RedisUtil.java:195)
+	at game.core.cach.AbsDao.insertHEx(AbsDao.java:29)
+	at game.core.dao.TestDao.insert(TestDao.java:25)
+	at game.core.redis.DaoTest.test(DaoTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 36 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 39 more
+2016-11-07 16:38:07 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:269) - listPush异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultSetOperations.add(DefaultSetOperations.java:43)
+	at game.core.redis.RedisUtil.setPush(RedisUtil.java:267)
+	at game.core.redis.RedisUtil.setPush(RedisUtil.java:278)
+	at game.core.cach.AbsDao.asynInsertQ(AbsDao.java:103)
+	at game.core.cach.AbsDao.insertHEx(AbsDao.java:33)
+	at game.core.dao.TestDao.insert(TestDao.java:25)
+	at game.core.redis.DaoTest.test(DaoTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: redis.clients.jedis.exceptions.JedisException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:51)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 38 more
+Caused by: java.util.NoSuchElementException: Unable to validate object
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:506)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 41 more
+2016-11-07 16:38:26 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:38:27 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:28 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:38:30 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:38:30 [ERROR] game.core.cach.RedisManager (RedisManager.java:84) - [异步存储异常]key:asyn_update_Test|重新放入队列中
+2016-11-07 16:39:18 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:39:19 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 16:39:19 [ERROR] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储异常]key:asyn_update_Test|{"flag":"INSERT","name":"test7","roleId":9999,"uid":1005}
+2016-11-07 16:51:47 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:52:04 [ERROR] game.core.cach.AbsDao (AbsDao.java:42) - [updateH]:key重复
+2016-11-07 16:53:46 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:53:46 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 16:53:55 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 16:58:17 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:00:13 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:00:48 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:00:48 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 17:00:49 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:35","roleId":35,"uid":35}
+2016-11-07 17:00:49 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:79","roleId":79,"uid":79}
+2016-11-07 17:00:49 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:2","roleId":2,"uid":2}
+2016-11-07 17:00:49 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:72","roleId":72,"uid":72}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:76","roleId":76,"uid":76}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:88","roleId":88,"uid":88}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:51","roleId":51,"uid":51}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:4","roleId":4,"uid":4}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:97","roleId":97,"uid":97}
+2016-11-07 17:00:50 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:15","roleId":15,"uid":15}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:40","roleId":40,"uid":40}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:92","roleId":92,"uid":92}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:57","roleId":57,"uid":57}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:30","roleId":30,"uid":30}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:98","roleId":98,"uid":98}
+2016-11-07 17:00:51 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:17","roleId":17,"uid":17}
+2016-11-07 17:00:52 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:30","roleId":30,"uid":30}
+2016-11-07 17:00:52 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:6","roleId":6,"uid":6}
+2016-11-07 17:00:52 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:43","roleId":43,"uid":43}
+2016-11-07 17:00:52 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:29","roleId":29,"uid":29}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:68","roleId":68,"uid":68}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:52","roleId":52,"uid":52}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:20","roleId":20,"uid":20}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:20","roleId":20,"uid":20}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:80","roleId":80,"uid":80}
+2016-11-07 17:00:53 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:99","roleId":99,"uid":99}
+2016-11-07 17:00:54 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:49","roleId":49,"uid":49}
+2016-11-07 17:00:54 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:94","roleId":94,"uid":94}
+2016-11-07 17:00:54 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:57","roleId":57,"uid":57}
+2016-11-07 17:00:55 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:80","roleId":80,"uid":80}
+2016-11-07 17:00:56 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:13","roleId":13,"uid":13}
+2016-11-07 17:00:56 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:44","roleId":44,"uid":44}
+2016-11-07 17:00:56 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:82","roleId":82,"uid":82}
+2016-11-07 17:00:56 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:71","roleId":71,"uid":71}
+2016-11-07 17:00:56 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:54","roleId":54,"uid":54}
+2016-11-07 17:00:57 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:74","roleId":74,"uid":74}
+2016-11-07 17:00:57 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:24","roleId":24,"uid":24}
+2016-11-07 17:00:57 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:62","roleId":62,"uid":62}
+2016-11-07 17:00:57 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:47","roleId":47,"uid":47}
+2016-11-07 17:00:57 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:67","roleId":67,"uid":67}
+2016-11-07 17:00:58 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:76","roleId":76,"uid":76}
+2016-11-07 17:00:58 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:93","roleId":93,"uid":93}
+2016-11-07 17:00:58 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:21","roleId":21,"uid":21}
+2016-11-07 17:00:58 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:95","roleId":95,"uid":95}
+2016-11-07 17:00:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:66","roleId":66,"uid":66}
+2016-11-07 17:00:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:51","roleId":51,"uid":51}
+2016-11-07 17:00:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:85","roleId":85,"uid":85}
+2016-11-07 17:00:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:90","roleId":90,"uid":90}
+2016-11-07 17:00:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:75","roleId":75,"uid":75}
+2016-11-07 17:01:01 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:93","roleId":93,"uid":93}
+2016-11-07 17:01:01 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:45","roleId":45,"uid":45}
+2016-11-07 17:01:01 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:91","roleId":91,"uid":91}
+2016-11-07 17:01:01 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:38","roleId":38,"uid":38}
+2016-11-07 17:01:02 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:47","roleId":47,"uid":47}
+2016-11-07 17:01:02 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:97","roleId":97,"uid":97}
+2016-11-07 17:01:02 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:50","roleId":50,"uid":50}
+2016-11-07 17:01:02 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:32","roleId":32,"uid":32}
+2016-11-07 17:01:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:64","roleId":64,"uid":64}
+2016-11-07 17:01:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:66","roleId":66,"uid":66}
+2016-11-07 17:01:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:40","roleId":40,"uid":40}
+2016-11-07 17:01:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:31","roleId":31,"uid":31}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:42","roleId":42,"uid":42}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:68","roleId":68,"uid":68}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:44","roleId":44,"uid":44}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:6","roleId":6,"uid":6}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:62","roleId":62,"uid":62}
+2016-11-07 17:01:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:96","roleId":96,"uid":96}
+2016-11-07 17:01:05 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:55","roleId":55,"uid":55}
+2016-11-07 17:01:05 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:33","roleId":33,"uid":33}
+2016-11-07 17:01:06 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:12","roleId":12,"uid":12}
+2016-11-07 17:01:06 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:33","roleId":33,"uid":33}
+2016-11-07 17:01:06 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:28","roleId":28,"uid":28}
+2016-11-07 17:01:07 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:41","roleId":41,"uid":41}
+2016-11-07 17:01:08 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:24","roleId":24,"uid":24}
+2016-11-07 17:01:08 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:83","roleId":83,"uid":83}
+2016-11-07 17:01:08 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:70","roleId":70,"uid":70}
+2016-11-07 17:01:09 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:34","roleId":34,"uid":34}
+2016-11-07 17:01:09 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:48","roleId":48,"uid":48}
+2016-11-07 17:01:10 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:22","roleId":22,"uid":22}
+2016-11-07 17:01:10 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:86","roleId":86,"uid":86}
+2016-11-07 17:01:12 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:22","roleId":22,"uid":22}
+2016-11-07 17:01:13 [ERROR] game.core.cach.RedisManager (RedisManager.java:75) - [异步存储异常updateDB]key:asyn_update_Test|{"flag":"UPDATE","name":"test-u:87","roleId":87,"uid":87}
+2016-11-07 17:03:13 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:03:13 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 17:03:19 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:03:21 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:63","roleId":63,"uid":63}
+2016-11-07 17:03:21 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:23","roleId":23,"uid":23}
+2016-11-07 17:03:22 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:59","roleId":59,"uid":59}
+2016-11-07 17:03:22 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:29","roleId":29,"uid":29}
+2016-11-07 17:03:23 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:97","roleId":97,"uid":97}
+2016-11-07 17:03:23 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:49","roleId":49,"uid":49}
+2016-11-07 17:03:24 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:28","roleId":28,"uid":28}
+2016-11-07 17:03:24 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:82","roleId":82,"uid":82}
+2016-11-07 17:03:27 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:99","roleId":99,"uid":99}
+2016-11-07 17:03:29 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:34","roleId":34,"uid":34}
+2016-11-07 17:03:31 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:24","roleId":24,"uid":24}
+2016-11-07 17:03:55 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:03:55 [INFO ] game.core.cach.RedisManager (RedisManager.java:99) - [异步mysql存储]启动成功
+2016-11-07 17:03:58 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-07 17:03:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:27","roleId":27,"uid":27}
+2016-11-07 17:03:59 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:86","roleId":86,"uid":86}
+2016-11-07 17:04:00 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:50","roleId":50,"uid":50}
+2016-11-07 17:04:00 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:44","roleId":44,"uid":44}
+2016-11-07 17:04:00 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:32","roleId":32,"uid":32}
+2016-11-07 17:04:00 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:85","roleId":85,"uid":85}
+2016-11-07 17:04:01 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:91","roleId":91,"uid":91}
+2016-11-07 17:04:02 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:59","roleId":59,"uid":59}
+2016-11-07 17:04:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:18","roleId":18,"uid":18}
+2016-11-07 17:04:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:29","roleId":29,"uid":29}
+2016-11-07 17:04:03 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:83","roleId":83,"uid":83}
+2016-11-07 17:04:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:82","roleId":82,"uid":82}
+2016-11-07 17:04:04 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:48","roleId":48,"uid":48}
+2016-11-07 17:04:05 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:99","roleId":99,"uid":99}
+2016-11-07 17:04:06 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:7","roleId":7,"uid":7}
+2016-11-07 17:04:07 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:76","roleId":76,"uid":76}
+2016-11-07 17:04:07 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:98","roleId":98,"uid":98}
+2016-11-07 17:04:07 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:71","roleId":71,"uid":71}
+2016-11-07 17:04:08 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:89","roleId":89,"uid":89}
+2016-11-07 17:04:09 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:37","roleId":37,"uid":37}
+2016-11-07 17:04:09 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:23","roleId":23,"uid":23}
+2016-11-07 17:04:09 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:84","roleId":84,"uid":84}
+2016-11-07 17:04:10 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:4","roleId":4,"uid":4}
+2016-11-07 17:04:10 [ERROR] game.core.cach.RedisManager (RedisManager.java:67) - [异步存储异常deleteDB]key:asyn_update_Test|{"flag":"DELETE","name":"test-u:19","roleId":19,"uid":19}

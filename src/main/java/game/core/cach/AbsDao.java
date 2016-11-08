@@ -74,7 +74,7 @@ public abstract class AbsDao<T extends AbsRecord> implements IDao<T> {
 						// uid), vt);
 						values.put(Keys.getDataFieldKey(table, primaryKey, vt.getUid()), vt);
 					} catch (Exception e) {
-						logger.error("selectAll", e);
+						logger.error("[selectAll]", e);
 					}
 				}
 				redisUtil.hsetAll(Keys.getDataKey(table, primaryKey), values, seconds);
@@ -91,25 +91,26 @@ public abstract class AbsDao<T extends AbsRecord> implements IDao<T> {
 	 * @return
 	 */
 	private boolean asynUpdateQ(T t) {
-		t.setFlag(CachFlag.UPDATE);
-		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
+		setFlag(t, CachFlag.UPDATE);
+		// return redisUtil.setPush(Keys.getUdateKey(), t) > 0;
+		return redisUtil.listLPush(Keys.getUdateKey(), t) > 0;
 	}
 
 	private boolean asynInsertQ(T t) {
-		t.setFlag(CachFlag.UPDATE);
-		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
+		setFlag(t, CachFlag.INSERT);
+		// return redisUtil.setPush(Keys.getUdateKey(), t) > 0;
+		return redisUtil.listLPush(Keys.getUdateKey(), t) > 0;
 	}
 
-	/**
-	 * 如果没有数据就是删除,删除时一定要验证一下redis set里是否删除了
-	 * 
-	 * @param table
-	 * @param roleId
-	 * @return
-	 */
 	private boolean asynDelete(T t) {
-		t.setFlag(CachFlag.DELETE);
-		return redisUtil.setPush(Keys.getUdateKey(table), t) > 0;
+		setFlag(t, CachFlag.DELETE);
+		// return redisUtil.setPush(Keys.getUdateKey(), t) > 0;
+		return redisUtil.listLPush(Keys.getUdateKey(), t) > 0;
+	}
+
+	private void setFlag(T t, CachFlag cachFlag) {
+		t.setFlag(cachFlag);
+		t.setDaoName(t.getClass().getSimpleName());
 	}
 
 }
