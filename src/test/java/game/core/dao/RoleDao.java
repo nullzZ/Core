@@ -24,7 +24,7 @@ public class RoleDao extends AbsDao<Role> {
 	}
 
 	@Override
-	public Role selectOneByDB(long uid) {
+	public Role selectOneByDB(String uid) {
 		// TODO Auto-generated method stub
 		return null;
 	}

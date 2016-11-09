@@ -36,8 +36,6 @@ public class RedisManager {
 	@SuppressWarnings("rawtypes")
 	private void init() {
 		for (AbsDao ad : daos) {
-			// String name = ad.getClass().getSimpleName().replace("Dao", "");
-			// String name = ad.getClass().getSimpleName();
 			Type genType = ad.getClass().getGenericSuperclass();
 			Type[] params = ((ParameterizedType) genType).getActualTypeArguments();
 			Class<?> entityClass = (Class) params[0];
@@ -58,7 +56,7 @@ public class RedisManager {
 					String k = Keys.getUdateKey();
 					AbsRecord or = null;
 					try {
-						String ret = redisUtil.listRPop(k);
+						String ret = redisUtil.listBRPop(k);
 						if (ret != null) {
 							JSONObject obj = JSON.parseObject(ret);
 							String daoName = obj.getString("daoName");
@@ -80,7 +78,7 @@ public class RedisManager {
 											logger.error("[异步存储异常updateDB]key:" + k + "|" + JSON.toJSONString(or));
 										}
 									}
-									logger.debug("[异步存储]time：" + (System.nanoTime() - now) * 0.000001f + "ns");
+									logger.debug("[异步存储]time：" + (System.nanoTime() - now) * 0.000001f + "ms");
 								}
 							} else {
 								logger.error("[异步存储异常]daoName==null|key:" + k + "|" + JSON.toJSONString(or));
@@ -102,7 +100,7 @@ public class RedisManager {
 				}
 
 			}
-		}).start();
+		}, "RedisManager-Thread").start();
 
 		logger.info("[异步mysql存储]启动成功");
 	}

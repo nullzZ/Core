@@ -28,7 +28,7 @@ public class TestDao extends AbsDao<Orders> implements ITestDao {
 
 	@Override
 	public boolean update(Orders t) {
-		return super.updateH(String.valueOf(t.getRoleId()), t);
+		return super.updateHEx(String.valueOf(t.getRoleId()), t);
 	}
 
 	@Override
@@ -42,13 +42,13 @@ public class TestDao extends AbsDao<Orders> implements ITestDao {
 	}
 
 	@Override
-	public Orders selectOne(long roleId, long uid) {
-		return super.selectOne(String.valueOf(roleId), uid, Orders.class);
+	public Orders selectOne(long roleId) {
+		return super.selectOne(String.valueOf(roleId), Orders.class);
 	}
 
 	@Override
-	public Orders selectOneByDB(long uid) {
-		return ordersMapper.selectByPrimaryKey(uid);
+	public Orders selectOneByDB(String roleId) {
+		return ordersMapper.selectByPrimaryKey(Long.parseLong(roleId));
 	}
 
 	@Override

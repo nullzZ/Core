@@ -29,11 +29,16 @@ public class DaoTest {
 
 	@Test
 	public void test() {
-		for (int i = 0; i < 10; i++) {
+
+		for (int i = 0; i < 1; i++) {
+
 			Orders r = new Orders();
 			r.setUid((long) i);
 			r.setRoleId((long) i);
 			r.setName("test:" + i);
+
+			// testDao.selectAll(r.getRoleId());
+
 			testDao.insert(r);
 
 			r.setName("test-u:" + i);
@@ -44,7 +49,7 @@ public class DaoTest {
 			Role role = new Role();
 			role.setUid((long) i);
 
-			roleDao.insert(role);
+			// roleDao.insert(role);
 		}
 
 		// List<OrderRecord> list = testDao.selectAll(r.getRoleId());

@@ -6,6 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 import game.core.cach.RedisManager;
+import game.core.dao.TestDao;
+import game.core.db.dto.Orders;
 
 /**
  * Hello world!
@@ -30,6 +32,16 @@ public class App {
 			ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 			RedisManager redisManager = (RedisManager) ac.getBean("redisManager");
 			redisManager.start();
+
+			for (int i = 0; i < 10; i++) {
+				Orders r = new Orders();
+				r.setUid((long) i);
+				r.setRoleId((long) i);
+				r.setName("test:" + i);
+				TestDao testDao = (TestDao) ac.getBean("testDao");
+				testDao.update(r);
+			}
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

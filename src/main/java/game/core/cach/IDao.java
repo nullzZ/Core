@@ -9,19 +9,7 @@ import java.util.List;
  */
 public interface IDao<T> {
 
-	// public boolean insertH(long roleId, long uid, T t);
-
-//	public boolean insertHEx(String primaryKey, long uid, T t);
-//
-//	public boolean updateH(String primaryKey, long uid, T t);
-//
-//	public boolean deleteH(String primaryKey, T t);
-//
-//	public T selectOne(String primaryKey, long uid, Class<T> clazz);
-//
-//	public List<T> selectAll(String primaryKey, Class<T> clazz);
-
-	public T selectOneByDB(long uid);
+	public T selectOneByDB(String primaryKey);
 
 	public List<T> selectAllByDB(String primaryKey);
 

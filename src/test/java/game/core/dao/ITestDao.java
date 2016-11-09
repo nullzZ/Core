@@ -17,5 +17,5 @@ public interface ITestDao {
 
 	public List<Orders> selectAll(long roleId);
 
-	public Orders selectOne(long roleId, long uid);
+	public Orders selectOne(long roleId);
 }

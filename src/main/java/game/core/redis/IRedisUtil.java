@@ -159,7 +159,13 @@ public interface IRedisUtil {
 
 	public long listLPush(String key, String value);
 
-	public String listRPop(String key);
+	/**
+	 * 阻塞listpop
+	 * 
+	 * @param key
+	 * @return
+	 */
+	public String listBRPop(String key);
 
 	public <T> T listRPop(String key, Class<T> clazz);
 

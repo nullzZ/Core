@@ -240,9 +240,9 @@ public class RedisUtil implements IRedisUtil {
 	}
 
 	@Override
-	public String listRPop(String key) {
+	public String listBRPop(String key) {
 		try {
-			return redisTemplate.opsForList().rightPop(key);
+			return redisTemplate.opsForList().rightPop(key, 300, TimeUnit.SECONDS);
 		} catch (Exception e) {
 			logger.error("listRPop异常", e);
 		}
@@ -269,6 +269,10 @@ public class RedisUtil implements IRedisUtil {
 			logger.error("listRPop异常", e);
 		}
 		return null;
+	}
+
+	public Long listSize(String key) {
+		return redisTemplate.opsForList().size(key);
 	}
 
 	@Override
