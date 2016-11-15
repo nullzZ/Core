@@ -22,23 +22,16 @@
 	<!-- 使用spring的会话管理 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="c3p0DataSource" />
+		<property name="configLocation" value="classpath:mybatis_config.xml" />
 		<property name="mapperLocations" value="classpath:mapping/*.xml" />
+	</bean>
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="game.core.db.dao" />
 	</bean>
 
 	<!-- 使用spring的事务管理 -->
 	<!-- <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> 
 		<property name="dataSource" ref="c3p0DataSource"></property> </bean> -->
-
-	<!-- mapper bean -->
-
-	<bean id="ordersMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="game.core.db.dao.OrdersMapper" />
-		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
-	</bean>
-
-	<bean id="roleMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="game.core.db.dao.RoleMapper" />
-		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
-	</bean>
 
 </beans>
