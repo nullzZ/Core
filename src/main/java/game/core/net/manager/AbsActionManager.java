@@ -42,6 +42,7 @@ public abstract class AbsActionManager implements IActionManager {
 				int cmd = checkAnnotation(ac);
 				checkAction(cmd, ac);
 			} catch (Exception e) {
+				logger.error("异常",e);
 				System.exit(0);
 			}
 		}

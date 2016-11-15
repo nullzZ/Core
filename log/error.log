@@ -1,4 +1,4 @@
-2016-11-14 14:05:13 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:186) - containsKey异常
+2016-11-15 12:13:45 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:186) - containsKey异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -39,7 +39,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 21 more
-2016-11-14 14:05:13 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+2016-11-15 12:13:45 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -80,7 +80,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 21 more
-2016-11-14 14:05:14 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+2016-11-15 12:13:46 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -121,7 +121,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 21 more
-2016-11-14 14:05:15 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:105) - hset异常
+2016-11-15 12:13:47 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:105) - hset异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -164,7 +164,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 23 more
-2016-11-14 14:05:15 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+2016-11-15 12:13:47 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -205,7 +205,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 21 more
-2016-11-14 14:05:16 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:196) - hContainsKey异常
+2016-11-15 12:13:48 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:196) - hContainsKey异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -247,8 +247,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 22 more
-2016-11-14 14:05:16 [ERROR] game.core.cach.AbsDao (AbsDao.java:50) - [updateH]:key不存在
-2016-11-14 14:05:16 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+2016-11-15 12:13:48 [ERROR] game.core.cach.AbsDao (AbsDao.java:50) - [updateH]:key不存在
+2016-11-15 12:13:48 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
@@ -289,4 +289,44 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:579)
 	at redis.clients.jedis.Connection.connect(Connection.java:158)
 	... 21 more
-2016-11-14 14:06:28 [ERROR] game.core.cach.AbsDao (AbsDao.java:35) - [insertHEx]:key重复
+2016-11-15 12:13:49 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:186) - containsKey异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:638)
+	at game.core.redis.RedisUtil.containsKey(RedisUtil.java:184)
+	at game.core.cach.AbsDao.updateHEx(AbsDao.java:45)
+	at game.core.dao.TestDao.update(TestDao.java:31)
+	at game.core.App.main(App.java:42)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more

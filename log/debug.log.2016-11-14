@@ -1,0 +1,474 @@
+2016-11-14 14:05:12 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-14 14:05:12 [INFO ] game.core.cach.RedisManager (RedisManager.java:105) - [异步mysql存储]启动成功
+2016-11-14 14:05:13 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:186) - containsKey异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:638)
+	at game.core.redis.RedisUtil.containsKey(RedisUtil.java:184)
+	at game.core.cach.AbsDao.updateHEx(AbsDao.java:45)
+	at game.core.dao.TestDao.update(TestDao.java:31)
+	at game.core.App.main(App.java:42)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more
+2016-11-14 14:05:13 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultListOperations.rightPop(DefaultListOperations.java:172)
+	at game.core.redis.RedisUtil.listBRPop(RedisUtil.java:245)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:59)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more
+2016-11-14 14:05:14 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultListOperations.rightPop(DefaultListOperations.java:172)
+	at game.core.redis.RedisUtil.listBRPop(RedisUtil.java:245)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:59)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more
+2016-11-14 14:05:15 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:105) - hset异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:132)
+	at game.core.redis.RedisUtil.hsetAll(RedisUtil.java:101)
+	at game.core.cach.AbsDao.selectAllDBAndSet(AbsDao.java:110)
+	at game.core.cach.AbsDao.updateHEx(AbsDao.java:46)
+	at game.core.dao.TestDao.update(TestDao.java:31)
+	at game.core.App.main(App.java:42)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 13 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 16 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 23 more
+2016-11-14 14:05:15 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultListOperations.rightPop(DefaultListOperations.java:172)
+	at game.core.redis.RedisUtil.listBRPop(RedisUtil.java:245)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:59)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more
+2016-11-14 14:05:16 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:196) - hContainsKey异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:63)
+	at game.core.redis.RedisUtil.hContainsKey(RedisUtil.java:194)
+	at game.core.cach.AbsDao.updateHEx(AbsDao.java:48)
+	at game.core.dao.TestDao.update(TestDao.java:31)
+	at game.core.App.main(App.java:42)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 12 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 22 more
+2016-11-14 14:05:16 [ERROR] game.core.cach.AbsDao (AbsDao.java:50) - [updateH]:key不存在
+2016-11-14 14:05:16 [ERROR] game.core.redis.RedisUtil (RedisUtil.java:247) - listRPop异常
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:198)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:345)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:166)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:88)
+	at org.springframework.data.redis.core.DefaultListOperations.rightPop(DefaultListOperations.java:172)
+	at game.core.redis.RedisUtil.listBRPop(RedisUtil.java:245)
+	at game.core.cach.RedisManager$1.run(RedisManager.java:59)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:191)
+	... 11 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:80)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1677)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:87)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 21 more
+2016-11-14 14:05:33 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-14 14:05:33 [INFO ] game.core.cach.RedisManager (RedisManager.java:105) - [异步mysql存储]启动成功
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：101.35272ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：78.30886ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：61.06275ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：47.49104ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：67.551895ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：68.04517ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：46.104507ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：85.0459ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：59.035828ms
+2016-11-14 14:05:34 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：48.230022ms
+2016-11-14 14:06:28 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-14 14:06:28 [ERROR] game.core.cach.AbsDao (AbsDao.java:35) - [insertHEx]:key重复
+2016-11-14 14:06:28 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：121.7613ms
+2016-11-14 14:06:44 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-14 14:06:44 [INFO ] game.core.cach.RedisManager (RedisManager.java:105) - [异步mysql存储]启动成功
+2016-11-14 14:06:44 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：304.37262ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：121.93236ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：29.59676ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：26.159044ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：29.783682ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：26.908915ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：29.139868ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：193.5891ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：111.77099ms
+2016-11-14 14:06:45 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：101.359566ms
+2016-11-14 14:14:06 [DEBUG] org.apache.ibatis.logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-11-14 14:14:07 [INFO ] game.core.net.manager.AbsActionManager (AbsActionManager.java:80) - [加载action注解]cmd:1--game.core.action.TestAction
+2016-11-14 14:14:07 [INFO ] game.core.cach.RedisManager (RedisManager.java:105) - [异步mysql存储]启动成功
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb445c4] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@701fa10f] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 0(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fb445c4]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@631b9f8f] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6dbaef62] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 1(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@631b9f8f]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dd5303] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@21b4a7d9] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 0(Long), test:0(String), 0(Long)
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cf92ef9] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@497f9c54] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 2(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cf92ef9]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe8546] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7a5e84c3] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 3(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe8546]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31a264bb] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6f8c90fd] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 4(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31a264bb]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f11cedd] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2dab98b9] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 5(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f11cedd]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45bcd6f0] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@25450aa2] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 6(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45bcd6f0]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1985828e] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4c537af6] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 7(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1985828e]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420abb1b] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3bc02228] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 8(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420abb1b]
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cb62114] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@59a80c6a] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==>  Preparing: select uid, roleId, name from orders WHERE ( roleId = ? ) 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - ==> Parameters: 9(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.selectByExample (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cb62114]
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dd5303]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：124.66064ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9c89957] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@489983f3] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 1(Long), test:1(String), 1(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9c89957]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：26.22809ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157a49a3] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2de37bfe] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 2(Long), test:2(String), 2(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157a49a3]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：29.047184ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b4f62a8] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@646de7e3] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 3(Long), test:3(String), 3(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b4f62a8]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：26.656054ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66a3e2e0] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@766f9a7e] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 4(Long), test:4(String), 4(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66a3e2e0]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：29.16506ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f557bf] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@11a2bfe6] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 5(Long), test:5(String), 5(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f557bf]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：27.480883ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e31981] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6512e5a6] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 6(Long), test:6(String), 6(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41e31981]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：28.713148ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2096fb9f] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2e585191] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 7(Long), test:7(String), 7(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2096fb9f]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：26.4231ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5916c00a] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3a01007a] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 8(Long), test:8(String), 8(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5916c00a]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：28.938948ms
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:99) - Creating a new SqlSession
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@250c4b29] was not registered for synchronization because synchronization is not active
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.transaction.SpringManagedTransaction (SpringManagedTransaction.java:89) - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@12bf969b] will not be managed by Spring
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==>  Preparing: update orders set roleId = ?, name = ? where uid = ? 
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - ==> Parameters: 9(Long), test:9(String), 9(Long)
+2016-11-14 14:14:07 [DEBUG] game.core.db.dao.OrdersMapper.updateByPrimaryKey (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-11-14 14:14:07 [DEBUG] org.mybatis.spring.SqlSessionUtils (SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@250c4b29]
+2016-11-14 14:14:07 [DEBUG] game.core.cach.RedisManager (RedisManager.java:81) - [异步存储]time：25.425966ms
+2016-11-14 15:24:52 [INFO ] game.core.hotLoader.ScriptManager (ScriptManager.java:40) - 脚本加载需要类路径：/D:/git/Core/target/test-classes/;/D:/git/Core/target/classes/;/C:/Users/lijing/.m2/repository/junit/junit/4.12/junit-4.12.jar;/C:/Users/lijing/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;/C:/Users/lijing/.m2/repository/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final.jar;/C:/Users/lijing/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar;/C:/Users/lijing/.m2/repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-expression/4.3.3.RELEASE/spring-expression-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-webmvc/4.3.3.RELEASE/spring-webmvc-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/aspectj/aspectjrt/1.6.9/aspectjrt-1.6.9.jar;/C:/Users/lijing/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar;/C:/Users/lijing/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar;/C:/Users/lijing/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar;/C:/Users/lijing/.m2/repository/org/quartz-scheduler/quartz/1.8.6/quartz-1.8.6.jar;/C:/Users/lijing/.m2/repository/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar;/C:/Users/lijing/.m2/repository/com/alibaba/fastjson/1.2.20/fastjson-1.2.20.jar;/C:/Users/lijing/.m2/repository/redis/clients/jedis/2.8.1/jedis-2.8.1.jar;/C:/Users/lijing/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar;/C:/Users/lijing/.m2/repository/org/springframework/data/spring-data-redis/1.7.4.RELEASE/spring-data-redis-1.7.4.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/data/spring-data-keyvalue/1.1.4.RELEASE/spring-data-keyvalue-1.1.4.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/data/spring-data-commons/1.12.4.RELEASE/spring-data-commons-1.12.4.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-tx/4.2.8.RELEASE/spring-tx-4.2.8.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-oxm/4.2.8.RELEASE/spring-oxm-4.2.8.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-context-support/4.2.8.RELEASE/spring-context-support-4.2.8.RELEASE.jar;/C:/Users/lijing/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar;/C:/Users/lijing/.m2/repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar;/C:/Users/lijing/.m2/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar;/C:/Users/lijing/.m2/repository/com/mchange/c3p0/0.9.2.1/c3p0-0.9.2.1.jar;/C:/Users/lijing/.m2/repository/com/mchange/mchange-commons-java/0.2.3.4/mchange-commons-java-0.2.3.4.jar;/C:/Users/lijing/.m2/repository/mysql/mysql-connector-java/5.1.26/mysql-connector-java-5.1.26.jar;/C:/Users/lijing/.m2/repository/org/springframework/spring-jdbc/4.3.3.RELEASE/spring-jdbc-4.3.3.RELEASE.jar;/D:/eclipse_j2ee/eclipse/configuration/org.eclipse.osgi/383/0/.cp/;/D:/eclipse_j2ee/eclipse/configuration/org.eclipse.osgi/382/0/.cp/;
