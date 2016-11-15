@@ -64,7 +64,7 @@ public class Server implements IServer {
 
 	public void start(final boolean isLog, boolean isStatistic) {
 		try {
-			Config.init();
+			Config.init(); 
 			ServerBootstrap b = new ServerBootstrap();
 			bossGroup = new NioEventLoopGroup(bossThreadSize, new ThreadFactory() {
 
